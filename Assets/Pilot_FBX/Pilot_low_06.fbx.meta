@@ -1,0 +1,302 @@
+fileFormatVersion: 2
+guid: e6d6171ed55ee46889a3aa51555709ea
+timeCreated: 1500781037
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: joint1
+    100002: joint10
+    100004: joint11
+    100006: joint12
+    100008: joint13
+    100010: joint14
+    100012: joint15
+    100014: joint16
+    100016: joint2
+    100018: joint3
+    100020: joint5
+    100022: joint6
+    100024: joint7
+    100026: joint8
+    100028: joint9
+    100030: nurbsCircle1
+    100032: nurbsCircle2
+    100034: Pilot_body
+    100036: //RootNode
+    100038: Pilot_Stand
+    100040: PS_left_arm
+    100042: PS_Left_leg
+    100044: PS_Right_arm
+    100046: PS_Right_leg
+    100048: Root_ctrl_node
+    100050: Root_Joint
+    400000: joint1
+    400002: joint10
+    400004: joint11
+    400006: joint12
+    400008: joint13
+    400010: joint14
+    400012: joint15
+    400014: joint16
+    400016: joint2
+    400018: joint3
+    400020: joint5
+    400022: joint6
+    400024: joint7
+    400026: joint8
+    400028: joint9
+    400030: nurbsCircle1
+    400032: nurbsCircle2
+    400034: Pilot_body
+    400036: //RootNode
+    400038: Pilot_Stand
+    400040: PS_left_arm
+    400042: PS_Left_leg
+    400044: PS_Right_arm
+    400046: PS_Right_leg
+    400048: Root_ctrl_node
+    400050: Root_Joint
+    4300000: Pilot_body
+    4300002: PS_left_arm
+    4300004: PS_Left_leg
+    4300006: PS_Right_leg
+    4300008: PS_Right_arm
+    7400000: Run_carry
+    7400002: Pick_Up_Object
+    9500000: //RootNode
+    13700000: Pilot_body
+    13700002: PS_left_arm
+    13700004: PS_Left_leg
+    13700006: PS_Right_arm
+    13700008: PS_Right_leg
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Run_carry
+      takeName: trooper_2017_v27_Anim_set_01
+      firstFrame: 5
+      lastFrame: 35
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Pilot_Stand
+        weight: 1
+      - path: Pilot_Stand/Pilot_body
+        weight: 1
+      - path: Pilot_Stand/PS_left_arm
+        weight: 1
+      - path: Pilot_Stand/PS_Left_leg
+        weight: 1
+      - path: Pilot_Stand/PS_Right_arm
+        weight: 1
+      - path: Pilot_Stand/PS_Right_leg
+        weight: 1
+      - path: Root_ctrl_node
+        weight: 1
+      - path: Root_ctrl_node/nurbsCircle1
+        weight: 1
+      - path: Root_ctrl_node/nurbsCircle2
+        weight: 1
+      - path: Root_Joint
+        weight: 1
+      - path: Root_Joint/joint5
+        weight: 1
+      - path: Root_Joint/joint5/joint6
+        weight: 1
+      - path: Root_Joint/joint5/joint6/joint1
+        weight: 1
+      - path: Root_Joint/joint5/joint6/joint1/joint2
+        weight: 1
+      - path: Root_Joint/joint5/joint6/joint1/joint2/joint3
+        weight: 1
+      - path: Root_Joint/joint5/joint6/joint7
+        weight: 1
+      - path: Root_Joint/joint5/joint6/joint11
+        weight: 1
+      - path: Root_Joint/joint5/joint6/joint11/joint12
+        weight: 1
+      - path: Root_Joint/joint5/joint6/joint11/joint12/joint13
+        weight: 1
+      - path: Root_Joint/joint8
+        weight: 1
+      - path: Root_Joint/joint8/joint9
+        weight: 1
+      - path: Root_Joint/joint8/joint9/joint10
+        weight: 1
+      - path: Root_Joint/joint14
+        weight: 1
+      - path: Root_Joint/joint14/joint15
+        weight: 1
+      - path: Root_Joint/joint14/joint15/joint16
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Pick_Up_Object
+      takeName: trooper_2017_v27_Anim_set_01
+      firstFrame: 40
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Pilot_Stand
+        weight: 1
+      - path: Pilot_Stand/Pilot_body
+        weight: 1
+      - path: Pilot_Stand/PS_left_arm
+        weight: 1
+      - path: Pilot_Stand/PS_Left_leg
+        weight: 1
+      - path: Pilot_Stand/PS_Right_arm
+        weight: 1
+      - path: Pilot_Stand/PS_Right_leg
+        weight: 1
+      - path: Root_ctrl_node
+        weight: 1
+      - path: Root_ctrl_node/nurbsCircle1
+        weight: 1
+      - path: Root_ctrl_node/nurbsCircle2
+        weight: 1
+      - path: Root_Joint
+        weight: 1
+      - path: Root_Joint/joint5
+        weight: 1
+      - path: Root_Joint/joint5/joint6
+        weight: 1
+      - path: Root_Joint/joint5/joint6/joint1
+        weight: 1
+      - path: Root_Joint/joint5/joint6/joint1/joint2
+        weight: 1
+      - path: Root_Joint/joint5/joint6/joint1/joint2/joint3
+        weight: 1
+      - path: Root_Joint/joint5/joint6/joint7
+        weight: 1
+      - path: Root_Joint/joint5/joint6/joint11
+        weight: 1
+      - path: Root_Joint/joint5/joint6/joint11/joint12
+        weight: 1
+      - path: Root_Joint/joint5/joint6/joint11/joint12/joint13
+        weight: 1
+      - path: Root_Joint/joint8
+        weight: 1
+      - path: Root_Joint/joint8/joint9
+        weight: 1
+      - path: Root_Joint/joint8/joint9/joint10
+        weight: 1
+      - path: Root_Joint/joint14
+        weight: 1
+      - path: Root_Joint/joint14/joint15
+        weight: 1
+      - path: Root_Joint/joint14/joint15/joint16
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

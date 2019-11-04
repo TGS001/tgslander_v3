@@ -1,0 +1,144 @@
+fileFormatVersion: 2
+guid: 033f522f86d5e431c9c722bcbcfa5aa4
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: broke_PS_01
+    100004: broke_PS_010
+    100006: broke_PS_02
+    100008: broke_PS_03
+    100010: broke_PS_04
+    100012: broke_PS_05
+    100014: broke_PS_06
+    100016: broke_PS_07
+    100018: broke_PS_08
+    100020: broke_PS_09
+    400000: //RootNode
+    400002: broke_PS_01
+    400004: broke_PS_010
+    400006: broke_PS_02
+    400008: broke_PS_03
+    400010: broke_PS_04
+    400012: broke_PS_05
+    400014: broke_PS_06
+    400016: broke_PS_07
+    400018: broke_PS_08
+    400020: broke_PS_09
+    2300000: broke_PS_01
+    2300002: broke_PS_010
+    2300004: broke_PS_02
+    2300006: broke_PS_03
+    2300008: broke_PS_04
+    2300010: broke_PS_05
+    2300012: broke_PS_06
+    2300014: broke_PS_07
+    2300016: broke_PS_08
+    2300018: broke_PS_09
+    3300000: broke_PS_01
+    3300002: broke_PS_010
+    3300004: broke_PS_02
+    3300006: broke_PS_03
+    3300008: broke_PS_04
+    3300010: broke_PS_05
+    3300012: broke_PS_06
+    3300014: broke_PS_07
+    3300016: broke_PS_08
+    3300018: broke_PS_09
+    4300000: broke_PS_01
+    4300002: broke_PS_02
+    4300004: broke_PS_03
+    4300006: broke_PS_04
+    4300008: broke_PS_05
+    4300010: broke_PS_06
+    4300012: broke_PS_07
+    4300014: broke_PS_08
+    4300016: broke_PS_09
+    4300018: broke_PS_010
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn12
+    second: {fileID: 2100000, guid: 45df8182e7f34418e9bcd66943fde82a, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

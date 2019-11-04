@@ -1,0 +1,272 @@
+fileFormatVersion: 2
+guid: fb606ba2d1a5e5542ae9e8a4dd168c51
+timeCreated: 1486954661
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Hull_01
+    100002: //RootNode
+    100004: lander_v09:pCone5
+    100006: lander_v09:pCone6
+    100008: miss_01
+    100010: miss_launcher_01
+    100012: pCone4
+    100014: pCone8
+    100016: pCube14
+    100018: pCube14 1
+    100020: pCube14 2
+    100022: pCube19
+    100024: pCube19 1
+    100026: pCube19 2
+    100028: pCube20
+    100030: pCube20 1
+    100032: pCube20 2
+    100034: pCylinder10
+    100036: pCylinder10 1
+    100038: pCylinder10 2
+    100040: pCylinder13
+    100042: pCylinder13 1
+    100044: pCylinder13 2
+    100046: pCylinder6
+    100048: pCylinder7
+    100050: polySurface10
+    100052: polySurface11
+    100054: pSphere1
+    100056: pSphere1 1
+    100058: pSphere1 2
+    100060: pSphere2
+    100062: pSphere5
+    100064: pSphere6
+    100066: pSphere7
+    100068: pSphere8
+    100070: pSphere9
+    100072: Strut_03
+    100074: Struts_01
+    100076: Struts_02
+    100078: thruster_left
+    100080: wing_07
+    100082: wing_08
+    100084: wing_09
+    400000: Hull_01
+    400002: //RootNode
+    400004: lander_v09:pCone5
+    400006: lander_v09:pCone6
+    400008: miss_01
+    400010: miss_launcher_01
+    400012: pCone4
+    400014: pCone8
+    400016: pCube14
+    400018: pCube14 1
+    400020: pCube14 2
+    400022: pCube19
+    400024: pCube19 1
+    400026: pCube19 2
+    400028: pCube20
+    400030: pCube20 1
+    400032: pCube20 2
+    400034: pCylinder10
+    400036: pCylinder10 1
+    400038: pCylinder10 2
+    400040: pCylinder13
+    400042: pCylinder13 1
+    400044: pCylinder13 2
+    400046: pCylinder6
+    400048: pCylinder7
+    400050: polySurface10
+    400052: polySurface11
+    400054: pSphere1
+    400056: pSphere1 1
+    400058: pSphere1 2
+    400060: pSphere2
+    400062: pSphere5
+    400064: pSphere6
+    400066: pSphere7
+    400068: pSphere8
+    400070: pSphere9
+    400072: Strut_03
+    400074: Struts_01
+    400076: Struts_02
+    400078: thruster_left
+    400080: wing_07
+    400082: wing_08
+    400084: wing_09
+    2300000: Hull_01
+    2300002: lander_v09:pCone5
+    2300004: lander_v09:pCone6
+    2300006: miss_01
+    2300008: miss_launcher_01
+    2300010: pCone4
+    2300012: pCone8
+    2300014: pCube14
+    2300016: pCube14 1
+    2300018: pCube14 2
+    2300020: pCube19
+    2300022: pCube19 1
+    2300024: pCube19 2
+    2300026: pCube20
+    2300028: pCube20 1
+    2300030: pCube20 2
+    2300032: pCylinder10
+    2300034: pCylinder10 1
+    2300036: pCylinder10 2
+    2300038: pCylinder13
+    2300040: pCylinder13 1
+    2300042: pCylinder13 2
+    2300044: polySurface10
+    2300046: polySurface11
+    2300048: pSphere1
+    2300050: pSphere1 1
+    2300052: pSphere1 2
+    2300054: pSphere2
+    2300056: pSphere5
+    2300058: pSphere6
+    2300060: pSphere7
+    2300062: pSphere8
+    2300064: pSphere9
+    2300066: thruster_left
+    2300068: wing_07
+    2300070: wing_08
+    2300072: wing_09
+    3300000: Hull_01
+    3300002: lander_v09:pCone5
+    3300004: lander_v09:pCone6
+    3300006: miss_01
+    3300008: miss_launcher_01
+    3300010: pCone4
+    3300012: pCone8
+    3300014: pCube14
+    3300016: pCube14 1
+    3300018: pCube14 2
+    3300020: pCube19
+    3300022: pCube19 1
+    3300024: pCube19 2
+    3300026: pCube20
+    3300028: pCube20 1
+    3300030: pCube20 2
+    3300032: pCylinder10
+    3300034: pCylinder10 1
+    3300036: pCylinder10 2
+    3300038: pCylinder13
+    3300040: pCylinder13 1
+    3300042: pCylinder13 2
+    3300044: polySurface10
+    3300046: polySurface11
+    3300048: pSphere1
+    3300050: pSphere1 1
+    3300052: pSphere1 2
+    3300054: pSphere2
+    3300056: pSphere5
+    3300058: pSphere6
+    3300060: pSphere7
+    3300062: pSphere8
+    3300064: pSphere9
+    3300066: thruster_left
+    3300068: wing_07
+    3300070: wing_08
+    3300072: wing_09
+    4300000: lander_v09:pCone6
+    4300002: miss_01
+    4300004: miss_launcher_01
+    4300006: thruster_left
+    4300008: polySurface10
+    4300010: polySurface11
+    4300012: Hull_01
+    4300014: lander_v09:pCone5
+    4300016: pCone8
+    4300018: pCone4
+    4300020: pSphere5
+    4300022: pCylinder13
+    4300024: pCylinder10
+    4300026: pSphere6
+    4300028: pCylinder13
+    4300030: pCylinder10
+    4300032: pSphere7
+    4300034: pCylinder13
+    4300036: pCylinder10
+    4300038: pSphere2
+    4300040: pSphere1
+    4300042: pCube14
+    4300044: pCube20
+    4300046: pCube19
+    4300048: pSphere8
+    4300050: pSphere1
+    4300052: pCube14
+    4300054: pCube20
+    4300056: pCube19
+    4300058: pSphere9
+    4300060: pSphere1
+    4300062: pCube14
+    4300064: pCube20
+    4300066: pCube19
+    4300068: wing_07
+    4300070: wing_08
+    4300072: wing_09
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

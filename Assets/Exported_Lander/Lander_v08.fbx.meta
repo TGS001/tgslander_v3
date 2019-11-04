@@ -1,0 +1,179 @@
+fileFormatVersion: 2
+guid: 55cfaa01233ea4748bd83cc0cbbdd7a1
+timeCreated: 1487019145
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Hull_01
+    100002: //RootNode
+    100004: lander_v09:pCone6
+    100006: miss_01
+    100008: miss_launcher_01
+    100010: pCube14
+    100012: pCube19
+    100014: pCube20
+    100016: pCylinder10
+    100018: pCylinder13
+    100020: pSphere1
+    100022: pulse_barrel
+    100024: pulse_laser
+    100026: strut_t1
+    100028: Strut_t2
+    100030: strut_t3
+    100032: thruster_01
+    100034: thrusters_02
+    100036: wing_large
+    100038: wing_med
+    100040: wing_small
+    400000: Hull_01
+    400002: //RootNode
+    400004: lander_v09:pCone6
+    400006: miss_01
+    400008: miss_launcher_01
+    400010: pCube14
+    400012: pCube19
+    400014: pCube20
+    400016: pCylinder10
+    400018: pCylinder13
+    400020: pSphere1
+    400022: pulse_barrel
+    400024: pulse_laser
+    400026: strut_t1
+    400028: Strut_t2
+    400030: strut_t3
+    400032: thruster_01
+    400034: thrusters_02
+    400036: wing_large
+    400038: wing_med
+    400040: wing_small
+    2300000: Hull_01
+    2300002: lander_v09:pCone6
+    2300004: miss_01
+    2300006: miss_launcher_01
+    2300008: pCube14
+    2300010: pCube19
+    2300012: pCube20
+    2300014: pCylinder10
+    2300016: pCylinder13
+    2300018: pSphere1
+    2300020: pulse_barrel
+    2300022: pulse_laser
+    2300024: strut_t1
+    2300026: Strut_t2
+    2300028: strut_t3
+    2300030: thruster_01
+    2300032: thrusters_02
+    2300034: wing_large
+    2300036: wing_med
+    2300038: wing_small
+    3300000: Hull_01
+    3300002: lander_v09:pCone6
+    3300004: miss_01
+    3300006: miss_launcher_01
+    3300008: pCube14
+    3300010: pCube19
+    3300012: pCube20
+    3300014: pCylinder10
+    3300016: pCylinder13
+    3300018: pSphere1
+    3300020: pulse_barrel
+    3300022: pulse_laser
+    3300024: strut_t1
+    3300026: Strut_t2
+    3300028: strut_t3
+    3300030: thruster_01
+    3300032: thrusters_02
+    3300034: wing_large
+    3300036: wing_med
+    3300038: wing_small
+    4300000: lander_v09:pCone6
+    4300002: miss_01
+    4300004: miss_launcher_01
+    4300006: thruster_01
+    4300008: pulse_laser
+    4300010: pulse_barrel
+    4300012: Hull_01
+    4300014: strut_t1
+    4300016: Strut_t2
+    4300018: pSphere1
+    4300020: pCube14
+    4300022: pCube20
+    4300024: pCube19
+    4300026: strut_t3
+    4300028: pCylinder13
+    4300030: pCylinder10
+    4300032: wing_small
+    4300034: wing_med
+    4300036: wing_large
+    4300038: thrusters_02
+    7400000: lander_v18
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

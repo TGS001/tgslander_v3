@@ -1,0 +1,169 @@
+fileFormatVersion: 2
+guid: 93c4073dbad994e87bf216613e6a26dd
+timeCreated: 1503457308
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Arrows
+    100002: Battery
+    100004: Bomb
+    100006: Coin
+    100008: Crystal
+    100010: Cup
+    100012: Diamond
+    100014: Gastank
+    100016: Heart
+    100018: Lightning
+    100020: Lock
+    100022: Magnet
+    100024: Medipack
+    100026: //RootNode
+    100028: Poison
+    100030: Shield001
+    100032: Skull
+    100034: Star
+    100036: Wrench001
+    400000: Arrows
+    400002: Battery
+    400004: Bomb
+    400006: Coin
+    400008: Crystal
+    400010: Cup
+    400012: Diamond
+    400014: Gastank
+    400016: Heart
+    400018: Lightning
+    400020: Lock
+    400022: Magnet
+    400024: Medipack
+    400026: //RootNode
+    400028: Poison
+    400030: Shield001
+    400032: Skull
+    400034: Star
+    400036: Wrench001
+    2300000: Arrows
+    2300002: Battery
+    2300004: Bomb
+    2300006: Coin
+    2300008: Crystal
+    2300010: Cup
+    2300012: Diamond
+    2300014: Gastank
+    2300016: Heart
+    2300018: Lightning
+    2300020: Lock
+    2300022: Magnet
+    2300024: Medipack
+    2300026: Poison
+    2300028: Shield001
+    2300030: Skull
+    2300032: Star
+    2300034: Wrench001
+    3300000: Arrows
+    3300002: Battery
+    3300004: Bomb
+    3300006: Coin
+    3300008: Crystal
+    3300010: Cup
+    3300012: Diamond
+    3300014: Gastank
+    3300016: Heart
+    3300018: Lightning
+    3300020: Lock
+    3300022: Magnet
+    3300024: Medipack
+    3300026: Poison
+    3300028: Shield001
+    3300030: Skull
+    3300032: Star
+    3300034: Wrench001
+    4300000: Arrows
+    4300002: Battery
+    4300004: Bomb
+    4300006: Coin
+    4300008: Wrench001
+    4300010: Crystal
+    4300012: Cup
+    4300014: Diamond
+    4300016: Heart
+    4300018: Gastank
+    4300020: Lightning
+    4300022: Lock
+    4300024: Magnet
+    4300026: Medipack
+    4300028: Poison
+    4300030: Shield001
+    4300032: Skull
+    4300034: Star
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

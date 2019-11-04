@@ -1,0 +1,170 @@
+fileFormatVersion: 2
+guid: 20e3ef805900e4f77b6a66996e052203
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Science_section10
+    100004: Science_section11
+    100006: Science_section12
+    100008: Science_section13
+    100010: Science_section14
+    100012: Science_section15
+    100014: Science_section16
+    100016: Science_section2
+    100018: Science_section3
+    100020: Science_section4
+    100022: Science_section5
+    100024: Science_section6
+    100026: Science_section7
+    100028: Science_section8
+    100030: Science_section9
+    400000: //RootNode
+    400002: Science_section10
+    400004: Science_section11
+    400006: Science_section12
+    400008: Science_section13
+    400010: Science_section14
+    400012: Science_section15
+    400014: Science_section16
+    400016: Science_section2
+    400018: Science_section3
+    400020: Science_section4
+    400022: Science_section5
+    400024: Science_section6
+    400026: Science_section7
+    400028: Science_section8
+    400030: Science_section9
+    2300000: Science_section10
+    2300002: Science_section11
+    2300004: Science_section12
+    2300006: Science_section13
+    2300008: Science_section14
+    2300010: Science_section15
+    2300012: Science_section16
+    2300014: Science_section2
+    2300016: Science_section3
+    2300018: Science_section4
+    2300020: Science_section5
+    2300022: Science_section6
+    2300024: Science_section7
+    2300026: Science_section8
+    2300028: Science_section9
+    3300000: Science_section10
+    3300002: Science_section11
+    3300004: Science_section12
+    3300006: Science_section13
+    3300008: Science_section14
+    3300010: Science_section15
+    3300012: Science_section16
+    3300014: Science_section2
+    3300016: Science_section3
+    3300018: Science_section4
+    3300020: Science_section5
+    3300022: Science_section6
+    3300024: Science_section7
+    3300026: Science_section8
+    3300028: Science_section9
+    4300000: Science_section2
+    4300002: Science_section3
+    4300004: Science_section4
+    4300006: Science_section5
+    4300008: Science_section6
+    4300010: Science_section7
+    4300012: Science_section8
+    4300014: Science_section9
+    4300016: Science_section10
+    4300018: Science_section11
+    4300020: Science_section12
+    4300022: Science_section13
+    4300024: Science_section14
+    4300026: Science_section15
+    4300028: Science_section16
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn38
+    second: {fileID: 2100000, guid: be5a84ce40797488993611b68bd9c17c, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,76 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="lander engine 1_data" version="1.3.0" audacityversion="2.0.5" sel0="0.0008163265" sel1="1.0511564626" vpos="0" h="0.0000000000" zoom="242.4114719443" rate="44100.0">
+	<tags/>
+	<wavetrack name="engine loop" channel="2" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="573177">
+				<waveblock start="0">
+					<simpleblockfile filename="e000085a.au" len="262090" min="-0.481696" max="0.435579" rms="0.113422"/>
+				</waveblock>
+				<waveblock start="262090">
+					<simpleblockfile filename="e000041e.au" len="262144" min="-0.52725" max="0.512341" rms="0.119749"/>
+				</waveblock>
+				<waveblock start="524234">
+					<simpleblockfile filename="e000039b.au" len="48943" min="-0.334664" max="0.344543" rms="0.089922"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="1">
+				<controlpoint t="12.997210884354" val="1.000000000000"/>
+			</envelope>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="engine ignite loop" channel="2" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="869434">
+				<waveblock start="0">
+					<simpleblockfile filename="e00004cc.au" len="262144" min="-0.552081" max="0.469486" rms="0.113822"/>
+				</waveblock>
+				<waveblock start="262144">
+					<simpleblockfile filename="e0000577.au" len="262144" min="-0.468216" max="0.447348" rms="0.113143"/>
+				</waveblock>
+				<waveblock start="524288">
+					<simpleblockfile filename="e00008f6.au" len="172573" min="-0.439829" max="0.483075" rms="0.105979"/>
+				</waveblock>
+				<waveblock start="696861">
+					<simpleblockfile filename="e0000bdc.au" len="172573" min="-0.48489" max="0.45828" rms="0.106861"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="1">
+				<controlpoint t="19.715034013605" val="1.000000000000"/>
+			</envelope>
+		</waveclip>
+		<waveclip offset="19.71505669">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="3792">
+				<waveblock start="0">
+					<simpleblockfile filename="e000092d.au" len="3792" min="-0.413781" max="0.309899" rms="0.030087"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="1">
+				<controlpoint t="0.000000000000" val="1.000000000000"/>
+			</envelope>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="engine extinguish" channel="2" linked="0" mute="0" solo="1" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00081633">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="43981">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000ad4.au" len="43981" min="-0.281118" max="0.256808" rms="0.075397"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="1">
+				<controlpoint t="0.997278911565" val="1.000000000000"/>
+			</envelope>
+		</waveclip>
+		<waveclip offset="0.99811791">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="2339">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000b70.au" len="2339" min="-0.253261" max="0.0626" rms="0.022141"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="1">
+				<controlpoint t="0.000000000000" val="1.000000000000"/>
+			</envelope>
+		</waveclip>
+	</wavetrack>
+</project>

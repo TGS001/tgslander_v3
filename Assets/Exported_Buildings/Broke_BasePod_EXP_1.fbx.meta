@@ -1,0 +1,170 @@
+fileFormatVersion: 2
+guid: d70e525c711574a0e95a8f35a0d134bd
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Pod_EXP_20
+    100004: Pod_EXP_21
+    100006: Pod_EXP_22
+    100008: Pod_EXP_23
+    100010: Pod_EXP_24
+    100012: Pod_EXP_25
+    100014: Pod_EXP_26
+    100016: Pod_EXP_27
+    100018: Pod_EXP_28
+    100020: Pod_EXP_29
+    100022: Pod_EXP_30
+    100024: Pod_EXP_31
+    100026: Pod_EXP_32
+    100028: Pod_EXP_33
+    100030: Pod_EXP_34
+    400000: //RootNode
+    400002: Pod_EXP_20
+    400004: Pod_EXP_21
+    400006: Pod_EXP_22
+    400008: Pod_EXP_23
+    400010: Pod_EXP_24
+    400012: Pod_EXP_25
+    400014: Pod_EXP_26
+    400016: Pod_EXP_27
+    400018: Pod_EXP_28
+    400020: Pod_EXP_29
+    400022: Pod_EXP_30
+    400024: Pod_EXP_31
+    400026: Pod_EXP_32
+    400028: Pod_EXP_33
+    400030: Pod_EXP_34
+    2300000: Pod_EXP_20
+    2300002: Pod_EXP_21
+    2300004: Pod_EXP_22
+    2300006: Pod_EXP_23
+    2300008: Pod_EXP_24
+    2300010: Pod_EXP_25
+    2300012: Pod_EXP_26
+    2300014: Pod_EXP_27
+    2300016: Pod_EXP_28
+    2300018: Pod_EXP_29
+    2300020: Pod_EXP_30
+    2300022: Pod_EXP_31
+    2300024: Pod_EXP_32
+    2300026: Pod_EXP_33
+    2300028: Pod_EXP_34
+    3300000: Pod_EXP_20
+    3300002: Pod_EXP_21
+    3300004: Pod_EXP_22
+    3300006: Pod_EXP_23
+    3300008: Pod_EXP_24
+    3300010: Pod_EXP_25
+    3300012: Pod_EXP_26
+    3300014: Pod_EXP_27
+    3300016: Pod_EXP_28
+    3300018: Pod_EXP_29
+    3300020: Pod_EXP_30
+    3300022: Pod_EXP_31
+    3300024: Pod_EXP_32
+    3300026: Pod_EXP_33
+    3300028: Pod_EXP_34
+    4300000: Pod_EXP_20
+    4300002: Pod_EXP_21
+    4300004: Pod_EXP_22
+    4300006: Pod_EXP_23
+    4300008: Pod_EXP_24
+    4300010: Pod_EXP_25
+    4300012: Pod_EXP_26
+    4300014: Pod_EXP_27
+    4300016: Pod_EXP_28
+    4300018: Pod_EXP_29
+    4300020: Pod_EXP_30
+    4300022: Pod_EXP_31
+    4300024: Pod_EXP_32
+    4300026: Pod_EXP_33
+    4300028: Pod_EXP_34
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn29
+    second: {fileID: 2100000, guid: cdf0353ef64b94d9ba39a7aee673c3b3, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

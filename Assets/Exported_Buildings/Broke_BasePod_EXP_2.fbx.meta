@@ -1,0 +1,153 @@
+fileFormatVersion: 2
+guid: f197175504d0e49ffb3663a61d99d266
+timeCreated: 1494106779
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Pod_EXP_10
+    100004: Pod_EXP_11
+    100006: Pod_EXP_12
+    100008: Pod_EXP_13
+    100010: Pod_EXP_14
+    100012: Pod_EXP_15
+    100014: Pod_EXP_16
+    100016: Pod_EXP_17
+    100018: Pod_EXP_18
+    100020: Pod_EXP_19
+    100022: Pod_EXP_5
+    100024: Pod_EXP_6
+    100026: Pod_EXP_7
+    100028: Pod_EXP_8
+    100030: Pod_EXP_9
+    400000: //RootNode
+    400002: Pod_EXP_10
+    400004: Pod_EXP_11
+    400006: Pod_EXP_12
+    400008: Pod_EXP_13
+    400010: Pod_EXP_14
+    400012: Pod_EXP_15
+    400014: Pod_EXP_16
+    400016: Pod_EXP_17
+    400018: Pod_EXP_18
+    400020: Pod_EXP_19
+    400022: Pod_EXP_5
+    400024: Pod_EXP_6
+    400026: Pod_EXP_7
+    400028: Pod_EXP_8
+    400030: Pod_EXP_9
+    2300000: Pod_EXP_10
+    2300002: Pod_EXP_11
+    2300004: Pod_EXP_12
+    2300006: Pod_EXP_13
+    2300008: Pod_EXP_14
+    2300010: Pod_EXP_15
+    2300012: Pod_EXP_16
+    2300014: Pod_EXP_17
+    2300016: Pod_EXP_18
+    2300018: Pod_EXP_19
+    2300020: Pod_EXP_5
+    2300022: Pod_EXP_6
+    2300024: Pod_EXP_7
+    2300026: Pod_EXP_8
+    2300028: Pod_EXP_9
+    3300000: Pod_EXP_10
+    3300002: Pod_EXP_11
+    3300004: Pod_EXP_12
+    3300006: Pod_EXP_13
+    3300008: Pod_EXP_14
+    3300010: Pod_EXP_15
+    3300012: Pod_EXP_16
+    3300014: Pod_EXP_17
+    3300016: Pod_EXP_18
+    3300018: Pod_EXP_19
+    3300020: Pod_EXP_5
+    3300022: Pod_EXP_6
+    3300024: Pod_EXP_7
+    3300026: Pod_EXP_8
+    3300028: Pod_EXP_9
+    4300000: Pod_EXP_5
+    4300002: Pod_EXP_6
+    4300004: Pod_EXP_7
+    4300006: Pod_EXP_8
+    4300008: Pod_EXP_9
+    4300010: Pod_EXP_10
+    4300012: Pod_EXP_11
+    4300014: Pod_EXP_12
+    4300016: Pod_EXP_13
+    4300018: Pod_EXP_14
+    4300020: Pod_EXP_15
+    4300022: Pod_EXP_16
+    4300024: Pod_EXP_17
+    4300026: Pod_EXP_18
+    4300028: Pod_EXP_19
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

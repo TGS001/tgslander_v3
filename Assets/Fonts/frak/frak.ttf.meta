@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 534781004cbefe644aaf67eec12d1eb1
+timeCreated: 1497891356
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Frak
+  fontNames:
+  - Frak
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

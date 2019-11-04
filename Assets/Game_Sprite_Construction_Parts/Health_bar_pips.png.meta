@@ -1,0 +1,268 @@
+fileFormatVersion: 2
+guid: 49c2a6a40ce6b4c768b01d95603fb607
+timeCreated: 1502131791
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Health_bar_pips_0
+    21300002: Health_bar_pips_1
+    21300004: Health_bar_pips_2
+    21300006: Health_bar_pips_3
+    21300008: Health_bar_pips_4
+    21300010: Health_bar_pips_5
+    21300012: Health_bar_pips_6
+    21300014: Health_bar_pips_7
+    21300016: Health_bar_pips_8
+    21300018: Health_bar_pips_9
+    21300020: Health_bar_pips_10
+    21300022: Health_bar_pips_11
+    21300024: Health_bar_pips_12
+    21300026: Health_bar_pips_13
+    21300028: Health_bar_pips_14
+    21300030: Health_bar_pips_15
+    21300032: Health_bar_pips_16
+    21300034: Health_bar_pips_17
+    21300036: Health_bar_pips_18
+    21300038: Health_bar_pips_19
+    21300040: Health_bar_pips_20
+    21300042: Health_bar_pips_21
+    21300044: Health_bar_pips_22
+    21300046: Health_bar_pips_23
+    21300048: Health_bar_pips_24
+    21300050: Health_bar_pips_25
+    21300052: Health_bar_pips_26
+    21300054: Health_bar_pips_27
+    21300056: Health_bar_pips_28
+    21300058: Health_bar_pips_29
+    21300060: Health_bar_pips_30
+    21300062: Health_bar_pips_31
+    21300064: Health_bar_pips_32
+    21300066: Health_bar_pips_33
+    21300068: Health_bar_pips_34
+    21300070: Health_bar_pips_35
+    21300072: Health_bar_pips_36
+    21300074: Health_bar_pips_37
+    21300076: Health_bar_pips_38
+    21300078: Health_bar_pips_39
+    21300080: Health_bar_pips_40
+    21300082: Health_bar_pips_41
+    21300084: Health_bar_pips_42
+    21300086: Health_bar_pips_43
+    21300088: Health_bar_pips_44
+    21300090: Health_bar_pips_45
+    21300092: Health_bar_pips_46
+    21300094: Health_bar_pips_47
+    21300096: Health_bar_pips_48
+    21300098: Health_bar_pips_49
+    21300100: Health_bar_pips_50
+    21300102: Health_bar_pips_51
+    21300104: Health_bar_pips_52
+    21300106: Health_bar_pips_53
+    21300108: Health_bar_pips_54
+    21300110: Health_bar_pips_55
+    21300112: Health_bar_pips_56
+    21300114: Health_bar_pips_57
+    21300116: Health_bar_pips_58
+    21300118: Health_bar_pips_59
+    21300120: Health_bar_pips_60
+    21300122: Health_bar_pips_61
+    21300124: Health_bar_pips_62
+    21300126: Health_bar_pips_63
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 64
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 64
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 64
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 64
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 64
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Health_bar_pips_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 56
+        width: 64
+        height: 8
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Health_bar_pips_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 64
+        height: 8
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Health_bar_pips_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 40
+        width: 64
+        height: 8
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Health_bar_pips_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 64
+        height: 8
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Health_bar_pips_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 24
+        width: 64
+        height: 8
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Health_bar_pips_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 64
+        height: 8
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Health_bar_pips_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8
+        width: 64
+        height: 8
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Health_bar_pips_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 8
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,170 @@
+fileFormatVersion: 2
+guid: 58098cc0b88484b498d6125522f309c3
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: corridor_NEG10
+    100004: corridor_NEG11
+    100006: corridor_NEG12
+    100008: corridor_NEG13
+    100010: corridor_NEG14
+    100012: corridor_NEG15
+    100014: corridor_NEG16
+    100016: corridor_NEG2
+    100018: corridor_NEG3
+    100020: corridor_NEG4
+    100022: corridor_NEG5
+    100024: corridor_NEG6
+    100026: corridor_NEG7
+    100028: corridor_NEG8
+    100030: corridor_NEG9
+    400000: //RootNode
+    400002: corridor_NEG10
+    400004: corridor_NEG11
+    400006: corridor_NEG12
+    400008: corridor_NEG13
+    400010: corridor_NEG14
+    400012: corridor_NEG15
+    400014: corridor_NEG16
+    400016: corridor_NEG2
+    400018: corridor_NEG3
+    400020: corridor_NEG4
+    400022: corridor_NEG5
+    400024: corridor_NEG6
+    400026: corridor_NEG7
+    400028: corridor_NEG8
+    400030: corridor_NEG9
+    2300000: corridor_NEG10
+    2300002: corridor_NEG11
+    2300004: corridor_NEG12
+    2300006: corridor_NEG13
+    2300008: corridor_NEG14
+    2300010: corridor_NEG15
+    2300012: corridor_NEG16
+    2300014: corridor_NEG2
+    2300016: corridor_NEG3
+    2300018: corridor_NEG4
+    2300020: corridor_NEG5
+    2300022: corridor_NEG6
+    2300024: corridor_NEG7
+    2300026: corridor_NEG8
+    2300028: corridor_NEG9
+    3300000: corridor_NEG10
+    3300002: corridor_NEG11
+    3300004: corridor_NEG12
+    3300006: corridor_NEG13
+    3300008: corridor_NEG14
+    3300010: corridor_NEG15
+    3300012: corridor_NEG16
+    3300014: corridor_NEG2
+    3300016: corridor_NEG3
+    3300018: corridor_NEG4
+    3300020: corridor_NEG5
+    3300022: corridor_NEG6
+    3300024: corridor_NEG7
+    3300026: corridor_NEG8
+    3300028: corridor_NEG9
+    4300000: corridor_NEG2
+    4300002: corridor_NEG3
+    4300004: corridor_NEG4
+    4300006: corridor_NEG5
+    4300008: corridor_NEG6
+    4300010: corridor_NEG7
+    4300012: corridor_NEG8
+    4300014: corridor_NEG9
+    4300016: corridor_NEG10
+    4300018: corridor_NEG11
+    4300020: corridor_NEG12
+    4300022: corridor_NEG13
+    4300024: corridor_NEG14
+    4300026: corridor_NEG15
+    4300028: corridor_NEG16
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn37
+    second: {fileID: 2100000, guid: be5a84ce40797488993611b68bd9c17c, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

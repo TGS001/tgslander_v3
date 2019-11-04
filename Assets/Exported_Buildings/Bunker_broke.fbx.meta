@@ -1,0 +1,245 @@
+fileFormatVersion: 2
+guid: 82d5b6b49966b4761907ecc9d44738b7
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Bpart_1
+    100002: Bpart_10
+    100004: Bpart_11
+    100006: Bpart_12
+    100008: Bpart_13
+    100010: Bpart_14
+    100012: Bpart_15
+    100014: Bpart_16
+    100016: Bpart_17
+    100018: Bpart_18
+    100020: Bpart_19
+    100022: Bpart_2
+    100024: Bpart_20
+    100026: Bpart_21
+    100028: Bpart_22
+    100030: Bpart_23
+    100032: Bpart_24
+    100034: Bpart_25
+    100036: Bpart_26
+    100038: Bpart_27
+    100040: Bpart_28
+    100042: Bpart_29
+    100044: Bpart_3
+    100046: Bpart_30
+    100048: Bpart_4
+    100050: Bpart_5
+    100052: Bpart_6
+    100054: Bpart_7
+    100056: Bpart_8
+    100058: Bpart_9
+    100060: //RootNode
+    400000: Bpart_1
+    400002: Bpart_10
+    400004: Bpart_11
+    400006: Bpart_12
+    400008: Bpart_13
+    400010: Bpart_14
+    400012: Bpart_15
+    400014: Bpart_16
+    400016: Bpart_17
+    400018: Bpart_18
+    400020: Bpart_19
+    400022: Bpart_2
+    400024: Bpart_20
+    400026: Bpart_21
+    400028: Bpart_22
+    400030: Bpart_23
+    400032: Bpart_24
+    400034: Bpart_25
+    400036: Bpart_26
+    400038: Bpart_27
+    400040: Bpart_28
+    400042: Bpart_29
+    400044: Bpart_3
+    400046: Bpart_30
+    400048: Bpart_4
+    400050: Bpart_5
+    400052: Bpart_6
+    400054: Bpart_7
+    400056: Bpart_8
+    400058: Bpart_9
+    400060: //RootNode
+    2300000: Bpart_1
+    2300002: Bpart_10
+    2300004: Bpart_11
+    2300006: Bpart_12
+    2300008: Bpart_13
+    2300010: Bpart_14
+    2300012: Bpart_15
+    2300014: Bpart_16
+    2300016: Bpart_17
+    2300018: Bpart_18
+    2300020: Bpart_19
+    2300022: Bpart_2
+    2300024: Bpart_20
+    2300026: Bpart_21
+    2300028: Bpart_22
+    2300030: Bpart_23
+    2300032: Bpart_24
+    2300034: Bpart_25
+    2300036: Bpart_26
+    2300038: Bpart_27
+    2300040: Bpart_28
+    2300042: Bpart_29
+    2300044: Bpart_3
+    2300046: Bpart_30
+    2300048: Bpart_4
+    2300050: Bpart_5
+    2300052: Bpart_6
+    2300054: Bpart_7
+    2300056: Bpart_8
+    2300058: Bpart_9
+    3300000: Bpart_1
+    3300002: Bpart_10
+    3300004: Bpart_11
+    3300006: Bpart_12
+    3300008: Bpart_13
+    3300010: Bpart_14
+    3300012: Bpart_15
+    3300014: Bpart_16
+    3300016: Bpart_17
+    3300018: Bpart_18
+    3300020: Bpart_19
+    3300022: Bpart_2
+    3300024: Bpart_20
+    3300026: Bpart_21
+    3300028: Bpart_22
+    3300030: Bpart_23
+    3300032: Bpart_24
+    3300034: Bpart_25
+    3300036: Bpart_26
+    3300038: Bpart_27
+    3300040: Bpart_28
+    3300042: Bpart_29
+    3300044: Bpart_3
+    3300046: Bpart_30
+    3300048: Bpart_4
+    3300050: Bpart_5
+    3300052: Bpart_6
+    3300054: Bpart_7
+    3300056: Bpart_8
+    3300058: Bpart_9
+    4300000: Bpart_1
+    4300002: Bpart_2
+    4300004: Bpart_3
+    4300006: Bpart_4
+    4300008: Bpart_5
+    4300010: Bpart_6
+    4300012: Bpart_7
+    4300014: Bpart_8
+    4300016: Bpart_9
+    4300018: Bpart_10
+    4300020: Bpart_11
+    4300022: Bpart_12
+    4300024: Bpart_13
+    4300026: Bpart_14
+    4300028: Bpart_15
+    4300030: Bpart_16
+    4300032: Bpart_17
+    4300034: Bpart_18
+    4300036: Bpart_19
+    4300038: Bpart_20
+    4300040: Bpart_21
+    4300042: Bpart_22
+    4300044: Bpart_23
+    4300046: Bpart_24
+    4300048: Bpart_25
+    4300050: Bpart_26
+    4300052: Bpart_27
+    4300054: Bpart_28
+    4300056: Bpart_29
+    4300058: Bpart_30
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn18
+    second: {fileID: 2100000, guid: 7b73f487e52f94eeeb0316ed763b6375, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

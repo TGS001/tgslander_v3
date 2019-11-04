@@ -1,0 +1,153 @@
+fileFormatVersion: 2
+guid: 6b7fb21cb90d6491b9716ad816581c71
+timeCreated: 1494106778
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: corridor_POS10
+    100004: corridor_POS11
+    100006: corridor_POS12
+    100008: corridor_POS13
+    100010: corridor_POS14
+    100012: corridor_POS15
+    100014: corridor_POS16
+    100016: corridor_POS2
+    100018: corridor_POS3
+    100020: corridor_POS4
+    100022: corridor_POS5
+    100024: corridor_POS6
+    100026: corridor_POS7
+    100028: corridor_POS8
+    100030: corridor_POS9
+    400000: //RootNode
+    400002: corridor_POS10
+    400004: corridor_POS11
+    400006: corridor_POS12
+    400008: corridor_POS13
+    400010: corridor_POS14
+    400012: corridor_POS15
+    400014: corridor_POS16
+    400016: corridor_POS2
+    400018: corridor_POS3
+    400020: corridor_POS4
+    400022: corridor_POS5
+    400024: corridor_POS6
+    400026: corridor_POS7
+    400028: corridor_POS8
+    400030: corridor_POS9
+    2300000: corridor_POS10
+    2300002: corridor_POS11
+    2300004: corridor_POS12
+    2300006: corridor_POS13
+    2300008: corridor_POS14
+    2300010: corridor_POS15
+    2300012: corridor_POS16
+    2300014: corridor_POS2
+    2300016: corridor_POS3
+    2300018: corridor_POS4
+    2300020: corridor_POS5
+    2300022: corridor_POS6
+    2300024: corridor_POS7
+    2300026: corridor_POS8
+    2300028: corridor_POS9
+    3300000: corridor_POS10
+    3300002: corridor_POS11
+    3300004: corridor_POS12
+    3300006: corridor_POS13
+    3300008: corridor_POS14
+    3300010: corridor_POS15
+    3300012: corridor_POS16
+    3300014: corridor_POS2
+    3300016: corridor_POS3
+    3300018: corridor_POS4
+    3300020: corridor_POS5
+    3300022: corridor_POS6
+    3300024: corridor_POS7
+    3300026: corridor_POS8
+    3300028: corridor_POS9
+    4300000: corridor_POS2
+    4300002: corridor_POS3
+    4300004: corridor_POS4
+    4300006: corridor_POS5
+    4300008: corridor_POS6
+    4300010: corridor_POS7
+    4300012: corridor_POS8
+    4300014: corridor_POS9
+    4300016: corridor_POS10
+    4300018: corridor_POS11
+    4300020: corridor_POS12
+    4300022: corridor_POS13
+    4300024: corridor_POS14
+    4300026: corridor_POS15
+    4300028: corridor_POS16
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

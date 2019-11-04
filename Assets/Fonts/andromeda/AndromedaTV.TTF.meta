@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 9d37b6cb40754584593abd5fd90bfa64
+timeCreated: 1497891356
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Andromeda
+  fontNames:
+  - Andromeda
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1060 @@
+fileFormatVersion: 2
+guid: 3a8abeacca56f4a6a90fd3785afa0716
+timeCreated: 1495684428
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: joint540
+    100002: joint541
+    100004: joint541 1
+    100006: joint542
+    100008: joint542 1
+    100010: joint543
+    100012: joint543 1
+    100014: joint544
+    100016: joint544 1
+    100018: joint545
+    100020: joint545 1
+    100022: joint554
+    100024: joint557
+    100026: joint571
+    100028: joint572
+    100030: joint572 1
+    100032: joint573
+    100034: joint573 1
+    100036: joint574
+    100038: joint574 1
+    100040: joint575
+    100042: joint576
+    100044: joint576 1
+    100046: joint577
+    100048: joint577 1
+    100050: joint578
+    100052: joint578 1
+    100054: joint579
+    100056: joint580
+    100058: polySurface359
+    100060: //RootNode
+    400000: joint540
+    400002: joint541
+    400004: joint541 1
+    400006: joint542
+    400008: joint542 1
+    400010: joint543
+    400012: joint543 1
+    400014: joint544
+    400016: joint544 1
+    400018: joint545
+    400020: joint545 1
+    400022: joint554
+    400024: joint557
+    400026: joint571
+    400028: joint572
+    400030: joint572 1
+    400032: joint573
+    400034: joint573 1
+    400036: joint574
+    400038: joint574 1
+    400040: joint575
+    400042: joint576
+    400044: joint576 1
+    400046: joint577
+    400048: joint577 1
+    400050: joint578
+    400052: joint578 1
+    400054: joint579
+    400056: joint580
+    400058: polySurface359
+    400060: //RootNode
+    4300000: polySurface359
+    7400000: Walk
+    7400002: Run
+    7400004: Idle
+    7400006: Attack_1
+    7400008: Attack_2
+    7400010: Start_up
+    7400012: Evasive
+    7400014: Crash_1
+    7400016: Crash_2
+    7400018: Impact
+    9500000: //RootNode
+    13700000: polySurface359
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Walk
+      takeName: PROBE_ANIM_SET_4
+      firstFrame: 5
+      lastFrame: 45
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint557
+        weight: 1
+      - path: joint557/joint540
+        weight: 1
+      - path: joint557/joint540/joint541
+        weight: 1
+      - path: joint557/joint540/joint541/joint542
+        weight: 1
+      - path: joint557/joint540/joint541/joint542/joint543
+        weight: 1
+      - path: joint557/joint540/joint541/joint542/joint543/joint544
+        weight: 1
+      - path: joint557/joint540/joint541/joint542/joint543/joint544/joint545
+        weight: 1
+      - path: joint557/joint554
+        weight: 1
+      - path: joint557/joint554/joint541 1
+        weight: 1
+      - path: joint557/joint554/joint541 1/joint542 1
+        weight: 1
+      - path: joint557/joint554/joint541 1/joint542 1/joint543 1
+        weight: 1
+      - path: joint557/joint554/joint541 1/joint542 1/joint543 1/joint544 1
+        weight: 1
+      - path: joint557/joint554/joint541 1/joint542 1/joint543 1/joint544 1/joint545
+          1
+        weight: 1
+      - path: joint557/joint571
+        weight: 1
+      - path: joint557/joint571/joint572
+        weight: 1
+      - path: joint557/joint571/joint572/joint573
+        weight: 1
+      - path: joint557/joint571/joint572/joint573/joint574
+        weight: 1
+      - path: joint557/joint575
+        weight: 1
+      - path: joint557/joint575/joint576
+        weight: 1
+      - path: joint557/joint575/joint576/joint577
+        weight: 1
+      - path: joint557/joint575/joint576/joint577/joint578
+        weight: 1
+      - path: joint557/joint579
+        weight: 1
+      - path: joint557/joint579/joint576 1
+        weight: 1
+      - path: joint557/joint579/joint576 1/joint577 1
+        weight: 1
+      - path: joint557/joint579/joint576 1/joint577 1/joint578 1
+        weight: 1
+      - path: joint557/joint580
+        weight: 1
+      - path: joint557/joint580/joint572 1
+        weight: 1
+      - path: joint557/joint580/joint572 1/joint573 1
+        weight: 1
+      - path: joint557/joint580/joint572 1/joint573 1/joint574 1
+        weight: 1
+      - path: polySurface359
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Run
+      takeName: PROBE_ANIM_SET_4
+      firstFrame: 50
+      lastFrame: 67
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint557
+        weight: 1
+      - path: joint557/joint540
+        weight: 1
+      - path: joint557/joint540/joint541
+        weight: 1
+      - path: joint557/joint540/joint541/joint542
+        weight: 1
+      - path: joint557/joint540/joint541/joint542/joint543
+        weight: 1
+      - path: joint557/joint540/joint541/joint542/joint543/joint544
+        weight: 1
+      - path: joint557/joint540/joint541/joint542/joint543/joint544/joint545
+        weight: 1
+      - path: joint557/joint554
+        weight: 1
+      - path: joint557/joint554/joint541 1
+        weight: 1
+      - path: joint557/joint554/joint541 1/joint542 1
+        weight: 1
+      - path: joint557/joint554/joint541 1/joint542 1/joint543 1
+        weight: 1
+      - path: joint557/joint554/joint541 1/joint542 1/joint543 1/joint544 1
+        weight: 1
+      - path: joint557/joint554/joint541 1/joint542 1/joint543 1/joint544 1/joint545
+          1
+        weight: 1
+      - path: joint557/joint571
+        weight: 1
+      - path: joint557/joint571/joint572
+        weight: 1
+      - path: joint557/joint571/joint572/joint573
+        weight: 1
+      - path: joint557/joint571/joint572/joint573/joint574
+        weight: 1
+      - path: joint557/joint575
+        weight: 1
+      - path: joint557/joint575/joint576
+        weight: 1
+      - path: joint557/joint575/joint576/joint577
+        weight: 1
+      - path: joint557/joint575/joint576/joint577/joint578
+        weight: 1
+      - path: joint557/joint579
+        weight: 1
+      - path: joint557/joint579/joint576 1
+        weight: 1
+      - path: joint557/joint579/joint576 1/joint577 1
+        weight: 1
+      - path: joint557/joint579/joint576 1/joint577 1/joint578 1
+        weight: 1
+      - path: joint557/joint580
+        weight: 1
+      - path: joint557/joint580/joint572 1
+        weight: 1
+      - path: joint557/joint580/joint572 1/joint573 1
+        weight: 1
+      - path: joint557/joint580/joint572 1/joint573 1/joint574 1
+        weight: 1
+      - path: polySurface359
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle
+      takeName: PROBE_ANIM_SET_4
+      firstFrame: 75
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint557
+        weight: 1
+      - path: joint557/joint540
+        weight: 1
+      - path: joint557/joint540/joint541
+        weight: 1
+      - path: joint557/joint540/joint541/joint542
+        weight: 1
+      - path: joint557/joint540/joint541/joint542/joint543
+        weight: 1
+      - path: joint557/joint540/joint541/joint542/joint543/joint544
+        weight: 1
+      - path: joint557/joint540/joint541/joint542/joint543/joint544/joint545
+        weight: 1
+      - path: joint557/joint554
+        weight: 1
+      - path: joint557/joint554/joint541 1
+        weight: 1
+      - path: joint557/joint554/joint541 1/joint542 1
+        weight: 1
+      - path: joint557/joint554/joint541 1/joint542 1/joint543 1
+        weight: 1
+      - path: joint557/joint554/joint541 1/joint542 1/joint543 1/joint544 1
+        weight: 1
+      - path: joint557/joint554/joint541 1/joint542 1/joint543 1/joint544 1/joint545
+          1
+        weight: 1
+      - path: joint557/joint571
+        weight: 1
+      - path: joint557/joint571/joint572
+        weight: 1
+      - path: joint557/joint571/joint572/joint573
+        weight: 1
+      - path: joint557/joint571/joint572/joint573/joint574
+        weight: 1
+      - path: joint557/joint575
+        weight: 1
+      - path: joint557/joint575/joint576
+        weight: 1
+      - path: joint557/joint575/joint576/joint577
+        weight: 1
+      - path: joint557/joint575/joint576/joint577/joint578
+        weight: 1
+      - path: joint557/joint579
+        weight: 1
+      - path: joint557/joint579/joint576 1
+        weight: 1
+      - path: joint557/joint579/joint576 1/joint577 1
+        weight: 1
+      - path: joint557/joint579/joint576 1/joint577 1/joint578 1
+        weight: 1
+      - path: joint557/joint580
+        weight: 1
+      - path: joint557/joint580/joint572 1
+        weight: 1
+      - path: joint557/joint580/joint572 1/joint573 1
+        weight: 1
+      - path: joint557/joint580/joint572 1/joint573 1/joint574 1
+        weight: 1
+      - path: polySurface359
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Attack_1
+      takeName: PROBE_ANIM_SET_4
+      firstFrame: 95
+      lastFrame: 115
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint557
+        weight: 1
+      - path: joint557/joint540
+        weight: 1
+      - path: joint557/joint540/joint541
+        weight: 1
+      - path: joint557/joint540/joint541/joint542
+        weight: 1
+      - path: joint557/joint540/joint541/joint542/joint543
+        weight: 1
+      - path: joint557/joint540/joint541/joint542/joint543/joint544
+        weight: 1
+      - path: joint557/joint540/joint541/joint542/joint543/joint544/joint545
+        weight: 1
+      - path: joint557/joint554
+        weight: 1
+      - path: joint557/joint554/joint541 1
+        weight: 1
+      - path: joint557/joint554/joint541 1/joint542 1
+        weight: 1
+      - path: joint557/joint554/joint541 1/joint542 1/joint543 1
+        weight: 1
+      - path: joint557/joint554/joint541 1/joint542 1/joint543 1/joint544 1
+        weight: 1
+      - path: joint557/joint554/joint541 1/joint542 1/joint543 1/joint544 1/joint545
+          1
+        weight: 1
+      - path: joint557/joint571
+        weight: 1
+      - path: joint557/joint571/joint572
+        weight: 1
+      - path: joint557/joint571/joint572/joint573
+        weight: 1
+      - path: joint557/joint571/joint572/joint573/joint574
+        weight: 1
+      - path: joint557/joint575
+        weight: 1
+      - path: joint557/joint575/joint576
+        weight: 1
+      - path: joint557/joint575/joint576/joint577
+        weight: 1
+      - path: joint557/joint575/joint576/joint577/joint578
+        weight: 1
+      - path: joint557/joint579
+        weight: 1
+      - path: joint557/joint579/joint576 1
+        weight: 1
+      - path: joint557/joint579/joint576 1/joint577 1
+        weight: 1
+      - path: joint557/joint579/joint576 1/joint577 1/joint578 1
+        weight: 1
+      - path: joint557/joint580
+        weight: 1
+      - path: joint557/joint580/joint572 1
+        weight: 1
+      - path: joint557/joint580/joint572 1/joint573 1
+        weight: 1
+      - path: joint557/joint580/joint572 1/joint573 1/joint574 1
+        weight: 1
+      - path: polySurface359
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Attack_2
+      takeName: PROBE_ANIM_SET_4
+      firstFrame: 120
+      lastFrame: 143
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint557
+        weight: 1
+      - path: joint557/joint540
+        weight: 1
+      - path: joint557/joint540/joint541
+        weight: 1
+      - path: joint557/joint540/joint541/joint542
+        weight: 1
+      - path: joint557/joint540/joint541/joint542/joint543
+        weight: 1
+      - path: joint557/joint540/joint541/joint542/joint543/joint544
+        weight: 1
+      - path: joint557/joint540/joint541/joint542/joint543/joint544/joint545
+        weight: 1
+      - path: joint557/joint554
+        weight: 1
+      - path: joint557/joint554/joint541 1
+        weight: 1
+      - path: joint557/joint554/joint541 1/joint542 1
+        weight: 1
+      - path: joint557/joint554/joint541 1/joint542 1/joint543 1
+        weight: 1
+      - path: joint557/joint554/joint541 1/joint542 1/joint543 1/joint544 1
+        weight: 1
+      - path: joint557/joint554/joint541 1/joint542 1/joint543 1/joint544 1/joint545
+          1
+        weight: 1
+      - path: joint557/joint571
+        weight: 1
+      - path: joint557/joint571/joint572
+        weight: 1
+      - path: joint557/joint571/joint572/joint573
+        weight: 1
+      - path: joint557/joint571/joint572/joint573/joint574
+        weight: 1
+      - path: joint557/joint575
+        weight: 1
+      - path: joint557/joint575/joint576
+        weight: 1
+      - path: joint557/joint575/joint576/joint577
+        weight: 1
+      - path: joint557/joint575/joint576/joint577/joint578
+        weight: 1
+      - path: joint557/joint579
+        weight: 1
+      - path: joint557/joint579/joint576 1
+        weight: 1
+      - path: joint557/joint579/joint576 1/joint577 1
+        weight: 1
+      - path: joint557/joint579/joint576 1/joint577 1/joint578 1
+        weight: 1
+      - path: joint557/joint580
+        weight: 1
+      - path: joint557/joint580/joint572 1
+        weight: 1
+      - path: joint557/joint580/joint572 1/joint573 1
+        weight: 1
+      - path: joint557/joint580/joint572 1/joint573 1/joint574 1
+        weight: 1
+      - path: polySurface359
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Start_up
+      takeName: PROBE_ANIM_SET_4
+      firstFrame: 150
+      lastFrame: 188
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint557
+        weight: 1
+      - path: joint557/joint540
+        weight: 1
+      - path: joint557/joint540/joint541
+        weight: 1
+      - path: joint557/joint540/joint541/joint542
+        weight: 1
+      - path: joint557/joint540/joint541/joint542/joint543
+        weight: 1
+      - path: joint557/joint540/joint541/joint542/joint543/joint544
+        weight: 1
+      - path: joint557/joint540/joint541/joint542/joint543/joint544/joint545
+        weight: 1
+      - path: joint557/joint554
+        weight: 1
+      - path: joint557/joint554/joint541 1
+        weight: 1
+      - path: joint557/joint554/joint541 1/joint542 1
+        weight: 1
+      - path: joint557/joint554/joint541 1/joint542 1/joint543 1
+        weight: 1
+      - path: joint557/joint554/joint541 1/joint542 1/joint543 1/joint544 1
+        weight: 1
+      - path: joint557/joint554/joint541 1/joint542 1/joint543 1/joint544 1/joint545
+          1
+        weight: 1
+      - path: joint557/joint571
+        weight: 1
+      - path: joint557/joint571/joint572
+        weight: 1
+      - path: joint557/joint571/joint572/joint573
+        weight: 1
+      - path: joint557/joint571/joint572/joint573/joint574
+        weight: 1
+      - path: joint557/joint575
+        weight: 1
+      - path: joint557/joint575/joint576
+        weight: 1
+      - path: joint557/joint575/joint576/joint577
+        weight: 1
+      - path: joint557/joint575/joint576/joint577/joint578
+        weight: 1
+      - path: joint557/joint579
+        weight: 1
+      - path: joint557/joint579/joint576 1
+        weight: 1
+      - path: joint557/joint579/joint576 1/joint577 1
+        weight: 1
+      - path: joint557/joint579/joint576 1/joint577 1/joint578 1
+        weight: 1
+      - path: joint557/joint580
+        weight: 1
+      - path: joint557/joint580/joint572 1
+        weight: 1
+      - path: joint557/joint580/joint572 1/joint573 1
+        weight: 1
+      - path: joint557/joint580/joint572 1/joint573 1/joint574 1
+        weight: 1
+      - path: polySurface359
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Evasive
+      takeName: PROBE_ANIM_SET_4
+      firstFrame: 190
+      lastFrame: 214
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint557
+        weight: 1
+      - path: joint557/joint540
+        weight: 1
+      - path: joint557/joint540/joint541
+        weight: 1
+      - path: joint557/joint540/joint541/joint542
+        weight: 1
+      - path: joint557/joint540/joint541/joint542/joint543
+        weight: 1
+      - path: joint557/joint540/joint541/joint542/joint543/joint544
+        weight: 1
+      - path: joint557/joint540/joint541/joint542/joint543/joint544/joint545
+        weight: 1
+      - path: joint557/joint554
+        weight: 1
+      - path: joint557/joint554/joint541 1
+        weight: 1
+      - path: joint557/joint554/joint541 1/joint542 1
+        weight: 1
+      - path: joint557/joint554/joint541 1/joint542 1/joint543 1
+        weight: 1
+      - path: joint557/joint554/joint541 1/joint542 1/joint543 1/joint544 1
+        weight: 1
+      - path: joint557/joint554/joint541 1/joint542 1/joint543 1/joint544 1/joint545
+          1
+        weight: 1
+      - path: joint557/joint571
+        weight: 1
+      - path: joint557/joint571/joint572
+        weight: 1
+      - path: joint557/joint571/joint572/joint573
+        weight: 1
+      - path: joint557/joint571/joint572/joint573/joint574
+        weight: 1
+      - path: joint557/joint575
+        weight: 1
+      - path: joint557/joint575/joint576
+        weight: 1
+      - path: joint557/joint575/joint576/joint577
+        weight: 1
+      - path: joint557/joint575/joint576/joint577/joint578
+        weight: 1
+      - path: joint557/joint579
+        weight: 1
+      - path: joint557/joint579/joint576 1
+        weight: 1
+      - path: joint557/joint579/joint576 1/joint577 1
+        weight: 1
+      - path: joint557/joint579/joint576 1/joint577 1/joint578 1
+        weight: 1
+      - path: joint557/joint580
+        weight: 1
+      - path: joint557/joint580/joint572 1
+        weight: 1
+      - path: joint557/joint580/joint572 1/joint573 1
+        weight: 1
+      - path: joint557/joint580/joint572 1/joint573 1/joint574 1
+        weight: 1
+      - path: polySurface359
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Crash_1
+      takeName: PROBE_ANIM_SET_4
+      firstFrame: 220
+      lastFrame: 248
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint557
+        weight: 1
+      - path: joint557/joint540
+        weight: 1
+      - path: joint557/joint540/joint541
+        weight: 1
+      - path: joint557/joint540/joint541/joint542
+        weight: 1
+      - path: joint557/joint540/joint541/joint542/joint543
+        weight: 1
+      - path: joint557/joint540/joint541/joint542/joint543/joint544
+        weight: 1
+      - path: joint557/joint540/joint541/joint542/joint543/joint544/joint545
+        weight: 1
+      - path: joint557/joint554
+        weight: 1
+      - path: joint557/joint554/joint541 1
+        weight: 1
+      - path: joint557/joint554/joint541 1/joint542 1
+        weight: 1
+      - path: joint557/joint554/joint541 1/joint542 1/joint543 1
+        weight: 1
+      - path: joint557/joint554/joint541 1/joint542 1/joint543 1/joint544 1
+        weight: 1
+      - path: joint557/joint554/joint541 1/joint542 1/joint543 1/joint544 1/joint545
+          1
+        weight: 1
+      - path: joint557/joint571
+        weight: 1
+      - path: joint557/joint571/joint572
+        weight: 1
+      - path: joint557/joint571/joint572/joint573
+        weight: 1
+      - path: joint557/joint571/joint572/joint573/joint574
+        weight: 1
+      - path: joint557/joint575
+        weight: 1
+      - path: joint557/joint575/joint576
+        weight: 1
+      - path: joint557/joint575/joint576/joint577
+        weight: 1
+      - path: joint557/joint575/joint576/joint577/joint578
+        weight: 1
+      - path: joint557/joint579
+        weight: 1
+      - path: joint557/joint579/joint576 1
+        weight: 1
+      - path: joint557/joint579/joint576 1/joint577 1
+        weight: 1
+      - path: joint557/joint579/joint576 1/joint577 1/joint578 1
+        weight: 1
+      - path: joint557/joint580
+        weight: 1
+      - path: joint557/joint580/joint572 1
+        weight: 1
+      - path: joint557/joint580/joint572 1/joint573 1
+        weight: 1
+      - path: joint557/joint580/joint572 1/joint573 1/joint574 1
+        weight: 1
+      - path: polySurface359
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Crash_2
+      takeName: PROBE_ANIM_SET_4
+      firstFrame: 255
+      lastFrame: 275
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint557
+        weight: 1
+      - path: joint557/joint540
+        weight: 1
+      - path: joint557/joint540/joint541
+        weight: 1
+      - path: joint557/joint540/joint541/joint542
+        weight: 1
+      - path: joint557/joint540/joint541/joint542/joint543
+        weight: 1
+      - path: joint557/joint540/joint541/joint542/joint543/joint544
+        weight: 1
+      - path: joint557/joint540/joint541/joint542/joint543/joint544/joint545
+        weight: 1
+      - path: joint557/joint554
+        weight: 1
+      - path: joint557/joint554/joint541 1
+        weight: 1
+      - path: joint557/joint554/joint541 1/joint542 1
+        weight: 1
+      - path: joint557/joint554/joint541 1/joint542 1/joint543 1
+        weight: 1
+      - path: joint557/joint554/joint541 1/joint542 1/joint543 1/joint544 1
+        weight: 1
+      - path: joint557/joint554/joint541 1/joint542 1/joint543 1/joint544 1/joint545
+          1
+        weight: 1
+      - path: joint557/joint571
+        weight: 1
+      - path: joint557/joint571/joint572
+        weight: 1
+      - path: joint557/joint571/joint572/joint573
+        weight: 1
+      - path: joint557/joint571/joint572/joint573/joint574
+        weight: 1
+      - path: joint557/joint575
+        weight: 1
+      - path: joint557/joint575/joint576
+        weight: 1
+      - path: joint557/joint575/joint576/joint577
+        weight: 1
+      - path: joint557/joint575/joint576/joint577/joint578
+        weight: 1
+      - path: joint557/joint579
+        weight: 1
+      - path: joint557/joint579/joint576 1
+        weight: 1
+      - path: joint557/joint579/joint576 1/joint577 1
+        weight: 1
+      - path: joint557/joint579/joint576 1/joint577 1/joint578 1
+        weight: 1
+      - path: joint557/joint580
+        weight: 1
+      - path: joint557/joint580/joint572 1
+        weight: 1
+      - path: joint557/joint580/joint572 1/joint573 1
+        weight: 1
+      - path: joint557/joint580/joint572 1/joint573 1/joint574 1
+        weight: 1
+      - path: polySurface359
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Impact
+      takeName: PROBE_ANIM_SET_4
+      firstFrame: 280
+      lastFrame: 300
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint557
+        weight: 1
+      - path: joint557/joint540
+        weight: 1
+      - path: joint557/joint540/joint541
+        weight: 1
+      - path: joint557/joint540/joint541/joint542
+        weight: 1
+      - path: joint557/joint540/joint541/joint542/joint543
+        weight: 1
+      - path: joint557/joint540/joint541/joint542/joint543/joint544
+        weight: 1
+      - path: joint557/joint540/joint541/joint542/joint543/joint544/joint545
+        weight: 1
+      - path: joint557/joint554
+        weight: 1
+      - path: joint557/joint554/joint541 1
+        weight: 1
+      - path: joint557/joint554/joint541 1/joint542 1
+        weight: 1
+      - path: joint557/joint554/joint541 1/joint542 1/joint543 1
+        weight: 1
+      - path: joint557/joint554/joint541 1/joint542 1/joint543 1/joint544 1
+        weight: 1
+      - path: joint557/joint554/joint541 1/joint542 1/joint543 1/joint544 1/joint545
+          1
+        weight: 1
+      - path: joint557/joint571
+        weight: 1
+      - path: joint557/joint571/joint572
+        weight: 1
+      - path: joint557/joint571/joint572/joint573
+        weight: 1
+      - path: joint557/joint571/joint572/joint573/joint574
+        weight: 1
+      - path: joint557/joint575
+        weight: 1
+      - path: joint557/joint575/joint576
+        weight: 1
+      - path: joint557/joint575/joint576/joint577
+        weight: 1
+      - path: joint557/joint575/joint576/joint577/joint578
+        weight: 1
+      - path: joint557/joint579
+        weight: 1
+      - path: joint557/joint579/joint576 1
+        weight: 1
+      - path: joint557/joint579/joint576 1/joint577 1
+        weight: 1
+      - path: joint557/joint579/joint576 1/joint577 1/joint578 1
+        weight: 1
+      - path: joint557/joint580
+        weight: 1
+      - path: joint557/joint580/joint572 1
+        weight: 1
+      - path: joint557/joint580/joint572 1/joint573 1
+        weight: 1
+      - path: joint557/joint580/joint572 1/joint573 1/joint574 1
+        weight: 1
+      - path: polySurface359
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

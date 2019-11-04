@@ -1,0 +1,944 @@
+fileFormatVersion: 2
+guid: dfd686d4c0713421ba84e233d9d14122
+timeCreated: 1495684430
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: joint292
+    100002: joint293
+    100004: joint294
+    100006: joint295
+    100008: joint296
+    100010: joint297
+    100012: joint298
+    100014: joint299
+    100016: joint300
+    100018: joint301
+    100020: joint302
+    100022: joint303
+    100024: joint304
+    100026: joint305
+    100028: joint306
+    100030: joint307
+    100032: joint308
+    100034: joint309
+    100036: joint581
+    100038: joint582
+    100040: nurbsCircle26
+    100042: nurbsCircle91
+    100044: pCylinder14
+    100046: pCylinder84
+    100048: Probe_Vtol_Shock_troop
+    100050: //RootNode
+    400000: joint292
+    400002: joint293
+    400004: joint294
+    400006: joint295
+    400008: joint296
+    400010: joint297
+    400012: joint298
+    400014: joint299
+    400016: joint300
+    400018: joint301
+    400020: joint302
+    400022: joint303
+    400024: joint304
+    400026: joint305
+    400028: joint306
+    400030: joint307
+    400032: joint308
+    400034: joint309
+    400036: joint581
+    400038: joint582
+    400040: nurbsCircle26
+    400042: nurbsCircle91
+    400044: pCylinder14
+    400046: pCylinder84
+    400048: Probe_Vtol_Shock_troop
+    400050: //RootNode
+    4300000: Probe_Vtol_Shock_troop
+    4300002: pCylinder14
+    4300004: pCylinder84
+    7400000: Walk
+    7400002: Run
+    7400004: Idle
+    7400006: Attack_1
+    7400008: Attack_2
+    7400010: Start_up
+    7400012: Evasive
+    7400014: Crash_1
+    7400016: Crash_2
+    7400018: Impact
+    9500000: //RootNode
+    13700000: pCylinder14
+    13700002: pCylinder84
+    13700004: Probe_Vtol_Shock_troop
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Walk
+      takeName: PROBE_ANIM_SET_4
+      firstFrame: 5
+      lastFrame: 25
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint300
+        weight: 1
+      - path: joint300/joint292
+        weight: 1
+      - path: joint300/joint292/joint293
+        weight: 1
+      - path: joint300/joint292/joint293/joint294
+        weight: 1
+      - path: joint300/joint292/joint293/joint294/joint295
+        weight: 1
+      - path: joint300/joint296
+        weight: 1
+      - path: joint300/joint296/joint297
+        weight: 1
+      - path: joint300/joint296/joint297/joint298
+        weight: 1
+      - path: joint300/joint296/joint297/joint298/joint299
+        weight: 1
+      - path: joint300/joint301
+        weight: 1
+      - path: joint300/joint302
+        weight: 1
+      - path: joint300/joint302/joint303
+        weight: 1
+      - path: joint300/joint302/joint303/joint304
+        weight: 1
+      - path: joint300/joint302/joint303/joint304/joint305
+        weight: 1
+      - path: joint300/joint306
+        weight: 1
+      - path: joint300/joint306/joint307
+        weight: 1
+      - path: joint300/joint306/joint307/joint308
+        weight: 1
+      - path: joint300/joint306/joint307/joint308/joint309
+        weight: 1
+      - path: nurbsCircle91
+        weight: 1
+      - path: nurbsCircle91/nurbsCircle26
+        weight: 1
+      - path: nurbsCircle91/nurbsCircle26/joint581
+        weight: 1
+      - path: nurbsCircle91/nurbsCircle26/joint582
+        weight: 1
+      - path: pCylinder14
+        weight: 1
+      - path: pCylinder84
+        weight: 1
+      - path: Probe_Vtol_Shock_troop
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Run
+      takeName: PROBE_ANIM_SET_4
+      firstFrame: 30
+      lastFrame: 46
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint300
+        weight: 1
+      - path: joint300/joint292
+        weight: 1
+      - path: joint300/joint292/joint293
+        weight: 1
+      - path: joint300/joint292/joint293/joint294
+        weight: 1
+      - path: joint300/joint292/joint293/joint294/joint295
+        weight: 1
+      - path: joint300/joint296
+        weight: 1
+      - path: joint300/joint296/joint297
+        weight: 1
+      - path: joint300/joint296/joint297/joint298
+        weight: 1
+      - path: joint300/joint296/joint297/joint298/joint299
+        weight: 1
+      - path: joint300/joint301
+        weight: 1
+      - path: joint300/joint302
+        weight: 1
+      - path: joint300/joint302/joint303
+        weight: 1
+      - path: joint300/joint302/joint303/joint304
+        weight: 1
+      - path: joint300/joint302/joint303/joint304/joint305
+        weight: 1
+      - path: joint300/joint306
+        weight: 1
+      - path: joint300/joint306/joint307
+        weight: 1
+      - path: joint300/joint306/joint307/joint308
+        weight: 1
+      - path: joint300/joint306/joint307/joint308/joint309
+        weight: 1
+      - path: nurbsCircle91
+        weight: 1
+      - path: nurbsCircle91/nurbsCircle26
+        weight: 1
+      - path: nurbsCircle91/nurbsCircle26/joint581
+        weight: 1
+      - path: nurbsCircle91/nurbsCircle26/joint582
+        weight: 1
+      - path: pCylinder14
+        weight: 1
+      - path: pCylinder84
+        weight: 1
+      - path: Probe_Vtol_Shock_troop
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle
+      takeName: PROBE_ANIM_SET_4
+      firstFrame: 51
+      lastFrame: 95
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint300
+        weight: 1
+      - path: joint300/joint292
+        weight: 1
+      - path: joint300/joint292/joint293
+        weight: 1
+      - path: joint300/joint292/joint293/joint294
+        weight: 1
+      - path: joint300/joint292/joint293/joint294/joint295
+        weight: 1
+      - path: joint300/joint296
+        weight: 1
+      - path: joint300/joint296/joint297
+        weight: 1
+      - path: joint300/joint296/joint297/joint298
+        weight: 1
+      - path: joint300/joint296/joint297/joint298/joint299
+        weight: 1
+      - path: joint300/joint301
+        weight: 1
+      - path: joint300/joint302
+        weight: 1
+      - path: joint300/joint302/joint303
+        weight: 1
+      - path: joint300/joint302/joint303/joint304
+        weight: 1
+      - path: joint300/joint302/joint303/joint304/joint305
+        weight: 1
+      - path: joint300/joint306
+        weight: 1
+      - path: joint300/joint306/joint307
+        weight: 1
+      - path: joint300/joint306/joint307/joint308
+        weight: 1
+      - path: joint300/joint306/joint307/joint308/joint309
+        weight: 1
+      - path: nurbsCircle91
+        weight: 1
+      - path: nurbsCircle91/nurbsCircle26
+        weight: 1
+      - path: nurbsCircle91/nurbsCircle26/joint581
+        weight: 1
+      - path: nurbsCircle91/nurbsCircle26/joint582
+        weight: 1
+      - path: pCylinder14
+        weight: 1
+      - path: pCylinder84
+        weight: 1
+      - path: Probe_Vtol_Shock_troop
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Attack_1
+      takeName: PROBE_ANIM_SET_4
+      firstFrame: 100
+      lastFrame: 133
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint300
+        weight: 1
+      - path: joint300/joint292
+        weight: 1
+      - path: joint300/joint292/joint293
+        weight: 1
+      - path: joint300/joint292/joint293/joint294
+        weight: 1
+      - path: joint300/joint292/joint293/joint294/joint295
+        weight: 1
+      - path: joint300/joint296
+        weight: 1
+      - path: joint300/joint296/joint297
+        weight: 1
+      - path: joint300/joint296/joint297/joint298
+        weight: 1
+      - path: joint300/joint296/joint297/joint298/joint299
+        weight: 1
+      - path: joint300/joint301
+        weight: 1
+      - path: joint300/joint302
+        weight: 1
+      - path: joint300/joint302/joint303
+        weight: 1
+      - path: joint300/joint302/joint303/joint304
+        weight: 1
+      - path: joint300/joint302/joint303/joint304/joint305
+        weight: 1
+      - path: joint300/joint306
+        weight: 1
+      - path: joint300/joint306/joint307
+        weight: 1
+      - path: joint300/joint306/joint307/joint308
+        weight: 1
+      - path: joint300/joint306/joint307/joint308/joint309
+        weight: 1
+      - path: nurbsCircle91
+        weight: 1
+      - path: nurbsCircle91/nurbsCircle26
+        weight: 1
+      - path: nurbsCircle91/nurbsCircle26/joint581
+        weight: 1
+      - path: nurbsCircle91/nurbsCircle26/joint582
+        weight: 1
+      - path: pCylinder14
+        weight: 1
+      - path: pCylinder84
+        weight: 1
+      - path: Probe_Vtol_Shock_troop
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Attack_2
+      takeName: PROBE_ANIM_SET_4
+      firstFrame: 138
+      lastFrame: 180
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint300
+        weight: 1
+      - path: joint300/joint292
+        weight: 1
+      - path: joint300/joint292/joint293
+        weight: 1
+      - path: joint300/joint292/joint293/joint294
+        weight: 1
+      - path: joint300/joint292/joint293/joint294/joint295
+        weight: 1
+      - path: joint300/joint296
+        weight: 1
+      - path: joint300/joint296/joint297
+        weight: 1
+      - path: joint300/joint296/joint297/joint298
+        weight: 1
+      - path: joint300/joint296/joint297/joint298/joint299
+        weight: 1
+      - path: joint300/joint301
+        weight: 1
+      - path: joint300/joint302
+        weight: 1
+      - path: joint300/joint302/joint303
+        weight: 1
+      - path: joint300/joint302/joint303/joint304
+        weight: 1
+      - path: joint300/joint302/joint303/joint304/joint305
+        weight: 1
+      - path: joint300/joint306
+        weight: 1
+      - path: joint300/joint306/joint307
+        weight: 1
+      - path: joint300/joint306/joint307/joint308
+        weight: 1
+      - path: joint300/joint306/joint307/joint308/joint309
+        weight: 1
+      - path: nurbsCircle91
+        weight: 1
+      - path: nurbsCircle91/nurbsCircle26
+        weight: 1
+      - path: nurbsCircle91/nurbsCircle26/joint581
+        weight: 1
+      - path: nurbsCircle91/nurbsCircle26/joint582
+        weight: 1
+      - path: pCylinder14
+        weight: 1
+      - path: pCylinder84
+        weight: 1
+      - path: Probe_Vtol_Shock_troop
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Start_up
+      takeName: PROBE_ANIM_SET_4
+      firstFrame: 185
+      lastFrame: 235
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint300
+        weight: 1
+      - path: joint300/joint292
+        weight: 1
+      - path: joint300/joint292/joint293
+        weight: 1
+      - path: joint300/joint292/joint293/joint294
+        weight: 1
+      - path: joint300/joint292/joint293/joint294/joint295
+        weight: 1
+      - path: joint300/joint296
+        weight: 1
+      - path: joint300/joint296/joint297
+        weight: 1
+      - path: joint300/joint296/joint297/joint298
+        weight: 1
+      - path: joint300/joint296/joint297/joint298/joint299
+        weight: 1
+      - path: joint300/joint301
+        weight: 1
+      - path: joint300/joint302
+        weight: 1
+      - path: joint300/joint302/joint303
+        weight: 1
+      - path: joint300/joint302/joint303/joint304
+        weight: 1
+      - path: joint300/joint302/joint303/joint304/joint305
+        weight: 1
+      - path: joint300/joint306
+        weight: 1
+      - path: joint300/joint306/joint307
+        weight: 1
+      - path: joint300/joint306/joint307/joint308
+        weight: 1
+      - path: joint300/joint306/joint307/joint308/joint309
+        weight: 1
+      - path: nurbsCircle91
+        weight: 1
+      - path: nurbsCircle91/nurbsCircle26
+        weight: 1
+      - path: nurbsCircle91/nurbsCircle26/joint581
+        weight: 1
+      - path: nurbsCircle91/nurbsCircle26/joint582
+        weight: 1
+      - path: pCylinder14
+        weight: 1
+      - path: pCylinder84
+        weight: 1
+      - path: Probe_Vtol_Shock_troop
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Evasive
+      takeName: PROBE_ANIM_SET_4
+      firstFrame: 240
+      lastFrame: 295
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint300
+        weight: 1
+      - path: joint300/joint292
+        weight: 1
+      - path: joint300/joint292/joint293
+        weight: 1
+      - path: joint300/joint292/joint293/joint294
+        weight: 1
+      - path: joint300/joint292/joint293/joint294/joint295
+        weight: 1
+      - path: joint300/joint296
+        weight: 1
+      - path: joint300/joint296/joint297
+        weight: 1
+      - path: joint300/joint296/joint297/joint298
+        weight: 1
+      - path: joint300/joint296/joint297/joint298/joint299
+        weight: 1
+      - path: joint300/joint301
+        weight: 1
+      - path: joint300/joint302
+        weight: 1
+      - path: joint300/joint302/joint303
+        weight: 1
+      - path: joint300/joint302/joint303/joint304
+        weight: 1
+      - path: joint300/joint302/joint303/joint304/joint305
+        weight: 1
+      - path: joint300/joint306
+        weight: 1
+      - path: joint300/joint306/joint307
+        weight: 1
+      - path: joint300/joint306/joint307/joint308
+        weight: 1
+      - path: joint300/joint306/joint307/joint308/joint309
+        weight: 1
+      - path: nurbsCircle91
+        weight: 1
+      - path: nurbsCircle91/nurbsCircle26
+        weight: 1
+      - path: nurbsCircle91/nurbsCircle26/joint581
+        weight: 1
+      - path: nurbsCircle91/nurbsCircle26/joint582
+        weight: 1
+      - path: pCylinder14
+        weight: 1
+      - path: pCylinder84
+        weight: 1
+      - path: Probe_Vtol_Shock_troop
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Crash_1
+      takeName: PROBE_ANIM_SET_4
+      firstFrame: 300
+      lastFrame: 327
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint300
+        weight: 1
+      - path: joint300/joint292
+        weight: 1
+      - path: joint300/joint292/joint293
+        weight: 1
+      - path: joint300/joint292/joint293/joint294
+        weight: 1
+      - path: joint300/joint292/joint293/joint294/joint295
+        weight: 1
+      - path: joint300/joint296
+        weight: 1
+      - path: joint300/joint296/joint297
+        weight: 1
+      - path: joint300/joint296/joint297/joint298
+        weight: 1
+      - path: joint300/joint296/joint297/joint298/joint299
+        weight: 1
+      - path: joint300/joint301
+        weight: 1
+      - path: joint300/joint302
+        weight: 1
+      - path: joint300/joint302/joint303
+        weight: 1
+      - path: joint300/joint302/joint303/joint304
+        weight: 1
+      - path: joint300/joint302/joint303/joint304/joint305
+        weight: 1
+      - path: joint300/joint306
+        weight: 1
+      - path: joint300/joint306/joint307
+        weight: 1
+      - path: joint300/joint306/joint307/joint308
+        weight: 1
+      - path: joint300/joint306/joint307/joint308/joint309
+        weight: 1
+      - path: nurbsCircle91
+        weight: 1
+      - path: nurbsCircle91/nurbsCircle26
+        weight: 1
+      - path: nurbsCircle91/nurbsCircle26/joint581
+        weight: 1
+      - path: nurbsCircle91/nurbsCircle26/joint582
+        weight: 1
+      - path: pCylinder14
+        weight: 1
+      - path: pCylinder84
+        weight: 1
+      - path: Probe_Vtol_Shock_troop
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Crash_2
+      takeName: PROBE_ANIM_SET_4
+      firstFrame: 332
+      lastFrame: 360
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint300
+        weight: 1
+      - path: joint300/joint292
+        weight: 1
+      - path: joint300/joint292/joint293
+        weight: 1
+      - path: joint300/joint292/joint293/joint294
+        weight: 1
+      - path: joint300/joint292/joint293/joint294/joint295
+        weight: 1
+      - path: joint300/joint296
+        weight: 1
+      - path: joint300/joint296/joint297
+        weight: 1
+      - path: joint300/joint296/joint297/joint298
+        weight: 1
+      - path: joint300/joint296/joint297/joint298/joint299
+        weight: 1
+      - path: joint300/joint301
+        weight: 1
+      - path: joint300/joint302
+        weight: 1
+      - path: joint300/joint302/joint303
+        weight: 1
+      - path: joint300/joint302/joint303/joint304
+        weight: 1
+      - path: joint300/joint302/joint303/joint304/joint305
+        weight: 1
+      - path: joint300/joint306
+        weight: 1
+      - path: joint300/joint306/joint307
+        weight: 1
+      - path: joint300/joint306/joint307/joint308
+        weight: 1
+      - path: joint300/joint306/joint307/joint308/joint309
+        weight: 1
+      - path: nurbsCircle91
+        weight: 1
+      - path: nurbsCircle91/nurbsCircle26
+        weight: 1
+      - path: nurbsCircle91/nurbsCircle26/joint581
+        weight: 1
+      - path: nurbsCircle91/nurbsCircle26/joint582
+        weight: 1
+      - path: pCylinder14
+        weight: 1
+      - path: pCylinder84
+        weight: 1
+      - path: Probe_Vtol_Shock_troop
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Impact
+      takeName: PROBE_ANIM_SET_4
+      firstFrame: 365
+      lastFrame: 415
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint300
+        weight: 1
+      - path: joint300/joint292
+        weight: 1
+      - path: joint300/joint292/joint293
+        weight: 1
+      - path: joint300/joint292/joint293/joint294
+        weight: 1
+      - path: joint300/joint292/joint293/joint294/joint295
+        weight: 1
+      - path: joint300/joint296
+        weight: 1
+      - path: joint300/joint296/joint297
+        weight: 1
+      - path: joint300/joint296/joint297/joint298
+        weight: 1
+      - path: joint300/joint296/joint297/joint298/joint299
+        weight: 1
+      - path: joint300/joint301
+        weight: 1
+      - path: joint300/joint302
+        weight: 1
+      - path: joint300/joint302/joint303
+        weight: 1
+      - path: joint300/joint302/joint303/joint304
+        weight: 1
+      - path: joint300/joint302/joint303/joint304/joint305
+        weight: 1
+      - path: joint300/joint306
+        weight: 1
+      - path: joint300/joint306/joint307
+        weight: 1
+      - path: joint300/joint306/joint307/joint308
+        weight: 1
+      - path: joint300/joint306/joint307/joint308/joint309
+        weight: 1
+      - path: nurbsCircle91
+        weight: 1
+      - path: nurbsCircle91/nurbsCircle26
+        weight: 1
+      - path: nurbsCircle91/nurbsCircle26/joint581
+        weight: 1
+      - path: nurbsCircle91/nurbsCircle26/joint582
+        weight: 1
+      - path: pCylinder14
+        weight: 1
+      - path: pCylinder84
+        weight: 1
+      - path: Probe_Vtol_Shock_troop
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,245 @@
+fileFormatVersion: 2
+guid: d25736011eade45d5a54dc78c3abeef1
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Pod_62
+    100004: Pod_63
+    100006: Pod_64
+    100008: Pod_65
+    100010: Pod_66
+    100012: Pod_67
+    100014: Pod_68
+    100016: Pod_69
+    100018: Pod_70
+    100020: Pod_71
+    100022: Pod_72
+    100024: Pod_73
+    100026: Pod_74
+    100028: Pod_75
+    100030: Pod_76
+    100032: Pod_77
+    100034: Pod_78
+    100036: Pod_79
+    100038: Pod_80
+    100040: Pod_81
+    100042: Pod_82
+    100044: Pod_83
+    100046: Pod_84
+    100048: Pod_85
+    100050: Pod_86
+    100052: Pod_87
+    100054: Pod_88
+    100056: Pod_89
+    100058: Pod_90
+    100060: Pod_91
+    400000: //RootNode
+    400002: Pod_62
+    400004: Pod_63
+    400006: Pod_64
+    400008: Pod_65
+    400010: Pod_66
+    400012: Pod_67
+    400014: Pod_68
+    400016: Pod_69
+    400018: Pod_70
+    400020: Pod_71
+    400022: Pod_72
+    400024: Pod_73
+    400026: Pod_74
+    400028: Pod_75
+    400030: Pod_76
+    400032: Pod_77
+    400034: Pod_78
+    400036: Pod_79
+    400038: Pod_80
+    400040: Pod_81
+    400042: Pod_82
+    400044: Pod_83
+    400046: Pod_84
+    400048: Pod_85
+    400050: Pod_86
+    400052: Pod_87
+    400054: Pod_88
+    400056: Pod_89
+    400058: Pod_90
+    400060: Pod_91
+    2300000: Pod_62
+    2300002: Pod_63
+    2300004: Pod_64
+    2300006: Pod_65
+    2300008: Pod_66
+    2300010: Pod_67
+    2300012: Pod_68
+    2300014: Pod_69
+    2300016: Pod_70
+    2300018: Pod_71
+    2300020: Pod_72
+    2300022: Pod_73
+    2300024: Pod_74
+    2300026: Pod_75
+    2300028: Pod_76
+    2300030: Pod_77
+    2300032: Pod_78
+    2300034: Pod_79
+    2300036: Pod_80
+    2300038: Pod_81
+    2300040: Pod_82
+    2300042: Pod_83
+    2300044: Pod_84
+    2300046: Pod_85
+    2300048: Pod_86
+    2300050: Pod_87
+    2300052: Pod_88
+    2300054: Pod_89
+    2300056: Pod_90
+    2300058: Pod_91
+    3300000: Pod_62
+    3300002: Pod_63
+    3300004: Pod_64
+    3300006: Pod_65
+    3300008: Pod_66
+    3300010: Pod_67
+    3300012: Pod_68
+    3300014: Pod_69
+    3300016: Pod_70
+    3300018: Pod_71
+    3300020: Pod_72
+    3300022: Pod_73
+    3300024: Pod_74
+    3300026: Pod_75
+    3300028: Pod_76
+    3300030: Pod_77
+    3300032: Pod_78
+    3300034: Pod_79
+    3300036: Pod_80
+    3300038: Pod_81
+    3300040: Pod_82
+    3300042: Pod_83
+    3300044: Pod_84
+    3300046: Pod_85
+    3300048: Pod_86
+    3300050: Pod_87
+    3300052: Pod_88
+    3300054: Pod_89
+    3300056: Pod_90
+    3300058: Pod_91
+    4300000: Pod_62
+    4300002: Pod_63
+    4300004: Pod_64
+    4300006: Pod_65
+    4300008: Pod_66
+    4300010: Pod_67
+    4300012: Pod_68
+    4300014: Pod_69
+    4300016: Pod_70
+    4300018: Pod_71
+    4300020: Pod_72
+    4300022: Pod_73
+    4300024: Pod_74
+    4300026: Pod_75
+    4300028: Pod_76
+    4300030: Pod_77
+    4300032: Pod_78
+    4300034: Pod_79
+    4300036: Pod_80
+    4300038: Pod_81
+    4300040: Pod_82
+    4300042: Pod_83
+    4300044: Pod_84
+    4300046: Pod_85
+    4300048: Pod_86
+    4300050: Pod_87
+    4300052: Pod_88
+    4300054: Pod_89
+    4300056: Pod_90
+    4300058: Pod_91
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn35
+    second: {fileID: 2100000, guid: 307a7f2f90f7744498cc884ce0e93265, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

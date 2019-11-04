@@ -1,0 +1,157 @@
+fileFormatVersion: 2
+guid: 396f28391174d4a0ba6a6456eedbf143
+timeCreated: 1489886045
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: barrel_01
+    100002: barrel_01 1
+    100004: barrel_01 2
+    100006: barrel_01 3
+    100008: barrel_02
+    100010: barrel_02 1
+    100012: barrel_02 2
+    100014: barrel_02 3
+    100016: //RootNode
+    100018: pivot
+    100020: pivot3
+    100022: polySurface110
+    100024: polySurface113
+    100026: polySurface133
+    100028: polySurface134
+    100030: rotator
+    100032: rotator 1
+    100034: rotator1
+    100036: rotator1 1
+    100038: rotator2
+    100040: rotator2 1
+    100042: rotator3
+    100044: rotator3 1
+    100046: transform22
+    100048: transform22 1
+    100050: transform23
+    100052: transform23 1
+    100054: Turret
+    400000: barrel_01
+    400002: barrel_01 1
+    400004: barrel_01 2
+    400006: barrel_01 3
+    400008: barrel_02
+    400010: barrel_02 1
+    400012: barrel_02 2
+    400014: barrel_02 3
+    400016: //RootNode
+    400018: pivot
+    400020: pivot3
+    400022: polySurface110
+    400024: polySurface113
+    400026: polySurface133
+    400028: polySurface134
+    400030: rotator
+    400032: rotator 1
+    400034: rotator1
+    400036: rotator1 1
+    400038: rotator2
+    400040: rotator2 1
+    400042: rotator3
+    400044: rotator3 1
+    400046: transform22
+    400048: transform22 1
+    400050: transform23
+    400052: transform23 1
+    400054: Turret
+    2300000: //RootNode
+    2300002: pivot
+    2300004: pivot3
+    2300006: polySurface110
+    2300008: polySurface113
+    2300010: polySurface133
+    2300012: polySurface134
+    2300014: Turret
+    3300000: //RootNode
+    3300002: pivot
+    3300004: pivot3
+    3300006: polySurface110
+    3300008: polySurface113
+    3300010: polySurface133
+    3300012: polySurface134
+    3300014: Turret
+    4300000: base6
+    4300002: Turret
+    4300004: pivot
+    4300006: polySurface110
+    4300008: polySurface113
+    4300010: pivot3
+    4300012: polySurface133
+    4300014: polySurface134
+    7400000: Turret_Additionals_08
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

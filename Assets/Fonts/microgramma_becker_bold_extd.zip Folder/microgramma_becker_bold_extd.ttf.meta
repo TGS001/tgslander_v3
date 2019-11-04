@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 73846b2c18eb548b092758a29044d692
+timeCreated: 1505273990
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Microgramma Becker Bold Extd
+  fontNames:
+  - Microgramma Becker Bold Extd
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

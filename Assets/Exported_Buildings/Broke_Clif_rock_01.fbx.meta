@@ -1,0 +1,230 @@
+fileFormatVersion: 2
+guid: e5d8349084329477cbc4cab568a28e6b
+timeCreated: 1502235829
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Clif_rock_010
+    100004: Clif_rock_011
+    100006: Clif_rock_012
+    100008: Clif_rock_013
+    100010: Clif_rock_014
+    100012: Clif_rock_015
+    100014: Clif_rock_016
+    100016: Clif_rock_017
+    100018: Clif_rock_018
+    100020: Clif_rock_019
+    100022: Clif_rock_020
+    100024: Clif_rock_021
+    100026: Clif_rock_022
+    100028: Clif_rock_023
+    100030: Clif_rock_024
+    100032: Clif_rock_025
+    100034: Clif_rock_026
+    100036: Clif_rock_027
+    100038: Clif_rock_028
+    100040: Clif_rock_029
+    100042: Clif_rock_030
+    100044: Clif_rock_031
+    100046: Clif_rock_032
+    100048: Clif_rock_033
+    100050: Clif_rock_034
+    100052: Clif_rock_05
+    100054: Clif_rock_06
+    100056: Clif_rock_07
+    100058: Clif_rock_08
+    100060: Clif_rock_09
+    400000: //RootNode
+    400002: Clif_rock_010
+    400004: Clif_rock_011
+    400006: Clif_rock_012
+    400008: Clif_rock_013
+    400010: Clif_rock_014
+    400012: Clif_rock_015
+    400014: Clif_rock_016
+    400016: Clif_rock_017
+    400018: Clif_rock_018
+    400020: Clif_rock_019
+    400022: Clif_rock_020
+    400024: Clif_rock_021
+    400026: Clif_rock_022
+    400028: Clif_rock_023
+    400030: Clif_rock_024
+    400032: Clif_rock_025
+    400034: Clif_rock_026
+    400036: Clif_rock_027
+    400038: Clif_rock_028
+    400040: Clif_rock_029
+    400042: Clif_rock_030
+    400044: Clif_rock_031
+    400046: Clif_rock_032
+    400048: Clif_rock_033
+    400050: Clif_rock_034
+    400052: Clif_rock_05
+    400054: Clif_rock_06
+    400056: Clif_rock_07
+    400058: Clif_rock_08
+    400060: Clif_rock_09
+    2300000: Clif_rock_010
+    2300002: Clif_rock_011
+    2300004: Clif_rock_012
+    2300006: Clif_rock_013
+    2300008: Clif_rock_014
+    2300010: Clif_rock_015
+    2300012: Clif_rock_016
+    2300014: Clif_rock_017
+    2300016: Clif_rock_018
+    2300018: Clif_rock_019
+    2300020: Clif_rock_020
+    2300022: Clif_rock_021
+    2300024: Clif_rock_022
+    2300026: Clif_rock_023
+    2300028: Clif_rock_024
+    2300030: Clif_rock_025
+    2300032: Clif_rock_026
+    2300034: Clif_rock_027
+    2300036: Clif_rock_028
+    2300038: Clif_rock_029
+    2300040: Clif_rock_030
+    2300042: Clif_rock_031
+    2300044: Clif_rock_032
+    2300046: Clif_rock_033
+    2300048: Clif_rock_034
+    2300050: Clif_rock_05
+    2300052: Clif_rock_06
+    2300054: Clif_rock_07
+    2300056: Clif_rock_08
+    2300058: Clif_rock_09
+    3300000: Clif_rock_010
+    3300002: Clif_rock_011
+    3300004: Clif_rock_012
+    3300006: Clif_rock_013
+    3300008: Clif_rock_014
+    3300010: Clif_rock_015
+    3300012: Clif_rock_016
+    3300014: Clif_rock_017
+    3300016: Clif_rock_018
+    3300018: Clif_rock_019
+    3300020: Clif_rock_020
+    3300022: Clif_rock_021
+    3300024: Clif_rock_022
+    3300026: Clif_rock_023
+    3300028: Clif_rock_024
+    3300030: Clif_rock_025
+    3300032: Clif_rock_026
+    3300034: Clif_rock_027
+    3300036: Clif_rock_028
+    3300038: Clif_rock_029
+    3300040: Clif_rock_030
+    3300042: Clif_rock_031
+    3300044: Clif_rock_032
+    3300046: Clif_rock_033
+    3300048: Clif_rock_034
+    3300050: Clif_rock_05
+    3300052: Clif_rock_06
+    3300054: Clif_rock_07
+    3300056: Clif_rock_08
+    3300058: Clif_rock_09
+    4300000: Clif_rock_05
+    4300002: Clif_rock_06
+    4300004: Clif_rock_07
+    4300006: Clif_rock_08
+    4300008: Clif_rock_09
+    4300010: Clif_rock_010
+    4300012: Clif_rock_011
+    4300014: Clif_rock_012
+    4300016: Clif_rock_013
+    4300018: Clif_rock_014
+    4300020: Clif_rock_015
+    4300022: Clif_rock_016
+    4300024: Clif_rock_017
+    4300026: Clif_rock_018
+    4300028: Clif_rock_019
+    4300030: Clif_rock_020
+    4300032: Clif_rock_021
+    4300034: Clif_rock_022
+    4300036: Clif_rock_023
+    4300038: Clif_rock_024
+    4300040: Clif_rock_025
+    4300042: Clif_rock_026
+    4300044: Clif_rock_027
+    4300046: Clif_rock_028
+    4300048: Clif_rock_029
+    4300050: Clif_rock_030
+    4300052: Clif_rock_031
+    4300054: Clif_rock_032
+    4300056: Clif_rock_033
+    4300058: Clif_rock_034
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
