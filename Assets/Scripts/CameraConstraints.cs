@@ -24,9 +24,13 @@ public class CameraConstraints : MonoBehaviour {
     }
 
     private void FixedUpdate() {
-        Vector2 position = player.transform.position;
-        if (position.x < min.x || position.x > max.x || position.y < min.y || position.y > max.y) {
-            PlaySessionControl.Evac(null, "Level complete!", "You did all the things and then you left.");
+        if (player != null)
+        {
+            Vector2 position = player.transform.position;
+            if (position.x < min.x || position.x > max.x || position.y < min.y || position.y > max.y)
+            {
+                PlaySessionControl.Evac(null, "Level complete!", "You did all the things and then you left.");
+            }
         }
     }
 
