@@ -46,7 +46,8 @@ public class Engine : MonoBehaviour {
 	RingBuffer<PendingFade> fades = new RingBuffer<PendingFade> (8);
 
 	private IEnumerator CrossFade(AudioClip crossfadeClip, float seconds) {
-        if (primary && secondary) {
+        //if (primary && secondary)
+        {
             fading = true;
             if (primary == null) {
                 primary = soundSource;
