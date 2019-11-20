@@ -231,7 +231,8 @@ MonoBehaviour:
     type: 3}
   dudEffect: {fileID: 114839022911159890, guid: 80fea28696a141d46aeea97a32540f3a,
     type: 3}
-  fuseTrailEffect: {fileID: 0}
+  fuseTrailEffect: {fileID: 114797853019706434, guid: ed14f4391a63f6c4ab617fbf32390b86,
+    type: 3}
   jetFireEffect: {fileID: 114797853019706434, guid: ed14f4391a63f6c4ab617fbf32390b86,
     type: 3}
   burnoutEffect: {fileID: 114820479097166978, guid: 3236e7132b124534697cb55a4d7a83ec,
