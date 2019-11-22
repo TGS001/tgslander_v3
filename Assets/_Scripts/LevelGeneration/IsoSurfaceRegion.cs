@@ -99,48 +99,64 @@ public class IsoSurfaceRegion : MonoBehaviour, ISerializationCallbackReceiver {
       }
 
       public void Step(float distance) {
-         float length = region.length;
-         if (Mathf.Abs(distance) > 0) {
-            
-            float segd = region.rawLengths[index];
-            float compd = segd * segmentProgress;
-            float newd = compd + distance;
-            while ((newd < 0) || (newd > segd)) {
-               if (newd < 0) {
-                  if (index > 0) {
-                     index--;
-                     node = node.Previous;
-                     segd = region.rawLengths[index];
-                     newd += segd;
-                  } else {
-                     break;
-                  }
-               } else if (newd > segd) {
-                  if (index < indexMax) {
-                     newd -= segd;
-                     index++;
-                     node = node.Next;
-                     segd = region.rawLengths[index];
-                  } else {
-                     break;
-                  }
-               }
+            if (region != null)
+            {
+                float length = region.length;
+                if (Mathf.Abs(distance) > 0)
+                {
+
+                    float segd = region.rawLengths[index];
+                    float compd = segd * segmentProgress;
+                    float newd = compd + distance;
+                    while ((newd < 0) || (newd > segd))
+                    {
+                        if (newd < 0)
+                        {
+                            if (index > 0)
+                            {
+                                index--;
+                                node = node.Previous;
+                                segd = region.rawLengths[index];
+                                newd += segd;
+                            }
+                            else
+                            {
+                                break;
+                            }
+                        }
+                        else if (newd > segd)
+                        {
+                            if (index < indexMax)
+                            {
+                                newd -= segd;
+                                index++;
+                                node = node.Next;
+                                segd = region.rawLengths[index];
+                            }
+                            else
+                            {
+                                break;
+                            }
+                        }
+                    }
+
+                    segmentProgress = newd / segd;
+
+                    totalDistance += distance;
+                    //Debug.Log("total: " + totalDistance + " offset: " + segmentProgress + " segDistance: " + newd + " segLength: " + segd);
+                }
+
+
+                if (region.island != null && node != null)
+                {
+                    Vector2 a, b;
+                    region.island.SegmentToPoints(node.Value, out a, out b);
+                    _position = Vector2.Lerp(a, b, segmentProgress);
+                    _normal = (b - a).normalized;
+                    _normal.Set(-_normal.y, _normal.x);
+                    _isInRegion = (totalDistance >= 0) && (totalDistance <= length);
+                }
             }
-
-            segmentProgress = newd / segd;
-
-            totalDistance += distance;
-            //Debug.Log("total: " + totalDistance + " offset: " + segmentProgress + " segDistance: " + newd + " segLength: " + segd);
-         }
-
-
-
-         Vector2 a, b;
-         region.island.SegmentToPoints(node.Value, out a, out b);
-         _position = Vector2.Lerp(a, b, segmentProgress);
-         _normal = (b - a).normalized;
-         _normal.Set(-_normal.y, _normal.x);
-         _isInRegion = (totalDistance >= 0) && (totalDistance <= length);
       }
    }
 
@@ -358,14 +374,19 @@ public class IsoSurfaceRegionEditor : Editor
 
    override public void OnInspectorGUI() {
       IsoSurfaceRegion region = (IsoSurfaceRegion)target;
-      region.color = EditorGUILayout.ColorField(region.color);
-      if (region.island.closed) {
-         if (GUILayout.Button("Flip")) {
-            region.Flip();
-            region.FixRegion();
-            EditorUtility.SetDirty(region);
-         }
-      }
+        if (region != null)
+        {
+            region.color = EditorGUILayout.ColorField(region.color);
+            if (region.island != null && region.island.closed)
+            {
+                if (GUILayout.Button("Flip"))
+                {
+                    region.Flip();
+                    region.FixRegion();
+                    EditorUtility.SetDirty(region);
+                }
+            }
+        }
    }
 }
 #endif

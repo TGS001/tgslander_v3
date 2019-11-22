@@ -152,9 +152,12 @@ public class AstronautController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (rescuable && Vector2.SqrMagnitude(lander.transform.position - transform.position) < rescueSize * rescueSize)
+        if (lander != null)
         {
-            Rescue();
+            if (rescuable && Vector2.SqrMagnitude(lander.transform.position - transform.position) < rescueSize * rescueSize)
+            {
+                Rescue();
+            }
         }
     }
 
