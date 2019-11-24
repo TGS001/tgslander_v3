@@ -11,6 +11,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/LoadingScreen.unity
     guid: 898346fe0a9a9c54d93d39c96bb59d6a
+  - enabled: 1
+    path: Assets/_Scenes/LanderWorkshop.unity
+    guid: 308365215bdd94f75abda441b6b3827b
+  - enabled: 1
+    path: Assets/_Scenes/LevelSelect.unity
+    guid: b59b418000065ad4ca5c8704d5d8d361
   - enabled: 0
     path: Assets/_Scenes/Testing/SCENES_TESTS/landerscene.unity
     guid: dff28f8a1a3fc6541abca055b29574dc
@@ -47,9 +53,6 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/_Scenes/Testing/SCENES_DemoLevels/tutorial/demoTutorialDraft2_jigglefix.unity
     guid: 615fcab05d3354b268c19e55ed84dee2
-  - enabled: 1
-    path: Assets/_Scenes/DemoLevelSelect.unity
-    guid: 308365215bdd94f75abda441b6b3827b
   - enabled: 0
     path: Assets/_Scenes/Testing/SCENES_TESTS/Light_test_v01.unity
     guid: a87442dfe130547c0b5ac4b60cdfefef
