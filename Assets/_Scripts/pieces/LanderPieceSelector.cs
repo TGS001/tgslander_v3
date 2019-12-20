@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class DemoPieceSelector : MonoBehaviour
+public class LanderPieceSelector : MonoBehaviourSingletonPersistent<LanderPieceSelector>
 {
     public LanderPreview preview;
 
@@ -43,6 +43,29 @@ public class DemoPieceSelector : MonoBehaviour
                 lander.wing = wing;
 
             lander.Generate();
+        }
+    }
+
+    public void SetupLander(ModularLander lander)
+    {
+        if (lander != null)
+        {
+            //if (hull)
+            //    lander.hull = hull;
+            //if (engine)
+            //    lander.engine = engine;
+            //if (shield)
+            //    lander.shield = shield;
+            //if (strut)
+            //    lander.strut = strut;
+            //if (thruster)
+            //    lander.thruster = thruster;
+            //if (weapon)
+            //    lander.weapon = weapon;
+            //if (wing)
+            //    lander.wing = wing;
+
+            lander.ReSetup(this);
         }
     }
 
@@ -129,7 +152,7 @@ public class DemoPieceSelector : MonoBehaviour
 
     private void OnDestroy()
     {
-        SceneManager.sceneLoaded -= SetupLander;
+//        SceneManager.sceneLoaded -= SetupLander;
     }
 
     private void Preview() {
@@ -141,19 +164,19 @@ public class DemoPieceSelector : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        DemoPieceSelector[] ps = FindObjectsOfType<DemoPieceSelector>();
-        if (ps.Length > 1)
-        {
-            foreach (DemoPieceSelector s in ps)
-            {
-                if (!s.Equals(this))
-                {
-                    DestroyImmediate(s.gameObject);
-                }
-            }
-        }
-        DontDestroyOnLoad(gameObject);
-        SceneManager.sceneLoaded += SetupLander;
+        //LanderPieceSelector[] ps = FindObjectsOfType<LanderPieceSelector>();
+        //if (ps.Length > 1)
+        //{
+        //    foreach (LanderPieceSelector s in ps)
+        //    {
+        //        if (!s.Equals(this))
+        //        {
+        //            DestroyImmediate(s.gameObject);
+        //        }
+        //    }
+        //}
+        //DontDestroyOnLoad(gameObject);
+//        SceneManager.sceneLoaded += SetupLander;
         Preview();
     }
 }

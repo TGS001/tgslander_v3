@@ -164,7 +164,7 @@ public class ModularLander : MonoBehaviour
         DestroyImmediate(xo);
     }
 
-    void expand()
+    void expand(LanderPieceSelector pieceSelector = null)
     {
         if (!expanded)
         {
@@ -183,13 +183,29 @@ public class ModularLander : MonoBehaviour
                         switch (node.expansion)
                         {
                             case ExpansionType.Engine:
-                                if (engine != null)
+                                if (pieceSelector != null && pieceSelector.engine != null)
+                                {
+                                    if (engine != null)
+                                    {
+                                        Destroy(engine.gameObject);
+                                    }
+                                    expandNode(node, pieceSelector.engine.gameObject);
+                                }
+                                else if (engine != null)
                                 {
                                     expandNode(node, engine.gameObject);
                                 }
                                 break;
                             case ExpansionType.Hull:
-                                if (hull != null)
+                                if (pieceSelector != null && pieceSelector.hull != null)
+                                {
+                                    if (hull != null)
+                                    {
+                                        Destroy(hull.gameObject);
+                                    }
+                                    expandNode(node, pieceSelector.hull.gameObject);
+                                }
+                                else if (hull != null)
                                 {
                                     expandNode(node, hull.gameObject);
                                 }
@@ -259,12 +275,20 @@ public class ModularLander : MonoBehaviour
         }
     }
 
-    public void Generate()
+    public void Generate(LanderPieceSelector pieceSelector = null)
     {
         Clear();
         Vector3 startScale = root.localScale;
         root.localScale = Vector3.one;
-        expand();
+        expand(pieceSelector);
+        root.localScale = startScale;
+    }
+
+    public void ReSetup(LanderPieceSelector pieceSelector)
+    {
+        Vector3 startScale = root.localScale;
+        root.localScale = Vector3.one;
+        expand(pieceSelector);
         root.localScale = startScale;
     }
 
@@ -321,7 +345,14 @@ public class ModularLander : MonoBehaviour
     void Start()
     {
         PlaySessionControl.player = this;
-        Initialize();
+        //if (GlobalGameManager.Instance != null)
+        //{
+        //    GlobalGameManager.Instance.SetupCurrentLanderWithParts(this);
+        //}
+        //else
+        //{
+            Initialize();
+        //}
 
         // Setting the control scheme
 #if UNITY_IOS || UNITY_ANDROID

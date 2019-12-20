@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class DemoPartCollection : MonoBehaviour
 {
-    public DemoPieceSelector selector;
+    public LanderPieceSelector selector;
     List<DemoPartButton> buttons = new List<DemoPartButton>();
     internal void Add(DemoPartButton demoPartButton)
     {

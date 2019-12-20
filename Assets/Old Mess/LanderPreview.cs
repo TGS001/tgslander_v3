@@ -18,7 +18,7 @@ public class LanderPreview : MonoBehaviour {
         DestroyImmediate(xo);
     }
 
-    void expand(DemoPieceSelector selector) {
+    void expand(LanderPieceSelector selector) {
         if (!expanded) {
             ExpansionNode[] nodes = GetComponentsInChildren<ExpansionNode>();
             int lastNodeCount = 1;
@@ -89,7 +89,7 @@ public class LanderPreview : MonoBehaviour {
         rn.Reset();
     }
 
-    public void Generate(DemoPieceSelector selector) {
+    public void Generate(LanderPieceSelector selector) {
         Clear();
         Vector3 startScale = transform.localScale;
         transform.localScale = Vector3.one;
@@ -97,7 +97,7 @@ public class LanderPreview : MonoBehaviour {
         transform.localScale = startScale;
     }
 
-    public void Preview(DemoPieceSelector selector) {
+    public void Preview(LanderPieceSelector selector) {
         Generate(selector);
     }
 }
