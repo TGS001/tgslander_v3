@@ -90,16 +90,16 @@ public class ObjectiveMarker : MonoBehaviour {
     }
 
     void OnDestroy() {
-        //if (!failOnly) {
-        //    if (completeOnDestroy) {
-        //        SetComplete(true);
-        //    } else {
-        //        if (!_complete) {
-        //            SetFailed(true);
-        //        }
-        //    }
-        //} else {
-        //    SetFailed(true);
-        //}
+        if (!failOnly) {
+            if (completeOnDestroy) {
+                SetComplete(true);
+            } else {
+                if (!_complete) {
+                    SetFailed(true);
+                }
+            }
+        } else {
+            SetFailed(true);
+        }
     }
 }
