@@ -1040,7 +1040,7 @@ public class TerrainMesh : MonoBehaviour {
             pathingMap.CreateFromTerrain(this);
         }
 
-        /*if (constraints != null) {
+        if (constraints != null) {
             constraints.Clear();
             constraints.min = min;
             constraints.max = max;
@@ -1050,7 +1050,7 @@ public class TerrainMesh : MonoBehaviour {
                 Zone b = GetZone(link.b);
                 constraints.AddSegment(a.position, b.position, a.radius, b.radius);
             }
-        }*/
+        }
     }
 
     public void Generate() {
