@@ -28,7 +28,7 @@ public class RegionPainter : MonoBehaviour
 
     void OnValidate()
     {
-        //Debug.Log("OnValidate");
+        Debug.Log("OnValidate");
         step = Mathf.Max(step, 0.1f);
         stepScatter = Mathf.Abs(stepScatter);
         OnRegionChanged();
@@ -36,7 +36,7 @@ public class RegionPainter : MonoBehaviour
 
     void OnRegionChanged()
     {
-        //Debug.Log("OnRegionChanged");
+        Debug.Log("OnRegionChanged");
         if (canChange)
         {
             changed = true;
@@ -57,7 +57,7 @@ public class RegionPainter : MonoBehaviour
                     DestroyImmediate(transform.GetChild(i).gameObject);
                 }
             }
-            //transform.DetachChildren();
+            transform.DetachChildren();
             IsoSurfaceRegion.Stepper stepper = new IsoSurfaceRegion.Stepper(region);
             stepper.Step(step * 0.5f);
             IsoSurfaceRegion.Stepper spawner;
