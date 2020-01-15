@@ -10577,7 +10577,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Tut_lvl_7
+          m_StringArgument: Tut_lvl_8
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
@@ -11794,6 +11794,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stage 9
       objectReference: {fileID: 0}
+    - target: {fileID: 6414416286724333034, guid: 0db677172d99e1545a3142c098ee3b2d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6414416287260665480, guid: 0db677172d99e1545a3142c098ee3b2d,
         type: 3}
       propertyPath: m_Name
@@ -11898,6 +11903,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_FontData.m_MinSize
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6414416287260665486, guid: 0db677172d99e1545a3142c098ee3b2d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Tut_lvl_9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6414416287740123221, guid: 0db677172d99e1545a3142c098ee3b2d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Tut_lvl_4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0db677172d99e1545a3142c098ee3b2d, type: 3}

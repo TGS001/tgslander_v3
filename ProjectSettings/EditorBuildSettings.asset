@@ -21,17 +21,14 @@ EditorBuildSettings:
     path: Assets/_Scenes/Testing/SCENES_TESTS/landerscene.unity
     guid: dff28f8a1a3fc6541abca055b29574dc
   - enabled: 1
-    path: Assets/_Scenes/Demo_Level_1.unity
-    guid: 26a19ee07822c41a789835da6b39dec4
-  - enabled: 1
-    path: Assets/_Scenes/Demo_Level_2.unity
-    guid: 1ba47d135bc4e4bcc97270d10f6bf47e
-  - enabled: 1
     path: Assets/_Scenes/Tut_lvl_1.unity
     guid: c2bf18c3d475e458cb3281c12d3bdec1
   - enabled: 1
     path: Assets/_Scenes/Tut_lvl_2.unity
     guid: b9f5a4d9cbba342b48fcd08fc4193315
+  - enabled: 1
+    path: Assets/_Scenes/Tut_lvl_3.unity
+    guid: fa59fe3ca83be46c787b588fa25ff666
   - enabled: 1
     path: Assets/_Scenes/Tut_lvl_4.unity
     guid: d65f04437d42b488d8d9d140551c1149
@@ -50,19 +47,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/Tut_lvl_9.unity
     guid: c228dceefe2f24336894572df17285ba
-  - enabled: 0
-    path: Assets/__DELETED_GUID_Trash/96a50f1a38b034abb988de2ca0a3cfae
-    guid: 96a50f1a38b034abb988de2ca0a3cfae
-  - enabled: 0
-    path: Assets/_Scenes/Testing/SCENES_DemoLevels/tutorial/demoTutorialDraft2_jigglefix.unity
-    guid: 615fcab05d3354b268c19e55ed84dee2
-  - enabled: 0
-    path: Assets/_Scenes/Testing/SCENES_TESTS/Light_test_v01.unity
-    guid: a87442dfe130547c0b5ac4b60cdfefef
-  - enabled: 0
-    path: Assets/_Scenes/Testing/SCENES_TESTS/test_mothership.unity
-    guid: 91cde5dee0f0d6844898457adb5d9dc2
-  - enabled: 0
-    path: Assets/_Scenes/Testing/SCENES_TESTS/tutorialScene.unity
-    guid: c0ed511eb69c9b545bbafd9101755032
   m_configObjects: {}

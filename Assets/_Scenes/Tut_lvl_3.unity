@@ -15842,6 +15842,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 797633682}
+  - component: {fileID: 797633683}
   m_Layer: 0
   m_Name: BackgroundMeshes
   m_TagString: Untagged
@@ -15944,6 +15945,102 @@ Transform:
   m_Father: {fileID: 176943268}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &797633683
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 797633681}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 285bbe8854b2142028dae16cd8a88db4, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: -0.78
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!43 &797822955
 Mesh:
   m_ObjectHideFlags: 0
@@ -16192,11 +16289,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 224603585454446642, guid: 36fe6ecbef03e534ab9657ff6abe56f9,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 224169868192981864, guid: 36fe6ecbef03e534ab9657ff6abe56f9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16287,6 +16379,11 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 224603585454446642, guid: 36fe6ecbef03e534ab9657ff6abe56f9,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 224259494664739080, guid: 36fe6ecbef03e534ab9657ff6abe56f9,
         type: 3}
       propertyPath: m_AnchorMin.x
@@ -16302,22 +16399,22 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 224445599181575102, guid: 36fe6ecbef03e534ab9657ff6abe56f9,
+    - target: {fileID: 224057553147216960, guid: 36fe6ecbef03e534ab9657ff6abe56f9,
         type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 224445599181575102, guid: 36fe6ecbef03e534ab9657ff6abe56f9,
+    - target: {fileID: 224057553147216960, guid: 36fe6ecbef03e534ab9657ff6abe56f9,
         type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 224057553147216960, guid: 36fe6ecbef03e534ab9657ff6abe56f9,
+    - target: {fileID: 224445599181575102, guid: 36fe6ecbef03e534ab9657ff6abe56f9,
         type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 224057553147216960, guid: 36fe6ecbef03e534ab9657ff6abe56f9,
+    - target: {fileID: 224445599181575102, guid: 36fe6ecbef03e534ab9657ff6abe56f9,
         type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
