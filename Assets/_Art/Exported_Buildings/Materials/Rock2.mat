@@ -4,8 +4,9 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: Rock2
   m_Shader: {fileID: 4800000, guid: 5e49c44087d39da478de9ad3a350b305, type: 3}
   m_ShaderKeywords: VCM_ON _EMISSION _NORMALMAP
@@ -39,7 +40,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: be7d0518a48794af1a85cfd6b0f221d0, type: 3}
+        m_Texture: {fileID: 2800000, guid: 9253a7ea470c7453fbed3fb27b94b15c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
