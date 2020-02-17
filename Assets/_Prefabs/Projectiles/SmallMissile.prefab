@@ -220,7 +220,7 @@ MonoBehaviour:
   closeRadius: 0.5
   explodeRadius: 2
   collideRadius: 0.1
-  wanderAmount: 0.488
+  wanderAmount: 0.21
   wanderSpeed: 30
   splashDamage: 5
   directDamageBonus: 10
