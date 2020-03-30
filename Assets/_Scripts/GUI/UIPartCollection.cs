@@ -3,11 +3,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DemoPartCollection : MonoBehaviour
+public class UIPartCollection : MonoBehaviour
 {
     public LanderPieceSelector selector;
-    List<DemoPartButton> buttons = new List<DemoPartButton>();
-    internal void Add(DemoPartButton demoPartButton)
+    List<UIPartButton> buttons = new List<UIPartButton>();
+    internal void Add(UIPartButton demoPartButton)
     {
         buttons.Add(demoPartButton);
         if (selector)
@@ -20,10 +20,10 @@ public class DemoPartCollection : MonoBehaviour
         }
     }
 
-    internal void Pick(DemoPartButton demoPartButton)
+    internal void Pick(UIPartButton demoPartButton)
     {
         selector.SetPart(demoPartButton.part);
-        foreach (DemoPartButton b in buttons)
+        foreach (UIPartButton b in buttons)
         {
             if (b != demoPartButton && b.part && b.part.SameType(demoPartButton.part))
             {

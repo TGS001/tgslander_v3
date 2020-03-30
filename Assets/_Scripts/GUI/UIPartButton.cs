@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class DemoPartButton : MonoBehaviour {
-    public DemoPartCollection collection;
+public class UIPartButton : MonoBehaviour {
+    public UIPartCollection collection;
     public Image background;
     public Color selected = Color.green;
     public Color notSelected = Color.black;
