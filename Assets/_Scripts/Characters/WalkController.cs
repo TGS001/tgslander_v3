@@ -66,23 +66,26 @@ public class WalkController : MonoBehaviour {
 
     private void FixedUpdate()
     {
-        bool onGround = (body.Cast(Vector2.down, raycastResults, 0.1f) > 0);
+        bool onGround = true;
+        if (body != null) { 
+            onGround = (body.Cast(Vector2.down, raycastResults, 0.1f) > 0);
 
-        if (onGround)
-        {
-            Vector2 walkAccel = Vector2.zero;
-            walkAccel.x = (targetWalkSpeed - body.velocity.x) * Time.fixedDeltaTime;
-            if (jump)
+            if (onGround)
             {
-                walkAccel.y = jumpSpeed;
+                Vector2 walkAccel = Vector2.zero;
+                walkAccel.x = (targetWalkSpeed - body.velocity.x) * Time.fixedDeltaTime;
+                if (jump)
+                {
+                    walkAccel.y = jumpSpeed;
+                }
+                body.velocity += walkAccel;
+                body.gravityScale = 0f;
+                //Debug.DrawRay(transform.position, Vector3.up);
             }
-            body.velocity += walkAccel;
-            body.gravityScale = 0f;
-            //Debug.DrawRay(transform.position, Vector3.up);
-        }
-        else
-        {
-            body.gravityScale = 1;
+            else
+            {
+                body.gravityScale = 1;
+            }
         }
         jump = false;
         if (Mathf.Abs(targetWalkSpeed) > 0.01f) {
@@ -102,14 +105,17 @@ public class WalkController : MonoBehaviour {
             pivot.localEulerAngles = euler;
         }
 
-        if (targetWalkSpeed == 0)
+        if (anim != null)
         {
-            anim.SetFloat(walkSpeedID, 0);
+            if (targetWalkSpeed == 0)
+            {
+                anim.SetFloat(walkSpeedID, 0);
+            }
+            else
+            {
+                anim.SetFloat(walkSpeedID, Mathf.Abs(body.velocity.x));
+            }
+            anim.SetBool(onGroundID, onGround);
         }
-        else
-        {
-            anim.SetFloat(walkSpeedID, Mathf.Abs(body.velocity.x));
-        }
-        anim.SetBool(onGroundID, onGround);
     }
 }

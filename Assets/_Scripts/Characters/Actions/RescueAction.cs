@@ -13,11 +13,22 @@ public class RescueAction : AstronautAction {
 
     public override bool Possible()
     {
-        return lander.Landed() && workSpace.col.OverlapPoint(lander.transform.position);
+        if (lander != null)
+        {
+            return lander.Landed() && workSpace.col.OverlapPoint(lander.transform.position);
+        }
+        else
+        {
+            return false;
+        }
     }
 
     public override bool Complete(AstronautController astro)
     {
+        if (astro != null)
+        {
+            return astro.isRescued;
+        }
         return false;
     }
 

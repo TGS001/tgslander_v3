@@ -28,7 +28,7 @@ public class RegionPainter : MonoBehaviour
 
     void OnValidate()
     {
-        Debug.Log("OnValidate");
+//        Debug.Log("OnValidate");
         step = Mathf.Max(step, 0.1f);
         stepScatter = Mathf.Abs(stepScatter);
         OnRegionChanged();
@@ -36,7 +36,7 @@ public class RegionPainter : MonoBehaviour
 
     void OnRegionChanged()
     {
-        Debug.Log("OnRegionChanged");
+//        Debug.Log("OnRegionChanged");
         if (canChange)
         {
             changed = true;

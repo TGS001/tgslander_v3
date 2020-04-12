@@ -385,7 +385,7 @@ public class ModularLander : MonoBehaviour
                     break;
             }
         }
-        Debug.Log(GetComponent<Rigidbody2D>().angularVelocity);
+//        Debug.Log(GetComponent<Rigidbody2D>().angularVelocity);
     }
 
     // With the controller input, create an update that relies on time rather than frame count
@@ -614,7 +614,7 @@ public class ModularLander : MonoBehaviour
             if (forward)
             {
                 thrusters.SetLinearControl(transform.up, 0, 1);
-                Debug.Log(thrusters.velocity.y);
+//                Debug.Log(thrusters.velocity.y);
             }
             else
             {

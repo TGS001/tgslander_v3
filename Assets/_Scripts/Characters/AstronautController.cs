@@ -81,13 +81,25 @@ public class AstronautController : MonoBehaviour
         }
     }
 
+    public bool isRescued {  get
+        {
+            if (marker != null)
+            {
+                return marker.complete;
+            }
+            else return false;
+        }
+    }
+
     private ModularLander lander;
     private WalkController walk;
     private Animator anim;
+    private ObjectiveMarker marker;
+    Rigidbody2D rb;
 
     public void Rescue()
     {
-        if (rescuable)
+        if (rescuable && marker != null && rb != null)
         {
             rescuable = false;
             SetAction(null);
@@ -109,9 +121,9 @@ public class AstronautController : MonoBehaviour
                 fx.size = rescueSize;
                 fx.magnitude = 1;
             }
-            GetComponent<ObjectiveMarker>().complete = true;
+            marker.complete = true;
             enabled = false;
-            GetComponent<Rigidbody2D>().simulated = false;
+            rb.simulated = false;
             Invoke("FinishRescue", rescueAnimTime);
         }
     }
@@ -126,11 +138,16 @@ public class AstronautController : MonoBehaviour
         walk = GetComponent<WalkController>();
         lander = FindObjectOfType<ModularLander>();
         anim = GetComponentInChildren<Animator>();
+        marker = GetComponent<ObjectiveMarker>();
+        rb = GetComponent<Rigidbody2D>();
     }
 
     public void Walk(float direction)
     {
-        walk.Walk(direction);
+        if (walk != null)
+        {
+            walk.Walk(direction);
+        }
     }
 
     public void SetAction(AstronautAction newAction)
