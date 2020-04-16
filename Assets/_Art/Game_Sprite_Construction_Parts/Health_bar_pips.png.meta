@@ -1,74 +1,201 @@
 fileFormatVersion: 2
 guid: 49c2a6a40ce6b4c768b01d95603fb607
-timeCreated: 1502131791
-licenseType: Free
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: Health_bar_pips_0
-    21300002: Health_bar_pips_1
-    21300004: Health_bar_pips_2
-    21300006: Health_bar_pips_3
-    21300008: Health_bar_pips_4
-    21300010: Health_bar_pips_5
-    21300012: Health_bar_pips_6
-    21300014: Health_bar_pips_7
-    21300016: Health_bar_pips_8
-    21300018: Health_bar_pips_9
-    21300020: Health_bar_pips_10
-    21300022: Health_bar_pips_11
-    21300024: Health_bar_pips_12
-    21300026: Health_bar_pips_13
-    21300028: Health_bar_pips_14
-    21300030: Health_bar_pips_15
-    21300032: Health_bar_pips_16
-    21300034: Health_bar_pips_17
-    21300036: Health_bar_pips_18
-    21300038: Health_bar_pips_19
-    21300040: Health_bar_pips_20
-    21300042: Health_bar_pips_21
-    21300044: Health_bar_pips_22
-    21300046: Health_bar_pips_23
-    21300048: Health_bar_pips_24
-    21300050: Health_bar_pips_25
-    21300052: Health_bar_pips_26
-    21300054: Health_bar_pips_27
-    21300056: Health_bar_pips_28
-    21300058: Health_bar_pips_29
-    21300060: Health_bar_pips_30
-    21300062: Health_bar_pips_31
-    21300064: Health_bar_pips_32
-    21300066: Health_bar_pips_33
-    21300068: Health_bar_pips_34
-    21300070: Health_bar_pips_35
-    21300072: Health_bar_pips_36
-    21300074: Health_bar_pips_37
-    21300076: Health_bar_pips_38
-    21300078: Health_bar_pips_39
-    21300080: Health_bar_pips_40
-    21300082: Health_bar_pips_41
-    21300084: Health_bar_pips_42
-    21300086: Health_bar_pips_43
-    21300088: Health_bar_pips_44
-    21300090: Health_bar_pips_45
-    21300092: Health_bar_pips_46
-    21300094: Health_bar_pips_47
-    21300096: Health_bar_pips_48
-    21300098: Health_bar_pips_49
-    21300100: Health_bar_pips_50
-    21300102: Health_bar_pips_51
-    21300104: Health_bar_pips_52
-    21300106: Health_bar_pips_53
-    21300108: Health_bar_pips_54
-    21300110: Health_bar_pips_55
-    21300112: Health_bar_pips_56
-    21300114: Health_bar_pips_57
-    21300116: Health_bar_pips_58
-    21300118: Health_bar_pips_59
-    21300120: Health_bar_pips_60
-    21300122: Health_bar_pips_61
-    21300124: Health_bar_pips_62
-    21300126: Health_bar_pips_63
-  serializedVersion: 4
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Health_bar_pips_0
+  - first:
+      213: 21300002
+    second: Health_bar_pips_1
+  - first:
+      213: 21300004
+    second: Health_bar_pips_2
+  - first:
+      213: 21300006
+    second: Health_bar_pips_3
+  - first:
+      213: 21300008
+    second: Health_bar_pips_4
+  - first:
+      213: 21300010
+    second: Health_bar_pips_5
+  - first:
+      213: 21300012
+    second: Health_bar_pips_6
+  - first:
+      213: 21300014
+    second: Health_bar_pips_7
+  - first:
+      213: 21300016
+    second: Health_bar_pips_8
+  - first:
+      213: 21300018
+    second: Health_bar_pips_9
+  - first:
+      213: 21300020
+    second: Health_bar_pips_10
+  - first:
+      213: 21300022
+    second: Health_bar_pips_11
+  - first:
+      213: 21300024
+    second: Health_bar_pips_12
+  - first:
+      213: 21300026
+    second: Health_bar_pips_13
+  - first:
+      213: 21300028
+    second: Health_bar_pips_14
+  - first:
+      213: 21300030
+    second: Health_bar_pips_15
+  - first:
+      213: 21300032
+    second: Health_bar_pips_16
+  - first:
+      213: 21300034
+    second: Health_bar_pips_17
+  - first:
+      213: 21300036
+    second: Health_bar_pips_18
+  - first:
+      213: 21300038
+    second: Health_bar_pips_19
+  - first:
+      213: 21300040
+    second: Health_bar_pips_20
+  - first:
+      213: 21300042
+    second: Health_bar_pips_21
+  - first:
+      213: 21300044
+    second: Health_bar_pips_22
+  - first:
+      213: 21300046
+    second: Health_bar_pips_23
+  - first:
+      213: 21300048
+    second: Health_bar_pips_24
+  - first:
+      213: 21300050
+    second: Health_bar_pips_25
+  - first:
+      213: 21300052
+    second: Health_bar_pips_26
+  - first:
+      213: 21300054
+    second: Health_bar_pips_27
+  - first:
+      213: 21300056
+    second: Health_bar_pips_28
+  - first:
+      213: 21300058
+    second: Health_bar_pips_29
+  - first:
+      213: 21300060
+    second: Health_bar_pips_30
+  - first:
+      213: 21300062
+    second: Health_bar_pips_31
+  - first:
+      213: 21300064
+    second: Health_bar_pips_32
+  - first:
+      213: 21300066
+    second: Health_bar_pips_33
+  - first:
+      213: 21300068
+    second: Health_bar_pips_34
+  - first:
+      213: 21300070
+    second: Health_bar_pips_35
+  - first:
+      213: 21300072
+    second: Health_bar_pips_36
+  - first:
+      213: 21300074
+    second: Health_bar_pips_37
+  - first:
+      213: 21300076
+    second: Health_bar_pips_38
+  - first:
+      213: 21300078
+    second: Health_bar_pips_39
+  - first:
+      213: 21300080
+    second: Health_bar_pips_40
+  - first:
+      213: 21300082
+    second: Health_bar_pips_41
+  - first:
+      213: 21300084
+    second: Health_bar_pips_42
+  - first:
+      213: 21300086
+    second: Health_bar_pips_43
+  - first:
+      213: 21300088
+    second: Health_bar_pips_44
+  - first:
+      213: 21300090
+    second: Health_bar_pips_45
+  - first:
+      213: 21300092
+    second: Health_bar_pips_46
+  - first:
+      213: 21300094
+    second: Health_bar_pips_47
+  - first:
+      213: 21300096
+    second: Health_bar_pips_48
+  - first:
+      213: 21300098
+    second: Health_bar_pips_49
+  - first:
+      213: 21300100
+    second: Health_bar_pips_50
+  - first:
+      213: 21300102
+    second: Health_bar_pips_51
+  - first:
+      213: 21300104
+    second: Health_bar_pips_52
+  - first:
+      213: 21300106
+    second: Health_bar_pips_53
+  - first:
+      213: 21300108
+    second: Health_bar_pips_54
+  - first:
+      213: 21300110
+    second: Health_bar_pips_55
+  - first:
+      213: 21300112
+    second: Health_bar_pips_56
+  - first:
+      213: 21300114
+    second: Health_bar_pips_57
+  - first:
+      213: 21300116
+    second: Health_bar_pips_58
+  - first:
+      213: 21300118
+    second: Health_bar_pips_59
+  - first:
+      213: 21300120
+    second: Health_bar_pips_60
+  - first:
+      213: 21300122
+    second: Health_bar_pips_61
+  - first:
+      213: 21300124
+    second: Health_bar_pips_62
+  - first:
+      213: 21300126
+    second: Health_bar_pips_63
+  externalObjects: {}
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -76,6 +203,8 @@ TextureImporter:
     linearTexture: 0
     fadeOut: 0
     borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
     mipMapFadeDistanceStart: 1
     mipMapFadeDistanceEnd: 3
   bumpmap:
@@ -84,6 +213,8 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -91,10 +222,13 @@ TextureImporter:
   textureFormat: 1
   maxTextureSize: 2048
   textureSettings:
+    serializedVersion: 2
     filterMode: 0
     aniso: -1
-    mipBias: -1
-    wrapMode: 1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -103,57 +237,80 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
+  singleChannelComponent: 0
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  applyGammaDecoding: 1
   platformSettings:
-  - buildTarget: DefaultTexturePlatform
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 64
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-  - buildTarget: Standalone
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
     maxTextureSize: 64
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-  - buildTarget: iPhone
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: iPhone
     maxTextureSize: 64
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-  - buildTarget: Android
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
     maxTextureSize: 64
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-  - buildTarget: WebGL
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: WebGL
     maxTextureSize: 64
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -169,7 +326,15 @@ TextureImporter:
       pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 02305410000000000800000000000000
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Health_bar_pips_1
       rect:
@@ -182,7 +347,15 @@ TextureImporter:
       pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 22305410000000000800000000000000
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Health_bar_pips_2
       rect:
@@ -195,7 +368,15 @@ TextureImporter:
       pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 42305410000000000800000000000000
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Health_bar_pips_3
       rect:
@@ -208,7 +389,15 @@ TextureImporter:
       pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 62305410000000000800000000000000
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Health_bar_pips_4
       rect:
@@ -221,7 +410,15 @@ TextureImporter:
       pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 82305410000000000800000000000000
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Health_bar_pips_5
       rect:
@@ -234,7 +431,15 @@ TextureImporter:
       pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a2305410000000000800000000000000
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Health_bar_pips_6
       rect:
@@ -247,7 +452,15 @@ TextureImporter:
       pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c2305410000000000800000000000000
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Health_bar_pips_7
       rect:
@@ -260,9 +473,28 @@ TextureImporter:
       pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e2305410000000000800000000000000
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
