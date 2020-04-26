@@ -1,0 +1,250 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3205228579938826571
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3205228579938826565}
+  - component: {fileID: 3205228579938826570}
+  m_Layer: 0
+  m_Name: LevelStartDialogTrigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3205228579938826565
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3205228579938826571}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 341.5557, y: 551.552, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3205228579938826570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3205228579938826571}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdafd5c66e24c634da143d2e2241205a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activationsRemaining: 1
+  dialogPriority: 10
+  trigger: 1
+  conditions: []
+  actions:
+  - type: 1
+    puzzleNode: {fileID: 0}
+    objectiveMarker: {fileID: 0}
+    flightAI: {fileID: 0}
+    transform: {fileID: 0}
+    persona: {fileID: 0}
+    dialog: 
+    instruction: 
+    effect: {fileID: 114297235717222096, guid: f7bf08b7b87ddd348957b52c747f8d2e, type: 3}
+    speed: 0
+    idleSeconds: 0
+    seconds: 1
+    timeout: 0
+    size: 1
+    magnitude: 1
+    position: {x: 0, y: 0}
+  - type: 5
+    puzzleNode: {fileID: 0}
+    objectiveMarker: {fileID: 0}
+    flightAI: {fileID: 0}
+    transform: {fileID: 0}
+    persona: {fileID: 0}
+    dialog: 
+    instruction: 
+    effect: {fileID: 0}
+    speed: 0
+    idleSeconds: 0
+    seconds: 1
+    timeout: 0
+    size: 0
+    magnitude: 0
+    position: {x: 0, y: 0}
+  - type: 6
+    puzzleNode: {fileID: 0}
+    objectiveMarker: {fileID: 0}
+    flightAI: {fileID: 0}
+    transform: {fileID: 0}
+    persona: {fileID: 11400000, guid: 1ff7c5628756a174496ff48ed4c9e576, type: 2}
+    dialog: Heavy Damage! We're coming in hot!
+    instruction: 
+    effect: {fileID: 0}
+    speed: 0
+    idleSeconds: 0.2
+    seconds: 0
+    timeout: 0
+    size: 0
+    magnitude: 0
+    position: {x: 0, y: 0}
+  - type: 5
+    puzzleNode: {fileID: 0}
+    objectiveMarker: {fileID: 0}
+    flightAI: {fileID: 0}
+    transform: {fileID: 0}
+    persona: {fileID: 11400000, guid: 1ff7c5628756a174496ff48ed4c9e576, type: 2}
+    dialog: Heavy Damage! We're coming in hot!
+    instruction: 
+    effect: {fileID: 114960277274770788, guid: 238c0f88e490c6a4c9d5e65d51b35e46, type: 3}
+    speed: 0
+    idleSeconds: 0.2
+    seconds: 0.3
+    timeout: 0
+    size: 3
+    magnitude: 2
+    position: {x: 0, y: 0}
+  - type: 1
+    puzzleNode: {fileID: 0}
+    objectiveMarker: {fileID: 0}
+    flightAI: {fileID: 0}
+    transform: {fileID: 0}
+    persona: {fileID: 11400000, guid: 1ff7c5628756a174496ff48ed4c9e576, type: 2}
+    dialog: Heavy Damage! We're coming in hot!
+    instruction: 
+    effect: {fileID: 114297235717222096, guid: f7bf08b7b87ddd348957b52c747f8d2e, type: 3}
+    speed: 0
+    idleSeconds: 0.2
+    seconds: 0
+    timeout: 0
+    size: 1.5
+    magnitude: 1
+    position: {x: 0, y: 0}
+  - type: 5
+    puzzleNode: {fileID: 0}
+    objectiveMarker: {fileID: 0}
+    flightAI: {fileID: 0}
+    transform: {fileID: 0}
+    persona: {fileID: 11400000, guid: 1ff7c5628756a174496ff48ed4c9e576, type: 2}
+    dialog: Heavy Damage! We're coming in hot!
+    instruction: 
+    effect: {fileID: 114960277274770788, guid: 238c0f88e490c6a4c9d5e65d51b35e46, type: 3}
+    speed: 0
+    idleSeconds: 0.2
+    seconds: 0.5
+    timeout: 0
+    size: 6
+    magnitude: 2
+    position: {x: 0, y: 0}
+  - type: 6
+    puzzleNode: {fileID: 0}
+    objectiveMarker: {fileID: 0}
+    flightAI: {fileID: 0}
+    transform: {fileID: 0}
+    persona: {fileID: 11400000, guid: 1ff7c5628756a174496ff48ed4c9e576, type: 2}
+    dialog: Looks like there's a settlement here. We can borrow some of their ORBS
+      to repair the ship.
+    instruction: 
+    effect: {fileID: 0}
+    speed: 0
+    idleSeconds: 0.2
+    seconds: 0
+    timeout: 0
+    size: 0
+    magnitude: 0
+    position: {x: 0, y: 0}
+  - type: 7
+    puzzleNode: {fileID: 0}
+    objectiveMarker: {fileID: 0}
+    flightAI: {fileID: 0}
+    transform: {fileID: 0}
+    persona: {fileID: 11400000, guid: 1ff7c5628756a174496ff48ed4c9e576, type: 2}
+    dialog: Looks like there's a settlement here. We can borrow some of their ORBS
+      to repair the ship.
+    instruction: Land here
+    effect: {fileID: 0}
+    speed: 0
+    idleSeconds: 0.2
+    seconds: 0
+    timeout: 0
+    size: 0
+    magnitude: 0
+    position: {x: 0, y: 0}
+  - type: 7
+    puzzleNode: {fileID: 0}
+    objectiveMarker: {fileID: 0}
+    flightAI: {fileID: 0}
+    transform: {fileID: 0}
+    persona: {fileID: 11400000, guid: 1ff7c5628756a174496ff48ed4c9e576, type: 2}
+    dialog: Looks like there's a settlement here. We can borrow some of their ORBS
+      to repair the ship.
+    instruction: Land here
+    effect: {fileID: 0}
+    speed: 0
+    idleSeconds: 0.2
+    seconds: 0
+    timeout: 0
+    size: 0
+    magnitude: 0
+    position: {x: 0, y: 0}
+  - type: 7
+    puzzleNode: {fileID: 0}
+    objectiveMarker: {fileID: 0}
+    flightAI: {fileID: 0}
+    transform: {fileID: 0}
+    persona: {fileID: 11400000, guid: 1ff7c5628756a174496ff48ed4c9e576, type: 2}
+    dialog: Looks like there's a settlement here. We can borrow some of their ORBS
+      to repair the ship.
+    instruction: Place Orb
+    effect: {fileID: 0}
+    speed: 0
+    idleSeconds: 0.2
+    seconds: 0
+    timeout: 0
+    size: 0
+    magnitude: 0
+    position: {x: 0, y: 0}
+  - type: 7
+    puzzleNode: {fileID: 0}
+    objectiveMarker: {fileID: 0}
+    flightAI: {fileID: 0}
+    transform: {fileID: 0}
+    persona: {fileID: 11400000, guid: 1ff7c5628756a174496ff48ed4c9e576, type: 2}
+    dialog: Looks like there's a settlement here. We can borrow some of their ORBS
+      to repair the ship.
+    instruction: Place Orb
+    effect: {fileID: 0}
+    speed: 0
+    idleSeconds: 0.2
+    seconds: 0
+    timeout: 0
+    size: 0
+    magnitude: 0
+    position: {x: 0, y: 0}
+  - type: 6
+    puzzleNode: {fileID: 0}
+    objectiveMarker: {fileID: 0}
+    flightAI: {fileID: 0}
+    transform: {fileID: 0}
+    persona: {fileID: 11400000, guid: 1ff7c5628756a174496ff48ed4c9e576, type: 2}
+    dialog: Find some ORBS down there and bring them to the power harnesses by the
+      door. You might be able to open the door by landing on the platforms on either
+      side until they activate.
+    instruction: 
+    effect: {fileID: 0}
+    speed: 0
+    idleSeconds: 1
+    seconds: 0
+    timeout: 0
+    size: 0
+    magnitude: 0
+    position: {x: 0, y: 0}
+  comms: {fileID: 0}

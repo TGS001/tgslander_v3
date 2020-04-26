@@ -1,0 +1,215 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2081031327764661604
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2081031327764661607}
+  m_Layer: 0
+  m_Name: doorSparkEmitter1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2081031327764661607
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2081031327764661604}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0.08, y: -5.12, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2081031327889816649}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!1 &2081031327889816662
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2081031327889816649}
+  - component: {fileID: 2081031327889816648}
+  m_Layer: 0
+  m_Name: DoorTrigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2081031327889816649
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2081031327889816662}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.41960785, y: -4.092625, z: 0.1484375}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2081031327764661607}
+  - {fileID: 2081031328928648162}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2081031327889816648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2081031327889816662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdafd5c66e24c634da143d2e2241205a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activationsRemaining: 1
+  dialogPriority: 20
+  trigger: 2
+  conditions:
+  - type: 0
+    target: {fileID: 0}
+    objectives:
+    - {fileID: 0}
+    - {fileID: 0}
+    healthPercent: 0
+  actions:
+  - type: 1
+    puzzleNode: {fileID: 0}
+    objectiveMarker: {fileID: 0}
+    flightAI: {fileID: 0}
+    transform: {fileID: 2081031327764661607}
+    persona: {fileID: 0}
+    dialog: 
+    instruction: 
+    effect: {fileID: 114980772274650048, guid: a3c9f00dcb829a74c8b64954f99fcf3f, type: 3}
+    speed: 0
+    idleSeconds: 0.8
+    seconds: 0
+    timeout: 0
+    size: 2
+    magnitude: 4
+    position: {x: 0, y: 0}
+  - type: 5
+    puzzleNode: {fileID: 0}
+    objectiveMarker: {fileID: 0}
+    flightAI: {fileID: 0}
+    transform: {fileID: 0}
+    persona: {fileID: 0}
+    dialog: 
+    instruction: 
+    effect: {fileID: 0}
+    speed: 0
+    idleSeconds: 0.8
+    seconds: 1.2
+    timeout: 0
+    size: 0
+    magnitude: 0
+    position: {x: 0, y: 0}
+  - type: 2
+    puzzleNode: {fileID: 0}
+    objectiveMarker: {fileID: 0}
+    flightAI: {fileID: 0}
+    transform: {fileID: 0}
+    persona: {fileID: 0}
+    dialog: 
+    instruction: 
+    effect: {fileID: 0}
+    speed: 0
+    idleSeconds: 0.8
+    seconds: 0
+    timeout: 0
+    size: 0
+    magnitude: 0
+    position: {x: 0, y: 0}
+  - type: 6
+    puzzleNode: {fileID: 0}
+    objectiveMarker: {fileID: 0}
+    flightAI: {fileID: 0}
+    transform: {fileID: 0}
+    persona: {fileID: 11400000, guid: 1ff7c5628756a174496ff48ed4c9e576, type: 2}
+    dialog: Looks like this place is abandoned. Look out for hazards down there.
+    instruction: 
+    effect: {fileID: 0}
+    speed: 0
+    idleSeconds: 0.2
+    seconds: 0
+    timeout: 0
+    size: 0
+    magnitude: 0
+    position: {x: 0, y: 0}
+  - type: 4
+    puzzleNode: {fileID: 0}
+    objectiveMarker: {fileID: 0}
+    flightAI: {fileID: 0}
+    transform: {fileID: 0}
+    persona: {fileID: 0}
+    dialog: 
+    instruction: 
+    effect: {fileID: 0}
+    speed: 0
+    idleSeconds: 0.8
+    seconds: 0
+    timeout: 0
+    size: 0
+    magnitude: 0
+    position: {x: 0, y: 0}
+  - type: 1
+    puzzleNode: {fileID: 0}
+    objectiveMarker: {fileID: 0}
+    flightAI: {fileID: 0}
+    transform: {fileID: 2081031328928648162}
+    persona: {fileID: 0}
+    dialog: 
+    instruction: 
+    effect: {fileID: 114820479097166978, guid: 3236e7132b124534697cb55a4d7a83ec, type: 3}
+    speed: 0
+    idleSeconds: 0.8
+    seconds: 0
+    timeout: 0
+    size: 2
+    magnitude: 3
+    position: {x: 0, y: 0}
+  comms: {fileID: 0}
+--- !u!1 &2081031328928648163
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2081031328928648162}
+  m_Layer: 0
+  m_Name: doorSparkEmitter2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2081031328928648162
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2081031328928648163}
+  m_LocalRotation: {x: -0.5743705, y: -0.41243005, z: 0.41243017, w: 0.5743705}
+  m_LocalPosition: {x: 5.31, y: -5.66, z: 0}
+  m_LocalScale: {x: 1, y: 1.0000005, z: 1.0000005}
+  m_Children: []
+  m_Father: {fileID: 2081031327889816649}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -161.361, y: 89.99999, z: -90}
