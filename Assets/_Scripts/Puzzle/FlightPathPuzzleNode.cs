@@ -12,7 +12,10 @@ public class FlightPathPuzzleNode : PuzzleNode {
 
     public override void SetCompletion(bool state) {
         if (state) {
-            flyer.ExecutePath(path);
+            if (flyer != null)
+            {
+                flyer.ExecutePath(path);
+            }
         }
         base.SetCompletion(state);
     }

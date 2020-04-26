@@ -52,9 +52,11 @@ public class LandingPadObjective : MonoBehaviour {
                 enabled = false;
                 if (fuelSupply > 0)
                 {
-                    ModularLander lander = FindObjectOfType<ModularLander>();
-                    ThrustControl control = lander.GetComponent<ThrustControl>();
-                    control.Refuel(fuelSupply);
+                    if (PlaySessionControl.player != null)
+                    {
+                        ThrustControl control = PlaySessionControl.player.GetComponent<ThrustControl>();
+                        control.Refuel(fuelSupply);
+                    }
                 }
             }
         }
