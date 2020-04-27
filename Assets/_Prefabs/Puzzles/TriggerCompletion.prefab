@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 453454202587327431}
   - component: {fileID: 453454202587327430}
   m_Layer: 0
-  m_Name: CompletionTrigger
+  m_Name: TriggerCompletion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -60,7 +60,7 @@ MonoBehaviour:
     flightAI: {fileID: 0}
     transform: {fileID: 0}
     persona: {fileID: 11400000, guid: f22d46cc329f42d43843a61379b42a65, type: 2}
-    dialog: Well done! Let's see what else needs doing.
+    dialog: Well done! Prepping ship for EVAC. Get back up here!
     instruction: 
     effect: {fileID: 0}
     speed: 0
