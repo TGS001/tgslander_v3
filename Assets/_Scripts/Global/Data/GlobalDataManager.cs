@@ -5,13 +5,6 @@ using System;
 using System.Linq;
 
 public class GlobalDataManager : MonoBehaviourSingleton<GlobalDataManager> {
-	//public enum ECharacterSelection {
-	//	None,
-	//	Megaman,
-	//	PhoenixWright,
-	//	Dante
-	//}
-
     public static bool useHumanReadableSaveFiles = true;
     private static bool _isDataLoading = true;
     public static bool isDataLoading { get { return _isDataLoading; } }
