@@ -78,6 +78,24 @@ public class Life : MonoBehaviour
         Afflict(amount, multiplier, Vector2.zero);
     }
 
+    public void Heal(float amount)
+    {
+        if (amount > 0)
+        {
+            hitpoints = Mathf.Min(hitpoints + amount, maxHitpoints);
+            if (displaySlider != null)
+            {
+                displaySlider.value = Percent();
+            }
+
+            if (displayAnimator != null)
+            {
+                displayAnimator.SetFloat("damagePercent", 1 - percent);
+            }
+
+        }
+    }
+
     public void Afflict(float amount, float multiplier, Vector2 normal)
     {
         if ((Dead() && !canRevive) || PlaySessionControl.Invulnerable())
@@ -132,6 +150,17 @@ public class Life : MonoBehaviour
     public float Percent()
     {
         return (float)hitpoints / (float)maxHitpoints;
+    }
+
+    public static bool DoHeal(GameObject target, float amount)
+    {
+        Life m = target.GetComponentInParent<Life>();
+        if (m != null)
+        {
+            m.Heal(amount);
+            return true;
+        }
+        return false;
     }
 
     public static bool DoDamage(GameObject target, float amount)

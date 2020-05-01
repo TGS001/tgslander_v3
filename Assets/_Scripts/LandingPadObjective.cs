@@ -9,6 +9,7 @@ public class LandingPadObjective : MonoBehaviour {
     public GameObject scoreGroup;
     public float requiredTime = 1;
     public float fuelSupply = 500;
+    public float energySupply = 50;
     ObjectiveMarker marker;
     float timer = 0;
     bool landed = false;
@@ -49,7 +50,6 @@ public class LandingPadObjective : MonoBehaviour {
             {
                 marker.complete = true;
                 Score();
-                enabled = false;
                 if (fuelSupply > 0)
                 {
                     if (PlaySessionControl.player != null)
@@ -58,6 +58,15 @@ public class LandingPadObjective : MonoBehaviour {
                         control.Refuel(fuelSupply);
                     }
                 }
+                if (energySupply > 0)
+                {
+                    if (PlaySessionControl.player != null)
+                    {
+                        Life.DoHeal(PlaySessionControl.player.gameObject, energySupply);
+                    }
+                }
+                enabled = false;
+
             }
         }
     }
