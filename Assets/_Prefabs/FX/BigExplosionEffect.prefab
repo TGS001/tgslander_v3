@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4306424182056792}
   - component: {fileID: 198212614029308830}
   - component: {fileID: 199394863037918432}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: DerisFire
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4597,6 +4597,7 @@ ParticleSystemRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4656,7 +4657,7 @@ GameObject:
   - component: {fileID: 4643023075961830}
   - component: {fileID: 198465529622652554}
   - component: {fileID: 199481045663599986}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: DebrisSmoke
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9260,6 +9261,7 @@ ParticleSystemRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -9319,7 +9321,7 @@ GameObject:
   - component: {fileID: 4792955087194246}
   - component: {fileID: 198052405458111740}
   - component: {fileID: 199399382798250468}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Debris
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13928,6 +13930,7 @@ ParticleSystemRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -13987,7 +13990,7 @@ GameObject:
   - component: {fileID: 4252439700442300}
   - component: {fileID: 198926591389719616}
   - component: {fileID: 199513923914418524}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Fire
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18604,6 +18607,7 @@ ParticleSystemRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -18663,7 +18667,7 @@ GameObject:
   - component: {fileID: 4814697282057206}
   - component: {fileID: 198677886164288734}
   - component: {fileID: 199321956109877298}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Embers
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23289,6 +23293,7 @@ ParticleSystemRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -23348,7 +23353,7 @@ GameObject:
   - component: {fileID: 4805187537824960}
   - component: {fileID: 198688122844570488}
   - component: {fileID: 199766543768525082}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28100,6 +28105,7 @@ ParticleSystemRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -28167,7 +28173,7 @@ GameObject:
   - component: {fileID: 114137605941998470}
   - component: {fileID: 114629551945942926}
   - component: {fileID: 114757677236720964}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: BigExplosionEffect
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32771,6 +32777,7 @@ ParticleSystemRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -33030,7 +33037,7 @@ GameObject:
   - component: {fileID: 4973047491928566}
   - component: {fileID: 198150977003642954}
   - component: {fileID: 199679689227295266}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: ShockWave
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37938,6 +37945,7 @@ ParticleSystemRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -37997,7 +38005,7 @@ GameObject:
   - component: {fileID: 4795405025856054}
   - component: {fileID: 198231698513444486}
   - component: {fileID: 199824643098639696}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: DerisFireEnd
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42641,6 +42649,7 @@ ParticleSystemRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -42700,7 +42709,7 @@ GameObject:
   - component: {fileID: 4411980527787716}
   - component: {fileID: 198498511777065054}
   - component: {fileID: 199385512287591110}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: DebrisSmokeEnd
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47362,6 +47371,7 @@ ParticleSystemRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
