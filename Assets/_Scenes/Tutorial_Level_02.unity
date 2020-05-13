@@ -465,6 +465,35 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   a: 16
   b: 17
+--- !u!1 &122731064 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7014464371998818606, guid: 1beb6e3dd03704ab6971de72e7ab8393,
+    type: 3}
+  m_PrefabInstance: {fileID: 756615683}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &122731068 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7510212511176916726, guid: 1beb6e3dd03704ab6971de72e7ab8393,
+    type: 3}
+  m_PrefabInstance: {fileID: 756615683}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &122731069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 122731064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4217d4673d4b6d548b610b9c8530ed02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  complete: 1
+  disableOnComplete: 0
+  canReceive: 1
+  downstream: []
+  marker: {fileID: 1930922823}
 --- !u!43 &122939159
 Mesh:
   m_ObjectHideFlags: 0
@@ -648,7 +677,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 285776042}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1143708656}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2b26a104580d97c44b9ecceb8b498abe, type: 3}
@@ -1031,6 +1060,141 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   a: 4
   b: 5
+--- !u!1001 &227920545
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 681799840}
+    m_Modifications:
+    - target: {fileID: 453454202587327430, guid: 8726fa928416e2445b2c1e21faa56061,
+        type: 3}
+      propertyPath: conditions.Array.data[0].objectives.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 453454202587327430, guid: 8726fa928416e2445b2c1e21faa56061,
+        type: 3}
+      propertyPath: actions.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 453454202587327430, guid: 8726fa928416e2445b2c1e21faa56061,
+        type: 3}
+      propertyPath: conditions.Array.data[0].objectives.Array.data[0]
+      value: 
+      objectReference: {fileID: 1930922823}
+    - target: {fileID: 453454202587327430, guid: 8726fa928416e2445b2c1e21faa56061,
+        type: 3}
+      propertyPath: conditions.Array.data[0].objectives.Array.data[1]
+      value: 
+      objectReference: {fileID: 147058923}
+    - target: {fileID: 453454202587327430, guid: 8726fa928416e2445b2c1e21faa56061,
+        type: 3}
+      propertyPath: actions.Array.data[2].puzzleNode
+      value: 
+      objectReference: {fileID: 1927180330}
+    - target: {fileID: 453454202587327430, guid: 8726fa928416e2445b2c1e21faa56061,
+        type: 3}
+      propertyPath: actions.Array.data[3].flightAI
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 453454202587327430, guid: 8726fa928416e2445b2c1e21faa56061,
+        type: 3}
+      propertyPath: actions.Array.data[3].type
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 453454202587327430, guid: 8726fa928416e2445b2c1e21faa56061,
+        type: 3}
+      propertyPath: actions.Array.data[3].puzzleNode
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 453454202587327430, guid: 8726fa928416e2445b2c1e21faa56061,
+        type: 3}
+      propertyPath: conditions.Array.data[0].objectives.Array.data[2]
+      value: 
+      objectReference: {fileID: 988633139}
+    - target: {fileID: 453454202587327430, guid: 8726fa928416e2445b2c1e21faa56061,
+        type: 3}
+      propertyPath: actions.Array.data[2].flightAI
+      value: 
+      objectReference: {fileID: 822026470}
+    - target: {fileID: 453454202587327430, guid: 8726fa928416e2445b2c1e21faa56061,
+        type: 3}
+      propertyPath: actions.Array.data[2].transform
+      value: 
+      objectReference: {fileID: 808871754}
+    - target: {fileID: 453454202587327430, guid: 8726fa928416e2445b2c1e21faa56061,
+        type: 3}
+      propertyPath: actions.Array.data[2].dialog
+      value: That's it! We're ready. Fly into the tractor field and we'll pick you
+        up.
+      objectReference: {fileID: 0}
+    - target: {fileID: 453454202587327430, guid: 8726fa928416e2445b2c1e21faa56061,
+        type: 3}
+      propertyPath: actions.Array.data[1].seconds
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 453454202587327431, guid: 8726fa928416e2445b2c1e21faa56061,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -18.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 453454202587327431, guid: 8726fa928416e2445b2c1e21faa56061,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 64.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 453454202587327431, guid: 8726fa928416e2445b2c1e21faa56061,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 453454202587327431, guid: 8726fa928416e2445b2c1e21faa56061,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 453454202587327431, guid: 8726fa928416e2445b2c1e21faa56061,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 453454202587327431, guid: 8726fa928416e2445b2c1e21faa56061,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 453454202587327431, guid: 8726fa928416e2445b2c1e21faa56061,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 453454202587327431, guid: 8726fa928416e2445b2c1e21faa56061,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 453454202587327431, guid: 8726fa928416e2445b2c1e21faa56061,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 453454202587327431, guid: 8726fa928416e2445b2c1e21faa56061,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 453454202587327431, guid: 8726fa928416e2445b2c1e21faa56061,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 453454202587327432, guid: 8726fa928416e2445b2c1e21faa56061,
+        type: 3}
+      propertyPath: m_Name
+      value: CompletionTrigger (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8726fa928416e2445b2c1e21faa56061, type: 3}
 --- !u!1 &236334133
 GameObject:
   m_ObjectHideFlags: 0
@@ -1109,7 +1273,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &236334137
 AudioSource:
@@ -1353,7 +1517,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4084491497473338, guid: 94ed22b954a4045d6a0c615600e938bf, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4084491497473338, guid: 94ed22b954a4045d6a0c615600e938bf, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -5596,7 +5760,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &284232458
 MonoBehaviour:
@@ -5629,10 +5793,20 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: -20.32
       objectReference: {fileID: 0}
+    - target: {fileID: 1966589171605453255, guid: 042d31ca7fbd14c9192001421c73237c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1966589171905104242, guid: 042d31ca7fbd14c9192001421c73237c,
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 61.536
+      objectReference: {fileID: 0}
+    - target: {fileID: 1966589171905104245, guid: 042d31ca7fbd14c9192001421c73237c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1966589172025773526, guid: 042d31ca7fbd14c9192001421c73237c,
         type: 3}
@@ -5672,7 +5846,7 @@ PrefabInstance:
     - target: {fileID: 1966589172025773526, guid: 042d31ca7fbd14c9192001421c73237c,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1966589172025773526, guid: 042d31ca7fbd14c9192001421c73237c,
         type: 3}
@@ -5693,6 +5867,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Base_lvl_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 1966589172738411779, guid: 042d31ca7fbd14c9192001421c73237c,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1966589172738411781, guid: 042d31ca7fbd14c9192001421c73237c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1966589172893791236, guid: 042d31ca7fbd14c9192001421c73237c,
         type: 3}
@@ -6297,6 +6481,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   a: 117
   b: 118
+--- !u!4 &369792426 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4447872996357980, guid: 726e5b040e0b0da498ab68e0d127c050,
+    type: 3}
+  m_PrefabInstance: {fileID: 741436604}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &378787178
 GameObject:
   m_ObjectHideFlags: 0
@@ -6919,7 +7109,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &511098053
 MonoBehaviour:
@@ -7389,7 +7579,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &587997991
 GameObject:
@@ -7671,7 +7861,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &589814955
 MonoBehaviour:
@@ -8283,7 +8473,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5ef03e04eb6464a9586f8312376a2f52, type: 3}
       propertyPath: m_RootOrder
-      value: 21
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5ef03e04eb6464a9586f8312376a2f52, type: 3}
       propertyPath: m_LocalScale.x
@@ -8312,6 +8502,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 681799840}
+  - component: {fileID: 681799841}
   m_Layer: 0
   m_Name: Triggers
   m_TagString: Untagged
@@ -8330,10 +8521,30 @@ Transform:
   m_LocalPosition: {x: -0.0006560354, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1921994968}
+  - {fileID: 1633315589}
+  - {fileID: 1792128606}
+  - {fileID: 2010452667}
+  - {fileID: 821894235}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &681799841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 681799839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4217d4673d4b6d548b610b9c8530ed02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  complete: 1
+  disableOnComplete: 0
+  canReceive: 1
+  downstream: []
+  marker: {fileID: 1746520236}
 --- !u!114 &699991617
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8364,6 +8575,49 @@ MonoBehaviour:
   radius: 4.833412
   aboveGround: 0
   multiMaterial: {x: 0, y: 0}
+--- !u!1 &708569345 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2313529927488625101, guid: 1beb6e3dd03704ab6971de72e7ab8393,
+    type: 3}
+  m_PrefabInstance: {fileID: 756615683}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &708569350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 708569345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4217d4673d4b6d548b610b9c8530ed02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  complete: 1
+  disableOnComplete: 0
+  canReceive: 1
+  downstream: []
+  marker: {fileID: 708569351}
+--- !u!114 &708569351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 708569345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b26a104580d97c44b9ecceb8b498abe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreText: Fueled Up!
+  failText: 
+  scoreValue: 5
+  completeOnDestroy: 1
+  failOnly: 0
+  owner: {fileID: 0}
+  _complete: 0
+  _failed: 0
 --- !u!114 &718452274
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8398,6 +8652,63 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   a: 172
   b: 173
+--- !u!1001 &741436604
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1811395660784588, guid: 726e5b040e0b0da498ab68e0d127c050, type: 3}
+      propertyPath: m_Name
+      value: Orb
+      objectReference: {fileID: 0}
+    - target: {fileID: 4447872996357980, guid: 726e5b040e0b0da498ab68e0d127c050, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -21.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 4447872996357980, guid: 726e5b040e0b0da498ab68e0d127c050, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 62.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 4447872996357980, guid: 726e5b040e0b0da498ab68e0d127c050, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4447872996357980, guid: 726e5b040e0b0da498ab68e0d127c050, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4447872996357980, guid: 726e5b040e0b0da498ab68e0d127c050, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4447872996357980, guid: 726e5b040e0b0da498ab68e0d127c050, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4447872996357980, guid: 726e5b040e0b0da498ab68e0d127c050, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4447872996357980, guid: 726e5b040e0b0da498ab68e0d127c050, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4447872996357980, guid: 726e5b040e0b0da498ab68e0d127c050, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4447872996357980, guid: 726e5b040e0b0da498ab68e0d127c050, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4447872996357980, guid: 726e5b040e0b0da498ab68e0d127c050, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 726e5b040e0b0da498ab68e0d127c050, type: 3}
 --- !u!1001 &756615683
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8405,6 +8716,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2313529927488625101, guid: 1beb6e3dd03704ab6971de72e7ab8393,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6764023463468346530, guid: 1beb6e3dd03704ab6971de72e7ab8393,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8443,7 +8759,7 @@ PrefabInstance:
     - target: {fileID: 6764023463468346530, guid: 1beb6e3dd03704ab6971de72e7ab8393,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6764023463468346530, guid: 1beb6e3dd03704ab6971de72e7ab8393,
         type: 3}
@@ -8693,6 +9009,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1642127544}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &821894235 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 453454202587327431, guid: 8726fa928416e2445b2c1e21faa56061,
+    type: 3}
+  m_PrefabInstance: {fileID: 227920545}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &822026470 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 114665871748279324, guid: 94ed22b954a4045d6a0c615600e938bf,
@@ -8869,6 +9191,458 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   a: 93
   b: 94
+--- !u!1001 &899686259
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 681799840}
+    m_Modifications:
+    - target: {fileID: 3205228579938826565, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 341.5557
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826565, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 551.552
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826565, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826565, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826565, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826565, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826565, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826565, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826565, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826565, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826565, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: conditions.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[0].type
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[0].effect
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[0].size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[0].magnitude
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[1].type
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[1].persona
+      value: 
+      objectReference: {fileID: 11400000, guid: 1ff7c5628756a174496ff48ed4c9e576,
+        type: 2}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[1].dialog
+      value: Hey, we have a training session for you.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[1].idleSeconds
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[1].seconds
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[2].type
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[2].effect
+      value: 
+      objectReference: {fileID: 114960277274770788, guid: 238c0f88e490c6a4c9d5e65d51b35e46,
+        type: 3}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[2].seconds
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[2].size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[2].magnitude
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[3].type
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[3].effect
+      value: 
+      objectReference: {fileID: 114960277274770788, guid: 238c0f88e490c6a4c9d5e65d51b35e46,
+        type: 3}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[3].seconds
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[3].size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[3].magnitude
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[4].type
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[4].effect
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[4].seconds
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[4].size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[4].magnitude
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[5].type
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[5].dialog
+      value: 'Step 1: Use your thrusters (W = Up) in bursts to keep away from the
+        ground which can damage your lander if you hit it while moving fast. You
+        can manuever with your rotation thrusters (A and D) and thrust (W) in a new
+        direction. Land on the first platform. Try not to crash into anything.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[5].effect
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[5].seconds
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[5].size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[5].magnitude
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[6].type
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[6].instruction
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[8].instruction
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[10].type
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[10].dialog
+      value: Find some ORBS down there and bring them to the power harnesses by the
+        door. You might be able to open the door by landing on the platforms on either
+        side until they activate.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[10].instruction
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[10].idleSeconds
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[0].persona
+      value: 
+      objectReference: {fileID: 11400000, guid: 1ff7c5628756a174496ff48ed4c9e576,
+        type: 2}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[0].dialog
+      value: Hey, we have another training session for you.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[0].idleSeconds
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[0].seconds
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[1].effect
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[1].size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[1].magnitude
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[4].dialog
+      value: 'Step 1: Use your thrusters (W = Up) in bursts to keep away from the
+        ground which can damage your lander if you hit it while moving fast. You
+        can manuever with your rotation thrusters (A and D) and thrust (W) in a new
+        direction. Land on the first platform. Try not to crash into anything.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[5].instruction
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[7].instruction
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[9].type
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[9].dialog
+      value: Find some ORBS down there and bring them to the power harnesses by the
+        door. You might be able to open the door by landing on the platforms on either
+        side until they activate.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[9].instruction
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[9].idleSeconds
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[3].dialog
+      value: Heavy Damage! We're coming in hot!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[4].instruction
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[8].type
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[8].dialog
+      value: Find some ORBS down there and bring them to the power harnesses by the
+        door. You might be able to open the door by landing on the platforms on either
+        side until they activate.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[8].idleSeconds
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[2].dialog
+      value: Heavy Damage! We're coming in hot!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[3].instruction
+      value: Land Here
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[7].type
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[7].dialog
+      value: Find some ORBS down there and bring them to the power harnesses by the
+        door. You might be able to open the door by landing on the platforms on either
+        side until they activate.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[7].idleSeconds
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[3].transform
+      value: 
+      objectReference: {fileID: 122731068}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[3].objectiveMarker
+      value: 
+      objectReference: {fileID: 1930922823}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[6].dialog
+      value: Good job!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[6].idleSeconds
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[4].objectiveMarker
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[4].transform
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[5].objectiveMarker
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[5].transform
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[5].puzzleNode
+      value: 
+      objectReference: {fileID: 122731069}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[6].puzzleNode
+      value: 
+      objectReference: {fileID: 122731069}
+    - target: {fileID: 3205228579938826571, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: m_Name
+      value: TriggerLevelStartDialog-Tutorial01
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d8a3a4948c6fc034c9add9a87f5b1f17, type: 3}
 --- !u!114 &903636088
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8929,8 +9703,585 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &909422953
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 681799840}
+    m_Modifications:
+    - target: {fileID: 3205228579938826565, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 341.5557
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826565, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 551.552
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826565, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826565, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826565, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826565, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826565, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826565, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826565, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826565, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826565, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.size
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: conditions.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: conditions.Array.data[0].objectives.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[0].type
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[0].effect
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[0].size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[0].magnitude
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[1].type
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[1].persona
+      value: 
+      objectReference: {fileID: 11400000, guid: 1ff7c5628756a174496ff48ed4c9e576,
+        type: 2}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[1].dialog
+      value: Now let's move on to Step 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[1].idleSeconds
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[1].seconds
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[2].type
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[2].effect
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[2].seconds
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[2].size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[2].magnitude
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[3].type
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[3].effect
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[3].seconds
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[3].size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[3].magnitude
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[4].type
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[4].effect
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[4].seconds
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[4].size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[4].magnitude
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[5].type
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[5].dialog
+      value: You may have noticed that when you have an object attached, your lander's
+        handling is affected. You'll need to account for the momentum of the object
+        when you are trying to make your way through a tight space. Sometimes it
+        will be better to drop the object by right clicking again to disengage the
+        tractor beam and pick up the object later once you have stablized.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[5].effect
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[5].seconds
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[5].size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[5].magnitude
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[6].type
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[6].instruction
+      value: Land Here
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[8].instruction
+      value: Pick Up Orb
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[10].type
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[10].dialog
+      value: The final step is to land on the last landing pad down in the cave.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[10].instruction
+      value: Pick Up Orb
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[10].idleSeconds
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[0].persona
+      value: 
+      objectReference: {fileID: 11400000, guid: 1ff7c5628756a174496ff48ed4c9e576,
+        type: 2}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[0].dialog
+      value: Hey, we have another training session for you.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[0].idleSeconds
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[0].seconds
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[1].effect
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[1].size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[1].magnitude
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[4].dialog
+      value: 'Step 2: You can pick things up with your tractor beam like a fuel barrel
+        or an orb. Right click on the object you want to pick up when you ar near
+        and the beam will lock on. Pick up an orb and put it into the holder up top.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[5].instruction
+      value: Pick Up Orb
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[7].instruction
+      value: Land Here
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[9].type
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[9].dialog
+      value: The final step is to land on the last landing pad down in the cave.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[9].instruction
+      value: Pick Up Orb
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[9].idleSeconds
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[3].dialog
+      value: 'Step 3: You may have noticed when you pick up an orb or land on the
+        landing pad that you got a little boost to your fuel and/or energy. You can
+        also refuel by using your tractor beam on a fuel barrel which are usually
+        found near landing pads. Pickup one of the fuel barrels and keep it locked
+        in until you use it up to fill your tanks.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[4].instruction
+      value: Pick Up Orb
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[8].type
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[8].dialog
+      value: The final step is to land on the last landing pad down in the cave.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[8].idleSeconds
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[2].dialog
+      value: Looks like there's a settlement here. We can borrow some of their ORBS
+        to repair the ship.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[3].instruction
+      value: Pick Up Orb
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[7].type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[7].dialog
+      value: The final step is to land on the last landing pad down in the cave.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[7].idleSeconds
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[3].transform
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[3].objectiveMarker
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[6].dialog
+      value: The final step is to land on the last landing pad down in the cave.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[6].idleSeconds
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[4].objectiveMarker
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[4].transform
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[5].objectiveMarker
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[5].transform
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[5].idleSeconds
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: conditions.Array.data[0].objectives.Array.data[0]
+      value: 
+      objectReference: {fileID: 988633139}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: dialogPriority
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: trigger
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[2].objectiveMarker
+      value: 
+      objectReference: {fileID: 1746520236}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[2].transform
+      value: 
+      objectReference: {fileID: 1746520232}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[2].instruction
+      value: Pick Up Fuel
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[5].puzzleNode
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[6].puzzleNode
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[7].puzzleNode
+      value: 
+      objectReference: {fileID: 1143708661}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[9].transform
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[9].objectiveMarker
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[10].objectiveMarker
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[10].transform
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[11].dialog
+      value: The final step is to land on the last landing pad down in the cave.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[11].instruction
+      value: Pick Up Orb
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[11].idleSeconds
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[10].puzzleNode
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[8].objectiveMarker
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[8].transform
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[9].puzzleNode
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[7].objectiveMarker
+      value: 
+      objectReference: {fileID: 147058923}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[7].transform
+      value: 
+      objectReference: {fileID: 1143708660}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[8].puzzleNode
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[4].puzzleNode
+      value: 
+      objectReference: {fileID: 681799841}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[6].objectiveMarker
+      value: 
+      objectReference: {fileID: 147058923}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[6].transform
+      value: 
+      objectReference: {fileID: 1143708660}
+    - target: {fileID: 3205228579938826571, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: m_Name
+      value: Tutorial03
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d8a3a4948c6fc034c9add9a87f5b1f17, type: 3}
 --- !u!114 &919625909
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9038,6 +10389,49 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   a: 178
   b: 179
+--- !u!1 &944038567 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1966589171605453255, guid: 042d31ca7fbd14c9192001421c73237c,
+    type: 3}
+  m_PrefabInstance: {fileID: 285776042}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &944038572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 944038567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b26a104580d97c44b9ecceb8b498abe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreText: Fueled Up!
+  failText: 
+  scoreValue: 5
+  completeOnDestroy: 1
+  failOnly: 0
+  owner: {fileID: 0}
+  _complete: 0
+  _failed: 0
+--- !u!114 &944038573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 944038567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4217d4673d4b6d548b610b9c8530ed02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  complete: 1
+  disableOnComplete: 0
+  canReceive: 1
+  downstream: []
+  marker: {fileID: 944038572}
 --- !u!114 &947558482
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9306,6 +10700,47 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 980481461}
   m_Mesh: {fileID: 4300000, guid: ae34bb623b0c82e4f902a6f00ea80490, type: 3}
+--- !u!1 &988633137 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1465015017044218, guid: 7765851389879ce4ba13afc95369040e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1404395322}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &988633139 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114980141567487824, guid: 7765851389879ce4ba13afc95369040e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1404395322}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 988633137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b26a104580d97c44b9ecceb8b498abe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &988633140 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4514751998743658, guid: 7765851389879ce4ba13afc95369040e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1404395322}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &988633141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 988633137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4217d4673d4b6d548b610b9c8530ed02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  complete: 1
+  disableOnComplete: 0
+  canReceive: 1
+  downstream: []
+  marker: {fileID: 988633139}
 --- !u!114 &995724460
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9578,7 +11013,7 @@ Transform:
   m_Children:
   - {fileID: 1007251378}
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1041139935
 MonoBehaviour:
@@ -9956,7 +11391,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5ef03e04eb6464a9586f8312376a2f52, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5ef03e04eb6464a9586f8312376a2f52, type: 3}
       propertyPath: m_LocalScale.x
@@ -10139,8 +11574,37 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1143708656 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1966589172738411781, guid: 042d31ca7fbd14c9192001421c73237c,
+    type: 3}
+  m_PrefabInstance: {fileID: 285776042}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1143708660 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1966589172738411778, guid: 042d31ca7fbd14c9192001421c73237c,
+    type: 3}
+  m_PrefabInstance: {fileID: 285776042}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1143708661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1143708656}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4217d4673d4b6d548b610b9c8530ed02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  complete: 1
+  disableOnComplete: 0
+  canReceive: 1
+  downstream: []
+  marker: {fileID: 147058923}
 --- !u!1 &1146416256
 GameObject:
   m_ObjectHideFlags: 0
@@ -14372,7 +15836,7 @@ Transform:
   - {fileID: 287182737}
   - {fileID: 1815187656}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1202112526
 GameObject:
@@ -14776,7 +16240,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &1252351168
 MeshFilter:
@@ -14977,6 +16441,49 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   a: 41
   b: 49
+--- !u!1 &1324679520 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1966589171905104245, guid: 042d31ca7fbd14c9192001421c73237c,
+    type: 3}
+  m_PrefabInstance: {fileID: 285776042}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1324679525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1324679520}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b26a104580d97c44b9ecceb8b498abe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreText: Fueled Up!
+  failText: 
+  scoreValue: 5
+  completeOnDestroy: 1
+  failOnly: 0
+  owner: {fileID: 0}
+  _complete: 0
+  _failed: 0
+--- !u!114 &1324679526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1324679520}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4217d4673d4b6d548b610b9c8530ed02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  complete: 1
+  disableOnComplete: 0
+  canReceive: 1
+  downstream: []
+  marker: {fileID: 1324679525}
 --- !u!114 &1329758076
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15069,7 +16576,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1360338080
 MonoBehaviour:
@@ -15244,6 +16751,63 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   a: 31
   b: 32
+--- !u!1001 &1404395322
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1465015017044218, guid: 7765851389879ce4ba13afc95369040e, type: 3}
+      propertyPath: m_Name
+      value: Nuke_Harnesser
+      objectReference: {fileID: 0}
+    - target: {fileID: 4514751998743658, guid: 7765851389879ce4ba13afc95369040e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 4514751998743658, guid: 7765851389879ce4ba13afc95369040e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 61.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 4514751998743658, guid: 7765851389879ce4ba13afc95369040e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4514751998743658, guid: 7765851389879ce4ba13afc95369040e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4514751998743658, guid: 7765851389879ce4ba13afc95369040e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4514751998743658, guid: 7765851389879ce4ba13afc95369040e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4514751998743658, guid: 7765851389879ce4ba13afc95369040e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4514751998743658, guid: 7765851389879ce4ba13afc95369040e, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4514751998743658, guid: 7765851389879ce4ba13afc95369040e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4514751998743658, guid: 7765851389879ce4ba13afc95369040e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4514751998743658, guid: 7765851389879ce4ba13afc95369040e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7765851389879ce4ba13afc95369040e, type: 3}
 --- !u!1 &1411013890
 GameObject:
   m_ObjectHideFlags: 0
@@ -15303,6 +16867,495 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   a: 128
   b: 129
+--- !u!1001 &1438091770
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 681799840}
+    m_Modifications:
+    - target: {fileID: 3205228579938826565, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 341.5557
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826565, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 551.552
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826565, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826565, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826565, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826565, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826565, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826565, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826565, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826565, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826565, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: conditions.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: conditions.Array.data[0].objectives.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[0].type
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[0].effect
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[0].size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[0].magnitude
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[1].type
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[1].persona
+      value: 
+      objectReference: {fileID: 11400000, guid: 1ff7c5628756a174496ff48ed4c9e576,
+        type: 2}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[1].dialog
+      value: Great work. Now let's move on to Step 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[1].idleSeconds
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[1].seconds
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[2].type
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[2].effect
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[2].seconds
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[2].size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[2].magnitude
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[3].type
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[3].effect
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[3].seconds
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[3].size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[3].magnitude
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[4].type
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[4].effect
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[4].seconds
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[4].size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[4].magnitude
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[5].type
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[5].dialog
+      value: 'Step 2: You can pick things up with your tractor beam like a fuel barrel
+        or an orb. Right click on the object you want to pick up when you ar near
+        and the beam will lock on. Pick up an orb and put it into the holder up top.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[5].effect
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[5].seconds
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[5].size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[5].magnitude
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[6].type
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[6].instruction
+      value: Pick Up Orb
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[8].instruction
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[10].type
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[10].dialog
+      value: Find some ORBS down there and bring them to the power harnesses by the
+        door. You might be able to open the door by landing on the platforms on either
+        side until they activate.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[10].instruction
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[10].idleSeconds
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[0].persona
+      value: 
+      objectReference: {fileID: 11400000, guid: 1ff7c5628756a174496ff48ed4c9e576,
+        type: 2}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[0].dialog
+      value: Hey, we have another training session for you.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[0].idleSeconds
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[0].seconds
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[1].effect
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[1].size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[1].magnitude
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[4].dialog
+      value: 'Step 2: You can pick things up with your tractor beam like a fuel barrel
+        or an orb. Right click on the object you want to pick up when you ar near
+        and the beam will lock on. Pick up an orb and put it into the holder up top.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[5].instruction
+      value: Pick Up Orb
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[7].instruction
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[9].type
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[9].dialog
+      value: Find some ORBS down there and bring them to the power harnesses by the
+        door. You might be able to open the door by landing on the platforms on either
+        side until they activate.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[9].instruction
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[9].idleSeconds
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[3].dialog
+      value: Looks like there's a settlement here. We can borrow some of their ORBS
+        to repair the ship.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[4].instruction
+      value: Pick Up Orb
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[8].type
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[8].dialog
+      value: Find some ORBS down there and bring them to the power harnesses by the
+        door. You might be able to open the door by landing on the platforms on either
+        side until they activate.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[8].idleSeconds
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[2].dialog
+      value: Looks like there's a settlement here. We can borrow some of their ORBS
+        to repair the ship.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[3].instruction
+      value: Pick Up Orb
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[7].type
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[7].dialog
+      value: Find some ORBS down there and bring them to the power harnesses by the
+        door. You might be able to open the door by landing on the platforms on either
+        side until they activate.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[7].idleSeconds
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[3].transform
+      value: 
+      objectReference: {fileID: 369792426}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[3].objectiveMarker
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[6].dialog
+      value: You may have noticed that when you have an object attached, your lander's
+        handling is affected. You'll need to account for the momentum of the object
+        when you are trying to make your way through a tight space. Sometimes it
+        will be better to drop the object by right clicking again to disengage the
+        tractor beam and pick up the object later once you have stablized.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[6].idleSeconds
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[4].objectiveMarker
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[4].transform
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[5].objectiveMarker
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[5].transform
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[5].idleSeconds
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: conditions.Array.data[0].objectives.Array.data[0]
+      value: 
+      objectReference: {fileID: 1930922823}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: dialogPriority
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: trigger
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[2].objectiveMarker
+      value: 
+      objectReference: {fileID: 988633139}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[2].transform
+      value: 
+      objectReference: {fileID: 988633140}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[2].instruction
+      value: Place Orb
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205228579938826570, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: actions.Array.data[5].puzzleNode
+      value: 
+      objectReference: {fileID: 988633141}
+    - target: {fileID: 3205228579938826571, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+        type: 3}
+      propertyPath: m_Name
+      value: Tutorial02
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d8a3a4948c6fc034c9add9a87f5b1f17, type: 3}
 --- !u!114 &1438882844
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15345,6 +17398,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   a: 174
   b: 175
+--- !u!1 &1456083742 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1966589172025773545, guid: 042d31ca7fbd14c9192001421c73237c,
+    type: 3}
+  m_PrefabInstance: {fileID: 285776042}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1456083744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1456083742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 686e0fe494ac07a4a885ac037281930b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  complete: 1
+  disableOnComplete: 0
+  canReceive: 1
+  downstream: []
 --- !u!114 &1458911952
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15742,7 +17817,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1588826360
 GameObject:
@@ -16001,6 +18076,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   a: 66
   b: 67
+--- !u!4 &1633315589 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3205228579938826565, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+    type: 3}
+  m_PrefabInstance: {fileID: 899686259}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1642127544
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16051,7 +18132,7 @@ PrefabInstance:
     - target: {fileID: 997338216063062451, guid: 78bd23ae003b25640b28a7f96f7d9293,
         type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 997338216063062451, guid: 78bd23ae003b25640b28a7f96f7d9293,
         type: 3}
@@ -16430,7 +18511,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4291492331192412, guid: 8afeca1bf6438c247a2d78afee0abbfe, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4379635375680572, guid: 8afeca1bf6438c247a2d78afee0abbfe, type: 3}
       propertyPath: m_LocalScale.x
@@ -16526,7 +18607,7 @@ PrefabInstance:
     - target: {fileID: 224169868192981864, guid: 36fe6ecbef03e534ab9657ff6abe56f9,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 224169868192981864, guid: 36fe6ecbef03e534ab9657ff6abe56f9,
         type: 3}
@@ -16638,6 +18719,38 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   a: 33
   b: 34
+--- !u!1 &1746520231 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1966589172893791239, guid: 042d31ca7fbd14c9192001421c73237c,
+    type: 3}
+  m_PrefabInstance: {fileID: 285776042}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1746520232 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1966589172893791236, guid: 042d31ca7fbd14c9192001421c73237c,
+    type: 3}
+  m_PrefabInstance: {fileID: 285776042}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1746520236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1746520231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b26a104580d97c44b9ecceb8b498abe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreText: Fueled Up!
+  failText: 
+  scoreValue: 5
+  completeOnDestroy: 1
+  failOnly: 0
+  owner: {fileID: 0}
+  _complete: 0
+  _failed: 0
 --- !u!114 &1752625099
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16696,7 +18809,7 @@ Transform:
   m_Children:
   - {fileID: 1619228794}
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1762995618
 MonoBehaviour:
@@ -16928,6 +19041,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   a: 182
   b: 174
+--- !u!4 &1792128606 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3205228579938826565, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+    type: 3}
+  m_PrefabInstance: {fileID: 1438091770}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1807572953
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17293,7 +19412,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &1829023777
 EdgeCollider2D:
@@ -20806,7 +22925,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1871788819
 MonoBehaviour:
@@ -21086,12 +23205,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e43118ca5d5f42659f766f0b1982d8e, type: 3}
---- !u!4 &1921994968 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 453454202587327431, guid: 8726fa928416e2445b2c1e21faa56061,
-    type: 3}
-  m_PrefabInstance: {fileID: 453454201757858591}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1922962500
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21138,7 +23251,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 756615683}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 122731064}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2b26a104580d97c44b9ecceb8b498abe, type: 3}
@@ -21354,6 +23467,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   a: 81
   b: 80
+--- !u!4 &2010452667 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3205228579938826565, guid: d8a3a4948c6fc034c9add9a87f5b1f17,
+    type: 3}
+  m_PrefabInstance: {fileID: 909422953}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &2014112425
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21934,138 +24053,3 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2139945201}
   m_Mesh: {fileID: 4300000, guid: ae34bb623b0c82e4f902a6f00ea80490, type: 3}
---- !u!1001 &453454201757858591
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 681799840}
-    m_Modifications:
-    - target: {fileID: 453454202587327430, guid: 8726fa928416e2445b2c1e21faa56061,
-        type: 3}
-      propertyPath: conditions.Array.data[0].objectives.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 453454202587327430, guid: 8726fa928416e2445b2c1e21faa56061,
-        type: 3}
-      propertyPath: actions.Array.size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 453454202587327430, guid: 8726fa928416e2445b2c1e21faa56061,
-        type: 3}
-      propertyPath: conditions.Array.data[0].objectives.Array.data[0]
-      value: 
-      objectReference: {fileID: 1930922823}
-    - target: {fileID: 453454202587327430, guid: 8726fa928416e2445b2c1e21faa56061,
-        type: 3}
-      propertyPath: conditions.Array.data[0].objectives.Array.data[1]
-      value: 
-      objectReference: {fileID: 147058923}
-    - target: {fileID: 453454202587327430, guid: 8726fa928416e2445b2c1e21faa56061,
-        type: 3}
-      propertyPath: actions.Array.data[2].puzzleNode
-      value: 
-      objectReference: {fileID: 1927180330}
-    - target: {fileID: 453454202587327430, guid: 8726fa928416e2445b2c1e21faa56061,
-        type: 3}
-      propertyPath: actions.Array.data[3].flightAI
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 453454202587327430, guid: 8726fa928416e2445b2c1e21faa56061,
-        type: 3}
-      propertyPath: actions.Array.data[3].type
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 453454202587327430, guid: 8726fa928416e2445b2c1e21faa56061,
-        type: 3}
-      propertyPath: actions.Array.data[3].puzzleNode
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 453454202587327430, guid: 8726fa928416e2445b2c1e21faa56061,
-        type: 3}
-      propertyPath: conditions.Array.data[0].objectives.Array.data[2]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 453454202587327430, guid: 8726fa928416e2445b2c1e21faa56061,
-        type: 3}
-      propertyPath: actions.Array.data[2].flightAI
-      value: 
-      objectReference: {fileID: 822026470}
-    - target: {fileID: 453454202587327430, guid: 8726fa928416e2445b2c1e21faa56061,
-        type: 3}
-      propertyPath: actions.Array.data[2].transform
-      value: 
-      objectReference: {fileID: 808871754}
-    - target: {fileID: 453454202587327430, guid: 8726fa928416e2445b2c1e21faa56061,
-        type: 3}
-      propertyPath: actions.Array.data[2].dialog
-      value: That's it! We're ready. Fly into the tractor field and we'll pick you
-        up.
-      objectReference: {fileID: 0}
-    - target: {fileID: 453454202587327430, guid: 8726fa928416e2445b2c1e21faa56061,
-        type: 3}
-      propertyPath: actions.Array.data[1].seconds
-      value: 0.75
-      objectReference: {fileID: 0}
-    - target: {fileID: 453454202587327431, guid: 8726fa928416e2445b2c1e21faa56061,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -18.41
-      objectReference: {fileID: 0}
-    - target: {fileID: 453454202587327431, guid: 8726fa928416e2445b2c1e21faa56061,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 64.06
-      objectReference: {fileID: 0}
-    - target: {fileID: 453454202587327431, guid: 8726fa928416e2445b2c1e21faa56061,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 453454202587327431, guid: 8726fa928416e2445b2c1e21faa56061,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 453454202587327431, guid: 8726fa928416e2445b2c1e21faa56061,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 453454202587327431, guid: 8726fa928416e2445b2c1e21faa56061,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 453454202587327431, guid: 8726fa928416e2445b2c1e21faa56061,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 453454202587327431, guid: 8726fa928416e2445b2c1e21faa56061,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 453454202587327431, guid: 8726fa928416e2445b2c1e21faa56061,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 453454202587327431, guid: 8726fa928416e2445b2c1e21faa56061,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 453454202587327431, guid: 8726fa928416e2445b2c1e21faa56061,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 453454202587327432, guid: 8726fa928416e2445b2c1e21faa56061,
-        type: 3}
-      propertyPath: m_Name
-      value: CompletionTrigger
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 8726fa928416e2445b2c1e21faa56061, type: 3}
