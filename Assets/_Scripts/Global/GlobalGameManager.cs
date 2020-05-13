@@ -37,9 +37,9 @@ public class GlobalGameManager : MonoBehaviourSingletonPersistent<GlobalGameMana
     {
         base.Initialize();
         gameDataManager = GetComponent<GlobalDataManager>();
-        if (GlobalDataManager.Instance.GetSelectedLanderData() == null)
+        if (gameDataManager != null && gameDataManager.GetSelectedLanderData() == null)
         {
-            GlobalDataManager.Instance.SetSelectedLander(GGConst.DATA_PK_DEFAULT_LANDER_NAME);
+            gameDataManager.SetSelectedLander(GGConst.DATA_PK_DEFAULT_LANDER_NAME);
         }
     }
 
