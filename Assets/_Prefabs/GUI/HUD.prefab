@@ -3199,7 +3199,7 @@ MonoBehaviour:
   portrait: {fileID: 114427253098354174}
   nametag: {fileID: 114810196154314996}
   dialog: {fileID: 114605681589231598}
-  readingSpeed: 0.27
+  readingSpeed: 0.05
 --- !u!114 &114126385417955306
 MonoBehaviour:
   m_ObjectHideFlags: 0
