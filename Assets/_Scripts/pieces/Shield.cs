@@ -141,6 +141,13 @@ public class Shield : MonoBehaviour {
     internal void SetRadius(float newRad)
     {
         rad = newRad;
-        shieldNode.transform.localScale = Vector3.one * 2 * rad;
+        if (shieldNode != null)
+        {
+            shieldNode.transform.localScale = Vector3.one * 2 * rad;
+        }
+        else
+        {
+            Debug.LogWarning(gameObject.name + " has a Shield but no shieldNode subobject connected");
+        }
     }
 }
