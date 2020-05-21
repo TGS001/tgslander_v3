@@ -209,19 +209,27 @@ public class Action {
     public void Act(Trigger trigger, GameObject origin) {
         switch (type) {
             case Type.pathfindToTransform:
-                flightAI.Pathfind(transform.position, speed);
+                if (flightAI != null)
+                {
+                    flightAI.Pathfind(transform.position, speed);
+                }
                 break;
 
             case Type.spawnEffectAtTransform:
-                SFX e = SFX.Spawn(effect, transform);
-                e.size = size;
-                e.magnitude = magnitude;
-                e.normal = transform.forward;
+                if (effect != null) {
+                    SFX e = SFX.Spawn(effect, transform);
+                    e.size = size;
+                    e.magnitude = magnitude;
+                    e.normal = transform.forward;
+                }
                 break;
 
             case Type.activatePuzzleNode:
             case Type.deactivatePuzzleNode:
-                puzzleNode.SetCompletion(type == Type.activatePuzzleNode);
+                if (puzzleNode != null)
+                {
+                    puzzleNode.SetCompletion(type == Type.activatePuzzleNode);
+                }
                 break;
 
             case Type.waitForPuzzleNode:
@@ -232,11 +240,17 @@ public class Action {
                 break;
 
             case Type.commsMessage:
-                trigger.comms.Message(trigger, persona, dialog, idleSeconds, transform);
+                if (trigger != null && trigger.comms != null)
+                {
+                    trigger.comms.Message(trigger, persona, dialog, idleSeconds, transform);
+                }
                 break;
 
             case Type.indicate: {
-                    NoteControl.StaticIndicate(position, instruction, transform, puzzleNode, objectiveMarker);
+                    if (puzzleNode != null && instruction!= null && objectiveMarker != null)
+                    {
+                        NoteControl.StaticIndicate(position, instruction, transform, puzzleNode, objectiveMarker);
+                    }
                 }
                 break;
 
@@ -256,8 +270,11 @@ public class Action {
                 return Time.time >= timeout;
 
             case Type.commsMessage:
-                return trigger.comms.Ready(trigger);
-
+                if (trigger != null && trigger.comms != null)
+                {
+                    return trigger.comms.Ready(trigger);
+                }
+                break;
             default:
                     break;
         }
