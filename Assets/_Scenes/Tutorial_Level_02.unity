@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.4465934, g: 0.49642956, b: 0.57482487, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -6202,9 +6202,9 @@ MonoBehaviour:
   model: {fileID: 304784414}
   soundSource: {fileID: 304784412}
   soundSource2: {fileID: 304784411}
-  igniteClip: {fileID: 8300000, guid: 7db026ad72bb64842b006c5e92026a68, type: 3}
-  runClip: {fileID: 8300000, guid: dec6d31f4adbd5444bccb8daafee0f1d, type: 3}
-  extinguishClip: {fileID: 8300000, guid: cd224b058df70c240b36e464ddfa1144, type: 3}
+  igniteClip: {fileID: 8300000, guid: 9275e8024e50a407baf6779aae0bdcd8, type: 3}
+  runClip: {fileID: 8300000, guid: 9275e8024e50a407baf6779aae0bdcd8, type: 3}
+  extinguishClip: {fileID: 8300000, guid: 9275e8024e50a407baf6779aae0bdcd8, type: 3}
   fullThrottlePitch: 1
   zeroThrottlePitch: 0.456
 --- !u!23 &304784414
@@ -10664,6 +10664,11 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 20471002022897458, guid: 56ff5e9dd2f2797458da87d3ee56de56,
+        type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 73217
+      objectReference: {fileID: 0}
     - target: {fileID: 114203540535550518, guid: 56ff5e9dd2f2797458da87d3ee56de56,
         type: 3}
       propertyPath: target
@@ -10979,7 +10984,7 @@ GameObject:
   - component: {fileID: 1007251378}
   - component: {fileID: 1007251380}
   - component: {fileID: 1007251379}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18890,6 +18895,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1235981294750578, guid: 8afeca1bf6438c247a2d78afee0abbfe, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4291492331192412, guid: 8afeca1bf6438c247a2d78afee0abbfe, type: 3}
       propertyPath: m_LocalPosition.x
       value: -18.6
@@ -18939,6 +18948,21 @@ PrefabInstance:
       propertyPath: m_Radius
       value: 1.7481995
       objectReference: {fileID: 0}
+    - target: {fileID: 114214790920887746, guid: 8afeca1bf6438c247a2d78afee0abbfe,
+        type: 3}
+      propertyPath: runClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 9275e8024e50a407baf6779aae0bdcd8, type: 3}
+    - target: {fileID: 114214790920887746, guid: 8afeca1bf6438c247a2d78afee0abbfe,
+        type: 3}
+      propertyPath: extinguishClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 9275e8024e50a407baf6779aae0bdcd8, type: 3}
+    - target: {fileID: 114214790920887746, guid: 8afeca1bf6438c247a2d78afee0abbfe,
+        type: 3}
+      propertyPath: igniteClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 9275e8024e50a407baf6779aae0bdcd8, type: 3}
     - target: {fileID: 114494594938934204, guid: 8afeca1bf6438c247a2d78afee0abbfe,
         type: 3}
       propertyPath: longTouchSeconds
