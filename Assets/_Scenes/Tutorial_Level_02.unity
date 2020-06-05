@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4465934, g: 0.49642956, b: 0.57482487, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -725,6 +725,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   a: 184
   b: 185
+--- !u!114 &170579052 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114931048226666116, guid: 8afeca1bf6438c247a2d78afee0abbfe,
+    type: 3}
+  m_PrefabInstance: {fileID: 1715238107}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 314614b4942f33148b0ff1f665741b19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &195009677
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16452,7 +16464,7 @@ GameObject:
   - component: {fileID: 1252351168}
   - component: {fileID: 1252351169}
   - component: {fileID: 1252351170}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: terrain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18215,7 +18227,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 4.5905e-41, y: 0, z: 0, w: NaN}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -18943,6 +18955,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 3.496399
       objectReference: {fileID: 0}
+    - target: {fileID: 4961867866252186, guid: 8afeca1bf6438c247a2d78afee0abbfe, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 58277166533957602, guid: 8afeca1bf6438c247a2d78afee0abbfe,
         type: 3}
       propertyPath: m_Radius
@@ -18982,6 +18998,91 @@ PrefabInstance:
         type: 3}
       propertyPath: motionMaximumScreenspace
       value: 0.086
+      objectReference: {fileID: 0}
+    - target: {fileID: 582806461579233739, guid: 8afeca1bf6438c247a2d78afee0abbfe,
+        type: 3}
+      propertyPath: minYOffset
+      value: -6
+      objectReference: {fileID: 0}
+    - target: {fileID: 582806461579233739, guid: 8afeca1bf6438c247a2d78afee0abbfe,
+        type: 3}
+      propertyPath: maxYOffset
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 582806461579233739, guid: 8afeca1bf6438c247a2d78afee0abbfe,
+        type: 3}
+      propertyPath: offsetChangeSpeed
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 582806461579233739, guid: 8afeca1bf6438c247a2d78afee0abbfe,
+        type: 3}
+      propertyPath: thrustOffDelay
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 582806461579233739, guid: 8afeca1bf6438c247a2d78afee0abbfe,
+        type: 3}
+      propertyPath: triggerCollider
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 888974738200413142, guid: 8afeca1bf6438c247a2d78afee0abbfe,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2842253043498506258, guid: 8afeca1bf6438c247a2d78afee0abbfe,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2842253043498506258, guid: 8afeca1bf6438c247a2d78afee0abbfe,
+        type: 3}
+      propertyPath: m_UsedByEffector
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4041049388047778493, guid: 8afeca1bf6438c247a2d78afee0abbfe,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6166562987122527484, guid: 8afeca1bf6438c247a2d78afee0abbfe,
+        type: 3}
+      propertyPath: maxYOffset
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6166562987122527484, guid: 8afeca1bf6438c247a2d78afee0abbfe,
+        type: 3}
+      propertyPath: minYOffset
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6166562987122527484, guid: 8afeca1bf6438c247a2d78afee0abbfe,
+        type: 3}
+      propertyPath: thrustCtlr
+      value: 
+      objectReference: {fileID: 170579052}
+    - target: {fileID: 6166562987122527484, guid: 8afeca1bf6438c247a2d78afee0abbfe,
+        type: 3}
+      propertyPath: dustYOffsetLowest
+      value: -20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7958631810764837392, guid: 8afeca1bf6438c247a2d78afee0abbfe,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7958631810764837392, guid: 8afeca1bf6438c247a2d78afee0abbfe,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.0001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7958631810764837392, guid: 8afeca1bf6438c247a2d78afee0abbfe,
+        type: 3}
+      propertyPath: m_Direction
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7958631810764837392, guid: 8afeca1bf6438c247a2d78afee0abbfe,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8afeca1bf6438c247a2d78afee0abbfe, type: 3}

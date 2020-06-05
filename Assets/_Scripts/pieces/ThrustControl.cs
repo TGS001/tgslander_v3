@@ -30,6 +30,8 @@ public class ThrustControl : MonoBehaviour
     float caThrottle = 0;
     float retainedThrottle = 0;
 
+    public bool isThrusting { get { return mainEngine > 0f; } }
+
     Vector2 lastVelocity;
     Vector2 _smoothedAcceleration;
     public Vector2 smoothedAcceleration {
