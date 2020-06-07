@@ -1497,7 +1497,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1887639219429206, guid: 94ed22b954a4045d6a0c615600e938bf, type: 3}
       propertyPath: m_Name
-      value: Muther_Ship
+      value: Mother_Ship
       objectReference: {fileID: 0}
     - target: {fileID: 4084491497473338, guid: 94ed22b954a4045d6a0c615600e938bf, type: 3}
       propertyPath: m_LocalPosition.x
