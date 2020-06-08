@@ -19,6 +19,12 @@ public class CameraBehavior : MonoBehaviour {
     [SerializeField]
     private Vector2 targetPosition;
 
+    private Vector3 _originalPos;
+    private float _timeAtCurrentFrame;
+    private float _timeAtLastFrame;
+    private float _fakeDelta;
+    private bool cameraIsShaking = false;
+
     public float halfHeight {
         get {
             return cam.orthographicSize;
@@ -179,10 +185,41 @@ public class CameraBehavior : MonoBehaviour {
             Gizmos.DrawWireCube(gameObject.transform.position, sfraction);
         }
     }
+    void Update()
+    {
+        // Calculate a fake delta time, so we can Shake while game is paused.
+        _timeAtCurrentFrame = Time.realtimeSinceStartup;
+        _fakeDelta = _timeAtCurrentFrame - _timeAtLastFrame;
+        _timeAtLastFrame = _timeAtCurrentFrame;
+    }
 
+    public void Shake(float duration, float amount)
+    {
+        cameraIsShaking = true;
+        _originalPos = transform.localPosition;
+        StopAllCoroutines();
+        StartCoroutine(cShake(duration, amount));
+    }
+
+    public IEnumerator cShake(float duration, float amount)
+    {
+        float endTime = Time.time + duration;
+
+        while (duration > 0)
+        {
+            transform.localPosition = _originalPos + UnityEngine.Random.insideUnitSphere * amount;
+
+            duration -= _fakeDelta;
+
+            yield return null;
+        }
+
+        transform.localPosition = _originalPos;
+        cameraIsShaking = false;
+    }
     // Update is called once per frame
     void LateUpdate() {
-        if (target != null && !PlaySessionControl.paused) {
+        if (target != null && !PlaySessionControl.paused && !cameraIsShaking) {
             targetPosition = target.transform.position;
             //targetPosition = Vector2.Lerp(retainedPosition, targetPosition, Time.deltaTime);
             Vector2 scaledVelocity = (targetPosition - retainedPosition);
