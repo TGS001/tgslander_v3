@@ -21,6 +21,9 @@ public class UITitleMenu : MonoBehaviour
 				backgroundImage.gameObject.SetActive(false);
 			}
 		}
-
+		if (AudioManager.Instance != null && !AudioManager.Instance.isMusicPlaying())
+		{
+			AudioManager.Instance.PlayMusic(AudioManager.EMusicClip.Music01_GotToBe);
+		}
 	}
 }

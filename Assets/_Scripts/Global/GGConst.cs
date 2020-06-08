@@ -10,9 +10,10 @@ public class GGConst {
     public static string SCENE_NAME_DEBUG_START = "DebugStart";
     public static string SCENE_NAME_LEVEL_SELECT = "LevelSelect";
     public static string SCENE_NAME_WORKSHOP = "LanderWorkshop";
-    public static string SCENE_NAME_LEVEL_PREFIX = "Tut_lvl_";
+    public static string SCENE_NAME_TUTORIAL_LEVEL_PREFIX = "Tutorial_Level_";
+	public static string SCENE_NAME_GAME_LEVEL_PREFIX = "Game_Level_";
 
-    public static string RESOURCE_PATH_PREFABS = "Prefabs/";
+	public static string RESOURCE_PATH_PREFABS = "Prefabs/";
     public static string RESOURCE_PATH_ROOT = "Resources/";
     public static string PATH_DOT = ".";
 

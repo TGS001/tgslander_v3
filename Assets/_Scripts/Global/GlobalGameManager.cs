@@ -17,6 +17,7 @@ public class GlobalGameManager : MonoBehaviourSingletonPersistent<GlobalGameMana
         DebugStart,
         LevelSelect,
         Workshop,
+		TutorialLevel,
         GameplayLevel,
         GameplayResults
     }
@@ -48,7 +49,7 @@ public class GlobalGameManager : MonoBehaviourSingletonPersistent<GlobalGameMana
         return nextLevelIndex;
     }
 
-    public string GetLevelName(int levelnum)
+    public string GetLevelName(EGameSceneType sceneType, int levelnum)
     {
         string tempSuffix = levelnum.ToString();
         if (levelnum < 0)
@@ -87,7 +88,12 @@ public class GlobalGameManager : MonoBehaviourSingletonPersistent<GlobalGameMana
         {
             Debug.LogWarning("GlobalGameManager.GetLevelName Error: level naming digits not matching hard-coded assumptions. May need to adjust code to handle.");
         }
-        return GGConst.SCENE_NAME_LEVEL_PREFIX + tempSuffix;
+		string levelPrefix = GGConst.SCENE_NAME_GAME_LEVEL_PREFIX;
+		if (sceneType == EGameSceneType.TutorialLevel)
+		{
+			levelPrefix = GGConst.SCENE_NAME_TUTORIAL_LEVEL_PREFIX;
+		}
+        return levelPrefix + tempSuffix;
     }
 
     public string GetSceneName(EGameSceneType sceneType, int levelNum = 0)
@@ -107,7 +113,8 @@ public class GlobalGameManager : MonoBehaviourSingletonPersistent<GlobalGameMana
             case EGameSceneType.Workshop:
                 return GGConst.SCENE_NAME_WORKSHOP;
             case EGameSceneType.GameplayLevel:
-                string levelName = GetLevelName(levelNum);
+			case EGameSceneType.TutorialLevel:
+				string levelName = GetLevelName(sceneType, levelNum);
                 return levelName;
             default:
                 return "";
