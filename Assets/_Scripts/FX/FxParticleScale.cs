@@ -96,7 +96,7 @@ public class FxParticleScale : MonoBehaviour {
             ParticleSystem.ShapeModule shape = ps.shape;
             shape.radius *= scale;
             shape.scale *= scale;
-            shape.meshScale *= scale;
+            //shape.meshScale *= scale;
         }
     }
 	void Start () {
