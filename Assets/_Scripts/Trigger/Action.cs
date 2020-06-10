@@ -196,8 +196,11 @@ namespace TGS
 			return res;
 		}
 	}
+}
 #endif
 
+namespace TGS
+{ 
 	[System.Serializable]
 	public class Action
 	{
