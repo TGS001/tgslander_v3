@@ -23,7 +23,7 @@ public class UITitleMenu : MonoBehaviour
 		}
 		if (AudioManager.Instance != null && !AudioManager.Instance.isMusicPlaying())
 		{
-			AudioManager.Instance.PlayMusic(AudioManager.EMusicClip.Music01_GotToBe);
+			AudioManager.Instance.PlayMusicForScene(GGConst.SCENE_NAME_START);
 		}
 	}
 }

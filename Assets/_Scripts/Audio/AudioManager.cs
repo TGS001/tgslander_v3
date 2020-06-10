@@ -1,63 +1,34 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class AudioManager : MonoBehaviourSingleton<AudioManager>
 {
-	public enum EMusicClip
-	{
-		None,
-		Music01_GotToBe,
-		Music02_DistantOrbits,
-		Music03_SixYearAgo,
-		Music04_KeysOne,
-		Music05_TisztaSzivvel,
-		Music06_YouNeverToldMe,
-		Music07_One,
-		Music08_HungoroHai,
-		Music09_EmersonPond,
-	}
-
 	[Header("Prefabs")]
     public AudioChannel audioChannelPrefab;
 
     [Header("AudioClips")]
-    public AudioClip audioTick;
     public AudioClip audioBeep;
-    public AudioClip audioTimeIsUp;
     public AudioClip cash;
 
-	[Header("MusicAudioClips")]
+	[Header("Scene Music Clip Selections")]
+	public MusicChannelManager.EMusicClip titleSceneClip;
+	public MusicChannelManager.EMusicClip workshopSceneClip;
+	public MusicChannelManager.EMusicClip levelSelectSceneClip;
 	[Tooltip("NOTE: Leave the first item empty")]
-	public List<AudioClip> musicClips;
+	public MusicChannelManager.EMusicClip[] tutorialLevelSceneClips;
+	[Tooltip("NOTE: Leave the first item empty")]
+	public MusicChannelManager.EMusicClip[] gameLevelSceneClips;
+	public MusicChannelManager musicManager;
+
 
 	[Header("SFX Channels")]
 	public float sfxVolume = 1.0f;
     public List<AudioChannel> channelsInUse = new List<AudioChannel>();
     public List<AudioChannel> channelsAvailable = new List<AudioChannel>();
-	[Header("Music Channels")]
-	public float musicVolume = 0.5f;
-	public AudioChannel musicChannel1;
-	public AudioChannel musicChannel2;
-
-	private AudioChannel currentMusicChannel;
 
 	private AudioChannel selectedAudioChannel = null;
-
-    private AudioChannel audioTickChannel;
-
-    public void PlayTick()
-    {
-        audioTickChannel = FadeInPlay(audioTick, 0, true);
-    }
-
-    public void StopTick()
-    {
-        if(audioTickChannel != null)
-        {
-            audioTickChannel.FadeOutStop();
-        }
-    }
 
     public void PlayCash(float volume = 1)
     {
@@ -69,42 +40,55 @@ public class AudioManager : MonoBehaviourSingleton<AudioManager>
         PlayOneShot(audioBeep, volume);
     }
 
-    public void PlayTimeIsUp(float volume = 1)
-    {
-        PlayOneShot(audioTimeIsUp, volume);
-    }
-
 	public bool isMusicPlaying()
 	{
-		return currentMusicChannel != null && currentMusicChannel.audioSource != null && currentMusicChannel.audioSource.isPlaying;
+		return musicManager != null && musicManager.isMusicPlaying();
 	}
 
-	public void PlayMusic(EMusicClip musicEnum)
+	public void PlayMusicForScene(string sceneName)
 	{
-		if (musicClips.Count > 0 && (int)musicEnum < musicClips.Count)
+		if (!string.IsNullOrEmpty(sceneName) && musicManager != null)
 		{
-			AudioClip curClip = musicClips[(int)musicEnum];
-			if (currentMusicChannel == null || (currentMusicChannel != null && currentMusicChannel.audioSource.clip != curClip))
+			MusicChannelManager.EMusicClip sceneClip = MusicChannelManager.EMusicClip.None;
+			if (sceneName.CompareTo(GGConst.SCENE_NAME_START) == 0)
 			{
-				PlayMusic(curClip);
+				sceneClip = titleSceneClip;
+			}
+			else if (sceneName.CompareTo(GGConst.SCENE_NAME_WORKSHOP) == 0)
+			{
+				sceneClip = workshopSceneClip;
+			}
+			else if (sceneName.CompareTo(GGConst.SCENE_NAME_LEVEL_SELECT) == 0)
+			{
+				sceneClip = levelSelectSceneClip;
+			}
+			else if (sceneName.StartsWith(GGConst.SCENE_NAME_TUTORIAL_LEVEL_PREFIX))
+			{
+				sceneClip = GetSceneClipForLevel(sceneName, tutorialLevelSceneClips);
+			}
+			else if (sceneName.StartsWith(GGConst.SCENE_NAME_GAME_LEVEL_PREFIX))
+			{
+				sceneClip = GetSceneClipForLevel(sceneName, gameLevelSceneClips);
+			}
+			musicManager.PlayMusic(sceneClip);
+		}
+	}
+
+	private MusicChannelManager.EMusicClip GetSceneClipForLevel(string sceneName, MusicChannelManager.EMusicClip[] sceneClips)
+	{
+		MusicChannelManager.EMusicClip sceneClip = MusicChannelManager.EMusicClip.None;
+		string num = sceneName.Substring(sceneName.Length - 2);
+		int index = 0;
+		if (int.TryParse(num, out index))
+		{
+			int enumCount = Enum.GetNames(typeof(MusicChannelManager.EMusicClip)).Length;
+			if (index > 0 && index < enumCount && index < sceneClips.Length)
+			{
+				sceneClip = sceneClips[index];
 			}
 		}
-	}
 
-	public void PlayMusic(AudioClip musicClip)
-	{
-		if (currentMusicChannel != null)
-		{
-			AudioChannel newChannel = currentMusicChannel == musicChannel1 ? musicChannel2 : musicChannel1;
-			currentMusicChannel.FadeOutStop(1);
-			MusicFadeInPlay(newChannel, musicClip);
-			currentMusicChannel = newChannel;
-		}
-		else
-		{
-			currentMusicChannel = musicChannel1;
-			MusicFadeInPlay(currentMusicChannel, musicClip);
-		}
+		return sceneClip;
 	}
 
 	private void PlayOneShot(AudioClip clip, float volume = 1)
@@ -131,19 +115,6 @@ public class AudioManager : MonoBehaviourSingleton<AudioManager>
             }
         }
     }
-
-	private AudioChannel MusicFadeInPlay(AudioChannel channel, AudioClip clip, ulong delay = 0, bool loop = true)
-	{
-		if (clip != null)
-		{
-			if (channel != null)
-			{
-				channel.FadeInPlay(clip, musicVolume, 1, delay, loop);
-			}
-		}
-
-		return selectedAudioChannel;
-	}
 
 	private AudioChannel FadeInPlay(AudioClip clip, ulong delay = 0, bool loop = false)
     {

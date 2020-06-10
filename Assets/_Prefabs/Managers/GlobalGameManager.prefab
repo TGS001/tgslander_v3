@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2466243737699552153}
+  - component: {fileID: 210674240236399086}
   m_Layer: 0
   m_Name: MusicChannels
   m_TagString: Untagged
@@ -32,6 +33,33 @@ Transform:
   m_Father: {fileID: 7468221894065324243}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &210674240236399086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 170089542578604410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3cd91d2f5d56044dba188962cd1d19d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  musicFadeTime: 1
+  musicVolume: 0.5
+  musicClips:
+  - {fileID: 0}
+  - {fileID: 8300000, guid: 0e7e894923cbc17448288645e0b77067, type: 3}
+  - {fileID: 8300000, guid: ba33b7901a216fa408a3de4c939ef4d0, type: 3}
+  - {fileID: 8300000, guid: 903022d456087274eafa3b26a7fb2d19, type: 3}
+  - {fileID: 8300000, guid: efeee7fc58fcac04181f27bebaba310b, type: 3}
+  - {fileID: 8300000, guid: fc630948443cd86448f91d2aa2054eb3, type: 3}
+  - {fileID: 8300000, guid: 5e89cd0f1ff3a7d47aeb87ee28b82890, type: 3}
+  - {fileID: 8300000, guid: 4bd30b478936a95449d81b1c7beca326, type: 3}
+  - {fileID: 8300000, guid: e0a7b42fc84ea6449b453fe6e143198e, type: 3}
+  - {fileID: 8300000, guid: 1e498ed760498bb46bcaa6a900698663, type: 3}
+  musicChannel1: {fileID: 1956187180379457401}
+  musicChannel2: {fileID: 3657075756238061870}
 --- !u!1 &2632128960767858849
 GameObject:
   m_ObjectHideFlags: 0
@@ -206,25 +234,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioChannelPrefab: {fileID: 114527796630216394, guid: 69ef2e0c8b44a0f4f96bc1a5273038bd,
     type: 3}
-  audioTick: {fileID: 0}
   audioBeep: {fileID: 0}
-  audioTimeIsUp: {fileID: 0}
   cash: {fileID: 0}
-  musicClips:
-  - {fileID: 0}
-  - {fileID: 8300000, guid: 0e7e894923cbc17448288645e0b77067, type: 3}
-  - {fileID: 8300000, guid: ba33b7901a216fa408a3de4c939ef4d0, type: 3}
-  - {fileID: 8300000, guid: 903022d456087274eafa3b26a7fb2d19, type: 3}
-  - {fileID: 8300000, guid: efeee7fc58fcac04181f27bebaba310b, type: 3}
-  - {fileID: 8300000, guid: fc630948443cd86448f91d2aa2054eb3, type: 3}
-  - {fileID: 8300000, guid: 5e89cd0f1ff3a7d47aeb87ee28b82890, type: 3}
-  - {fileID: 8300000, guid: 4bd30b478936a95449d81b1c7beca326, type: 3}
-  - {fileID: 8300000, guid: e0a7b42fc84ea6449b453fe6e143198e, type: 3}
-  - {fileID: 8300000, guid: 1e498ed760498bb46bcaa6a900698663, type: 3}
+  titleSceneClip: 1
+  workshopSceneClip: 3
+  levelSelectSceneClip: 3
+  tutorialLevelSceneClips: 000000000000000004000000000000000400000000000000000000000000000000000000
+  gameLevelSceneClips: 000000000400000000000000000000000000000000000000000000000000000007000000
+  musicManager: {fileID: 210674240236399086}
+  sfxVolume: 1
   channelsInUse: []
   channelsAvailable: []
-  musicChannel1: {fileID: 1956187180379457401}
-  musicChannel2: {fileID: 3657075756238061870}
 --- !u!1001 &1923924951484438963
 PrefabInstance:
   m_ObjectHideFlags: 0
