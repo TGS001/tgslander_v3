@@ -8,8 +8,9 @@ public class CameraBehavior : MonoBehaviour {
     public Transform target;
     CameraConstraints constraints;
     public Camera cam;
+	public Transform shakeTarget;
 
-    [Range(0, 1)]
+	[Range(0, 1)]
     public float screenFraction = 0.3f;
 
     [SerializeField]
@@ -187,34 +188,52 @@ public class CameraBehavior : MonoBehaviour {
     }
     void Update()
     {
-        // Calculate a fake delta time, so we can Shake while game is paused.
-        _timeAtCurrentFrame = Time.realtimeSinceStartup;
-        _fakeDelta = _timeAtCurrentFrame - _timeAtLastFrame;
-        _timeAtLastFrame = _timeAtCurrentFrame;
+		// Calculate a fake delta time, so we can Shake while game is paused.
+		if (shakeTarget != null)
+		{
+			_timeAtCurrentFrame = Time.realtimeSinceStartup;
+			_fakeDelta = _timeAtCurrentFrame - _timeAtLastFrame;
+			_timeAtLastFrame = _timeAtCurrentFrame;
+		}
     }
 
-    public void Shake(float duration, float amount)
+	public static void ExplosionShakeCamera()
+	{
+		if (Camera.main != null)
+		{
+			CameraBehavior camBehavior = Camera.main.GetComponent<CameraBehavior>();
+			if (camBehavior != null)
+			{
+				camBehavior.Shake(0.5f, 0.2f);
+			}
+		}
+	}
+
+	public void Shake(float duration, float amount)
     {
-        cameraIsShaking = true;
-        _originalPos = transform.localPosition;
-        StopAllCoroutines();
-        StartCoroutine(cShake(duration, amount));
+		if (!cameraIsShaking && shakeTarget != null)
+		{
+			cameraIsShaking = true;
+			_originalPos = shakeTarget.localPosition;
+			StopAllCoroutines();
+			StartCoroutine(ShakeIt(duration, amount));
+		}
     }
 
-    public IEnumerator cShake(float duration, float amount)
+    protected IEnumerator ShakeIt(float duration, float amount)
     {
         float endTime = Time.time + duration;
 
         while (duration > 0)
         {
-            transform.localPosition = _originalPos + UnityEngine.Random.insideUnitSphere * amount;
+			shakeTarget.localPosition = _originalPos + UnityEngine.Random.insideUnitSphere * amount;
 
             duration -= _fakeDelta;
 
             yield return null;
         }
 
-        transform.localPosition = _originalPos;
+		shakeTarget.localPosition = _originalPos;
         cameraIsShaking = false;
     }
     // Update is called once per frame

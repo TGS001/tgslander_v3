@@ -80,6 +80,7 @@ public class MissileControl : MonoBehaviour {
             fx.size = explodeRadius;
             fx.magnitude = splashDamage;
             fx.faction = info.faction;
+			CameraBehavior.ExplosionShakeCamera();
         }
         Destroy(gameObject);
     }
