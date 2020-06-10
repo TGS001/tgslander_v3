@@ -39,37 +39,37 @@ public abstract class BaseScreen : MonoBehaviour
     public void ScaleIn()
     {
         OnOpen();
-        TweenManager.Instance.ScaleIn(rectTransform, GGConst.TIME_SCALE_SCREEN, true, OnCompleteOpen);
+        //TweenManager.Instance.ScaleIn(rectTransform, GGConst.TIME_SCALE_SCREEN, true, OnCompleteOpen);
     }
 
     public void ScaleOut()
     {
         OnClose();
-        TweenManager.Instance.ScaleOut(rectTransform, GGConst.TIME_SCALE_SCREEN, true, OnCompleteClose);
+        //TweenManager.Instance.ScaleOut(rectTransform, GGConst.TIME_SCALE_SCREEN, true, OnCompleteClose);
     }
 
     public void SlideInLeft()
     {
         OnOpen();
-        TweenManager.Instance.SlideX(rectTransform, screenWidth, GGConst.TIME_SLIDE_SCREEN, true, OnCompleteOpen);
+        //TweenManager.Instance.SlideX(rectTransform, screenWidth, GGConst.TIME_SLIDE_SCREEN, true, OnCompleteOpen);
     }
 
     public void SlideOutLeft()
     {
         OnClose();
-        TweenManager.Instance.SlideX(rectTransform, -screenWidth, GGConst.TIME_SLIDE_SCREEN, true, OnCompleteClose);
+        //TweenManager.Instance.SlideX(rectTransform, -screenWidth, GGConst.TIME_SLIDE_SCREEN, true, OnCompleteClose);
     }
 
     public void SlideInRight()
     {
         OnOpen();
-        TweenManager.Instance.SlideX(rectTransform, -screenWidth, GGConst.TIME_SLIDE_SCREEN, true, OnCompleteOpen);
+        //TweenManager.Instance.SlideX(rectTransform, -screenWidth, GGConst.TIME_SLIDE_SCREEN, true, OnCompleteOpen);
     }
 
     public void SlideOutRight()
     {
         OnClose();
-        TweenManager.Instance.SlideX(rectTransform, Screen.width, GGConst.TIME_SLIDE_SCREEN, true, OnCompleteClose);
+        //TweenManager.Instance.SlideX(rectTransform, Screen.width, GGConst.TIME_SLIDE_SCREEN, true, OnCompleteClose);
     }
 
     public void Open()

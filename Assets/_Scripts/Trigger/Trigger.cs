@@ -32,7 +32,7 @@ public class Trigger : MonoBehaviour {
     public int dialogPriority = 0;
     public Type trigger;
     public Condition[] conditions;
-    public Action[] actions;
+    public TGS.Action[] actions;
 
     public IEnumerator operation = null;
 
@@ -82,7 +82,7 @@ public class Trigger : MonoBehaviour {
 
     IEnumerator Run(GameObject origin) {
         for (int i = 0; i < actions.Length; i++) {
-            Action ca = actions[i];
+            TGS.Action ca = actions[i];
             ca.Act(this, origin);
             while (!ca.Ready(this)) {
                 yield return null;
