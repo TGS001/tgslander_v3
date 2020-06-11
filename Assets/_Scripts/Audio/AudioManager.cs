@@ -14,6 +14,7 @@ public class AudioManager : MonoBehaviourSingleton<AudioManager>
 
 	[Header("Scene Music Clip Selections")]
 	public MusicChannelManager.EMusicClip titleSceneClip;
+	public MusicChannelManager.EMusicClip creditsSceneClip;
 	public MusicChannelManager.EMusicClip workshopSceneClip;
 	public MusicChannelManager.EMusicClip levelSelectSceneClip;
 	[Tooltip("NOTE: Leave the first item empty")]
@@ -53,6 +54,10 @@ public class AudioManager : MonoBehaviourSingleton<AudioManager>
 			if (sceneName.CompareTo(GGConst.SCENE_NAME_START) == 0)
 			{
 				sceneClip = titleSceneClip;
+			}
+			else if (sceneName.CompareTo(GGConst.SCENE_NAME_ABOUT) == 0)
+			{
+				sceneClip = creditsSceneClip;
 			}
 			else if (sceneName.CompareTo(GGConst.SCENE_NAME_WORKSHOP) == 0)
 			{

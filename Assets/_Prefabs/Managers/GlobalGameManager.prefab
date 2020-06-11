@@ -237,6 +237,7 @@ MonoBehaviour:
   audioBeep: {fileID: 0}
   cash: {fileID: 0}
   titleSceneClip: 1
+  creditsSceneClip: 1
   workshopSceneClip: 3
   levelSelectSceneClip: 3
   tutorialLevelSceneClips: 000000000000000004000000000000000400000000000000000000000000000000000000

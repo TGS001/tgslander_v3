@@ -24,7 +24,13 @@ public class LevelSelectController : MonoBehaviour {
 		AudioManager.Instance.PlayMusicForScene(GGConst.SCENE_NAME_START);
     }
 
-    public void GoToLevelSelect()
+	public void GoToCredits()
+	{
+		AsyncLevelLoadController.LoadLevel(GGConst.SCENE_NAME_ABOUT);
+		AudioManager.Instance.PlayMusicForScene(GGConst.SCENE_NAME_ABOUT);
+	}
+
+	public void GoToLevelSelect()
     {
         AsyncLevelLoadController.LoadLevel(GGConst.SCENE_NAME_LEVEL_SELECT);
 		AudioManager.Instance.PlayMusicForScene(GGConst.SCENE_NAME_LEVEL_SELECT);
