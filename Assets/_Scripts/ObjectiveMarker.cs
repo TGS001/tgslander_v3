@@ -21,8 +21,10 @@ public class ObjectiveMarker : MonoBehaviour {
     [ReadOnly]
     [SerializeField]
     private bool _failed = false;
-    // Use this for initialization
-    public bool complete {
+	[HideInInspector]
+	public Life lifeScript;
+	// Use this for initialization
+	public bool complete {
         get {
             return _complete;
         }
@@ -50,7 +52,12 @@ public class ObjectiveMarker : MonoBehaviour {
     }
 
     void Start() {
-    }
+		lifeScript = GetComponent<Life>();
+		if (lifeScript && completeOnDestroy)
+		{
+			lifeScript.Register(OnDie);
+		}
+	}
 
     private void SetComplete(bool completion) {
         if (!_failed) {
@@ -88,8 +95,29 @@ public class ObjectiveMarker : MonoBehaviour {
             }
         }
     }
+	void OnDie()
+	{
+		if (!failOnly)
+		{
+			if (completeOnDestroy)
+			{
+				SetComplete(true);
+			}
+			else
+			{
+				if (!_complete)
+				{
+					SetFailed(true);
+				}
+			}
+		}
+		else
+		{
+			SetFailed(true);
+		}
+	}
 
-    void OnDestroy() {
+	void OnDestroy() {
         //if (!failOnly) {
         //    if (completeOnDestroy) {
         //        SetComplete(true);

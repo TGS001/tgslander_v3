@@ -65,7 +65,7 @@ public class GoalController : MonoBehaviour {
             int value;
             bool failOnly;
             marker.Register(out value, out failOnly);
-            if (!failOnly) {
+            if (marker.enabled && marker.gameObject.activeSelf && marker.transform.root.gameObject.activeSelf && !failOnly) {
                 maxScore += value;
             }
         }

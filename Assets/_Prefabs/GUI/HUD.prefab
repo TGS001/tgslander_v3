@@ -844,7 +844,6 @@ GameObject:
   - component: {fileID: 224246996977340880}
   - component: {fileID: 222308779072622276}
   - component: {fileID: 114755040684681308}
-  - component: {fileID: 114813725830424226}
   m_Layer: 5
   m_Name: Score Display
   m_TagString: Untagged
@@ -910,25 +909,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &114813725830424226
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1276332436124876}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4650d75250a8904ea28814b2f333bec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scoreProgress: {fileID: 114925516017278572}
-  failProgress: {fileID: 114731717808315436}
-  scoreDisplay: {fileID: 114044106487605860}
-  medals: []
-  medalPip: []
-  medalThresholds: []
-  pips: []
 --- !u!1 &1278024758170072
 GameObject:
   m_ObjectHideFlags: 0
