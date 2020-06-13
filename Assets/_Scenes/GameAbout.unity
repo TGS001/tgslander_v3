@@ -384,6 +384,11 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5923709694918922250, guid: 7590a00df72935a4cbf0ee685212ffc6,
+        type: 3}
+      propertyPath: m_Text
+      value: 'ABOUT  SUB-TERALIEN: RESCUE'
+      objectReference: {fileID: 0}
     - target: {fileID: 5923709695295269233, guid: 7590a00df72935a4cbf0ee685212ffc6,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -423,11 +428,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5923709695891378989, guid: 7590a00df72935a4cbf0ee685212ffc6,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 396.4768
       objectReference: {fileID: 0}
     - target: {fileID: 5923709696058925619, guid: 7590a00df72935a4cbf0ee685212ffc6,
         type: 3}
       propertyPath: m_Name
-      value: CreditsCanvas
+      value: AboutCanvas
       objectReference: {fileID: 0}
     - target: {fileID: 5923709696058925623, guid: 7590a00df72935a4cbf0ee685212ffc6,
         type: 3}
@@ -542,6 +552,11 @@ PrefabInstance:
     - target: {fileID: 5923709696193491623, guid: 7590a00df72935a4cbf0ee685212ffc6,
         type: 3}
       propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8957957588259936166, guid: 7590a00df72935a4cbf0ee685212ffc6,
+        type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

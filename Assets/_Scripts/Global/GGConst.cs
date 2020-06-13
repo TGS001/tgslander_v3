@@ -7,6 +7,7 @@ public class GGConst {
     public static string SCENE_NAME_SPLASH = "LoadingScreen";
     public static string SCENE_NAME_LOADING = "LoadingScreen";
 	public static string SCENE_NAME_ABOUT = "GameAbout";
+	public static string SCENE_NAME_ABOUT_CONTROLS = "GameControls";
 	public static string SCENE_NAME_START = "Game_Title_Screen_V2";
     public static string SCENE_NAME_DEBUG_START = "DebugStart";
     public static string SCENE_NAME_LEVEL_SELECT = "LevelSelect";
