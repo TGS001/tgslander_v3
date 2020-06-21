@@ -229,7 +229,7 @@ public class ThrustControl : MonoBehaviour
        0  = not too fast
        1  = too fast positive */
        
-        Vector2 velocity = GetComponent<Rigidbody2D>().velocity;
+        Vector2 velocity = body.velocity;
         Vector2Int tooFast = new Vector2Int(0, 0);
         if (velocity.x > maxHorizantalSpeed) tooFast.x = 1;
         else if (velocity.x < -maxHorizantalSpeed) tooFast.x = -1;

@@ -570,7 +570,7 @@ public class ModularLander : MonoBehaviour
             {
                 if (forward)
                 {
-                    if (GetComponent<Rigidbody2D>().velocity.y <= thrusters.maxVerticalSpeed)
+                    if (body.velocity.y <= thrusters.maxVerticalSpeed)
                     {
                         direction.y = 1;
                     }
@@ -583,11 +583,11 @@ public class ModularLander : MonoBehaviour
             }
             if (left ^ right)
             {
-                if (right && GetComponent<Rigidbody2D>().velocity.x <= thrusters.maxHorizantalSpeed)
+                if (right && body.velocity.x <= thrusters.maxHorizantalSpeed)
                 {
                     direction.x = 1;
                 }
-                else if (GetComponent<Rigidbody2D>().velocity.x >= -thrusters.maxHorizantalSpeed)
+                else if (body.velocity.x >= -thrusters.maxHorizantalSpeed)
                 {
                     direction.x = -1;
                 }
