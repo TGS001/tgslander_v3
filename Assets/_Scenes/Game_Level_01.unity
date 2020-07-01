@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.4465934, g: 0.49642956, b: 0.57482487, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -395,7 +395,7 @@ GameObject:
   - component: {fileID: 20699927}
   - component: {fileID: 20699926}
   - component: {fileID: 20699925}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_C_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -580,7 +580,7 @@ GameObject:
   - component: {fileID: 33705641}
   - component: {fileID: 33705640}
   - component: {fileID: 33705639}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_C_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -679,7 +679,7 @@ GameObject:
   - component: {fileID: 37842372}
   - component: {fileID: 37842371}
   - component: {fileID: 37842370}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -792,7 +792,7 @@ GameObject:
   - component: {fileID: 40524521}
   - component: {fileID: 40524520}
   - component: {fileID: 40524519}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -933,7 +933,7 @@ GameObject:
   - component: {fileID: 41420536}
   - component: {fileID: 41420535}
   - component: {fileID: 41420534}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1029,7 +1029,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 48479739}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_03(Clone)17
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1063,7 +1063,7 @@ GameObject:
   - component: {fileID: 49486378}
   - component: {fileID: 49486377}
   - component: {fileID: 49486376}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1255,7 +1255,7 @@ GameObject:
   - component: {fileID: 67732530}
   - component: {fileID: 67732529}
   - component: {fileID: 67732528}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1365,7 +1365,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 73739726}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1441,7 +1441,7 @@ GameObject:
   - component: {fileID: 81931069}
   - component: {fileID: 81931068}
   - component: {fileID: 81931067}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1646,7 +1646,7 @@ GameObject:
   - component: {fileID: 85683484}
   - component: {fileID: 85683483}
   - component: {fileID: 85683482}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1773,7 +1773,7 @@ GameObject:
   - component: {fileID: 97242752}
   - component: {fileID: 97242751}
   - component: {fileID: 97242750}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1869,7 +1869,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 97749568}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_03(Clone)34
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2014,7 +2014,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 105307925}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)50
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2144,7 +2144,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 106085472}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2206,7 +2206,7 @@ GameObject:
   - component: {fileID: 114366473}
   - component: {fileID: 114366472}
   - component: {fileID: 114366471}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_C_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2344,7 +2344,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 120620564}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_03(Clone)33
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2420,7 +2420,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 123683762}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)47
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2496,7 +2496,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 127538179}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_03(Clone)68
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2530,7 +2530,7 @@ GameObject:
   - component: {fileID: 127752350}
   - component: {fileID: 127752349}
   - component: {fileID: 127752348}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2823,7 +2823,7 @@ GameObject:
   - component: {fileID: 132940487}
   - component: {fileID: 132940486}
   - component: {fileID: 132940485}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2922,7 +2922,7 @@ GameObject:
   - component: {fileID: 133873910}
   - component: {fileID: 133873909}
   - component: {fileID: 133873908}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3021,7 +3021,7 @@ GameObject:
   - component: {fileID: 134111126}
   - component: {fileID: 134111125}
   - component: {fileID: 134111124}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3162,7 +3162,7 @@ GameObject:
   - component: {fileID: 137187238}
   - component: {fileID: 137187237}
   - component: {fileID: 137187236}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_C_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3286,7 +3286,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 140895248}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)19
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3317,7 +3317,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 144011031}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)19
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3351,7 +3351,7 @@ GameObject:
   - component: {fileID: 146439948}
   - component: {fileID: 146439947}
   - component: {fileID: 146439946}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_C_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3464,7 +3464,7 @@ GameObject:
   - component: {fileID: 153176231}
   - component: {fileID: 153176230}
   - component: {fileID: 153176229}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_C_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3605,7 +3605,7 @@ GameObject:
   - component: {fileID: 163775945}
   - component: {fileID: 163775944}
   - component: {fileID: 163775943}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3966,7 +3966,7 @@ GameObject:
   - component: {fileID: 175285608}
   - component: {fileID: 175285607}
   - component: {fileID: 175285606}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4138,7 +4138,7 @@ GameObject:
   - component: {fileID: 185017458}
   - component: {fileID: 185017457}
   - component: {fileID: 185017456}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_C_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4234,7 +4234,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 185363625}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)54
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4344,7 +4344,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 190340074}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)18
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4403,7 +4403,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 192414528}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)73
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4437,7 +4437,7 @@ GameObject:
   - component: {fileID: 193981310}
   - component: {fileID: 193981309}
   - component: {fileID: 193981308}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4550,7 +4550,7 @@ GameObject:
   - component: {fileID: 201968047}
   - component: {fileID: 201968046}
   - component: {fileID: 201968045}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4694,7 +4694,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 203801602}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)23
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4728,7 +4728,7 @@ GameObject:
   - component: {fileID: 205431188}
   - component: {fileID: 205431187}
   - component: {fileID: 205431186}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4883,7 +4883,7 @@ GameObject:
   - component: {fileID: 211385866}
   - component: {fileID: 211385865}
   - component: {fileID: 211385864}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4996,7 +4996,7 @@ GameObject:
   - component: {fileID: 213834972}
   - component: {fileID: 213834971}
   - component: {fileID: 213834970}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5120,7 +5120,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 222647850}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_03(Clone)12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5151,7 +5151,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 226596985}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_03(Clone)2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5185,7 +5185,7 @@ GameObject:
   - component: {fileID: 226621420}
   - component: {fileID: 226621419}
   - component: {fileID: 226621418}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5296,7 +5296,7 @@ GameObject:
   - component: {fileID: 228210135}
   - component: {fileID: 228210134}
   - component: {fileID: 228210133}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5409,7 +5409,7 @@ GameObject:
   - component: {fileID: 229294288}
   - component: {fileID: 229294287}
   - component: {fileID: 229294286}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_C_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5826,7 +5826,7 @@ GameObject:
   - component: {fileID: 243308151}
   - component: {fileID: 243308150}
   - component: {fileID: 243308149}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_C_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5925,7 +5925,7 @@ GameObject:
   - component: {fileID: 243327850}
   - component: {fileID: 243327849}
   - component: {fileID: 243327848}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6168,7 +6168,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 251725591}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)39
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6361,7 +6361,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 262402925}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)64
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6477,6 +6477,43 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 22674f4aeb7592b47ad0de802f3d276f, type: 3}
+--- !u!1 &263068052 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7609360426364521588, guid: 22674f4aeb7592b47ad0de802f3d276f,
+    type: 3}
+  m_PrefabInstance: {fileID: 263068051}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &263068053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 263068052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9441d5450817c342a45e4b8dd66de6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  showEditorMainBehavior: 1
+  showEditorBloomBehavior: 1
+  showEditorLensSurfaceBehavior: 0
+  debugView: 0
+  workflow: 1
+  selectiveRenderLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  anamorphicRatio: -0.1
+  bloomThreshold:
+    minValue: 1.25
+    maxValue: 10
+  bloomScattering: 2.36
+  bloomIntensity: 0.75
+  allowLensSurface: 0
+  lensSurfaceDirtTexture: {fileID: 0}
+  lensSurfaceDirtIntensity: 2.5
+  lensSurfaceDiffractionTexture: {fileID: 0}
+  lensSurfaceDiffractionIntensity: 2
 --- !u!1 &267098864
 GameObject:
   m_ObjectHideFlags: 0
@@ -6486,7 +6523,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 267098865}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)35
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6523,7 +6560,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 274913736}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)64
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6568,7 +6605,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 278853363}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6602,7 +6639,7 @@ GameObject:
   - component: {fileID: 281049180}
   - component: {fileID: 281049179}
   - component: {fileID: 281049178}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6701,7 +6738,7 @@ GameObject:
   - component: {fileID: 281291430}
   - component: {fileID: 281291429}
   - component: {fileID: 281291428}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6797,7 +6834,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 286481953}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6986,7 +7023,7 @@ GameObject:
   - component: {fileID: 311467124}
   - component: {fileID: 311467123}
   - component: {fileID: 311467122}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_C_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7082,7 +7119,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 312007623}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_03(Clone)55
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7116,7 +7153,7 @@ GameObject:
   - component: {fileID: 314999566}
   - component: {fileID: 314999565}
   - component: {fileID: 314999564}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7229,7 +7266,7 @@ GameObject:
   - component: {fileID: 316010840}
   - component: {fileID: 316010839}
   - component: {fileID: 316010838}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7339,7 +7376,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 319457800}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)65
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7468,7 +7505,7 @@ GameObject:
   - component: {fileID: 324414673}
   - component: {fileID: 324414672}
   - component: {fileID: 324414671}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7595,7 +7632,7 @@ GameObject:
   - component: {fileID: 327673017}
   - component: {fileID: 327673016}
   - component: {fileID: 327673015}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7902,7 +7939,7 @@ GameObject:
   - component: {fileID: 342932520}
   - component: {fileID: 342932519}
   - component: {fileID: 342932518}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8032,7 +8069,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 344651162}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)20
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8121,7 +8158,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 355281628}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)18
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8166,7 +8203,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 360113345}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_03(Clone)24
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8279,7 +8316,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 374820005}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)31
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8327,7 +8364,7 @@ GameObject:
   - component: {fileID: 380981682}
   - component: {fileID: 380981681}
   - component: {fileID: 380981680}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8437,7 +8474,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 381642626}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)30
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8815,7 +8852,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 405807494}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8887,7 +8924,7 @@ GameObject:
   - component: {fileID: 408679475}
   - component: {fileID: 408679474}
   - component: {fileID: 408679473}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8986,7 +9023,7 @@ GameObject:
   - component: {fileID: 408799160}
   - component: {fileID: 408799159}
   - component: {fileID: 408799158}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9124,7 +9161,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 420835430}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)44
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9172,7 +9209,7 @@ GameObject:
   - component: {fileID: 421215667}
   - component: {fileID: 421215666}
   - component: {fileID: 421215665}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9271,7 +9308,7 @@ GameObject:
   - component: {fileID: 422050862}
   - component: {fileID: 422050861}
   - component: {fileID: 422050860}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9384,7 +9421,7 @@ GameObject:
   - component: {fileID: 427863988}
   - component: {fileID: 427863987}
   - component: {fileID: 427863986}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_C_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9494,7 +9531,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 429837984}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)58
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9581,7 +9618,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 439405021}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)67
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9615,7 +9652,7 @@ GameObject:
   - component: {fileID: 440645928}
   - component: {fileID: 440645927}
   - component: {fileID: 440645926}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9714,7 +9751,7 @@ GameObject:
   - component: {fileID: 442354562}
   - component: {fileID: 442354561}
   - component: {fileID: 442354560}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9810,7 +9847,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 442843913}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_03(Clone)9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9857,7 +9894,7 @@ GameObject:
   - component: {fileID: 446305331}
   - component: {fileID: 446305332}
   - component: {fileID: 446305333}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Region
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10351,7 +10388,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 447283938}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10547,7 +10584,7 @@ GameObject:
   - component: {fileID: 456579926}
   - component: {fileID: 456579925}
   - component: {fileID: 456579924}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10646,7 +10683,7 @@ GameObject:
   - component: {fileID: 459276967}
   - component: {fileID: 459276966}
   - component: {fileID: 459276965}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10790,7 +10827,7 @@ GameObject:
   - component: {fileID: 468805349}
   - component: {fileID: 468805348}
   - component: {fileID: 468805347}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_C_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11058,7 +11095,7 @@ GameObject:
   - component: {fileID: 488159746}
   - component: {fileID: 488159745}
   - component: {fileID: 488159744}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11233,7 +11270,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 496054131}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_03(Clone)15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11264,7 +11301,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 502867308}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)23
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11309,7 +11346,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 507578417}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)17
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11437,7 +11474,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 511929525}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_03(Clone)63
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11482,7 +11519,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 530643437}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)61
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11620,7 +11657,7 @@ GameObject:
   - component: {fileID: 542652927}
   - component: {fileID: 542652926}
   - component: {fileID: 542652925}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11893,7 +11930,7 @@ GameObject:
   - component: {fileID: 551111772}
   - component: {fileID: 551111771}
   - component: {fileID: 551111770}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12003,7 +12040,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 554686317}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)25
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12051,7 +12088,7 @@ GameObject:
   - component: {fileID: 556636954}
   - component: {fileID: 556636953}
   - component: {fileID: 556636952}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_C_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12262,7 +12299,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 570560284}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_03(Clone)8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12321,7 +12358,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 576214002}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12352,7 +12389,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 577331595}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12397,7 +12434,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 578694918}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)17
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12535,7 +12572,7 @@ GameObject:
   - component: {fileID: 583416254}
   - component: {fileID: 583416253}
   - component: {fileID: 583416252}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12634,7 +12671,7 @@ GameObject:
   - component: {fileID: 584177214}
   - component: {fileID: 584177213}
   - component: {fileID: 584177212}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12884,7 +12921,7 @@ GameObject:
   - component: {fileID: 595194956}
   - component: {fileID: 595194955}
   - component: {fileID: 595194954}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13096,7 +13133,7 @@ GameObject:
   - component: {fileID: 599749402}
   - component: {fileID: 599749401}
   - component: {fileID: 599749400}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13195,7 +13232,7 @@ GameObject:
   - component: {fileID: 600057400}
   - component: {fileID: 600057399}
   - component: {fileID: 600057398}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_C_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13341,7 +13378,7 @@ GameObject:
   - component: {fileID: 602489231}
   - component: {fileID: 602489230}
   - component: {fileID: 602489229}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13451,7 +13488,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 607012731}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_03(Clone)39
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13499,7 +13536,7 @@ GameObject:
   - component: {fileID: 610561379}
   - component: {fileID: 610561378}
   - component: {fileID: 610561377}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_C_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13638,7 +13675,7 @@ GameObject:
   - component: {fileID: 617353177}
   - component: {fileID: 617353176}
   - component: {fileID: 617353175}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13793,7 +13830,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 623998605}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)46
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23495,7 +23532,7 @@ GameObject:
   - component: {fileID: 636859898}
   - component: {fileID: 636859897}
   - component: {fileID: 636859896}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23591,7 +23628,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 641667590}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)23
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23639,7 +23676,7 @@ GameObject:
   - component: {fileID: 644982595}
   - component: {fileID: 644982594}
   - component: {fileID: 644982593}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_C_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23738,7 +23775,7 @@ GameObject:
   - component: {fileID: 646216070}
   - component: {fileID: 646216069}
   - component: {fileID: 646216068}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23834,7 +23871,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 650543156}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23955,7 +23992,7 @@ GameObject:
   - component: {fileID: 661975126}
   - component: {fileID: 661975125}
   - component: {fileID: 661975124}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_C_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24054,7 +24091,7 @@ GameObject:
   - component: {fileID: 663504546}
   - component: {fileID: 663504545}
   - component: {fileID: 663504544}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24150,7 +24187,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 665126811}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)61
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24280,7 +24317,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 665677437}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)26
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24328,7 +24365,7 @@ GameObject:
   - component: {fileID: 667667159}
   - component: {fileID: 667667158}
   - component: {fileID: 667667157}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24593,7 +24630,7 @@ GameObject:
   - component: {fileID: 680261396}
   - component: {fileID: 680261395}
   - component: {fileID: 680261394}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24701,7 +24738,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 685519846}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)40
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24732,7 +24769,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 685823218}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)34
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24766,7 +24803,7 @@ GameObject:
   - component: {fileID: 688628011}
   - component: {fileID: 688628010}
   - component: {fileID: 688628009}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24907,7 +24944,7 @@ GameObject:
   - component: {fileID: 697803014}
   - component: {fileID: 697803013}
   - component: {fileID: 697803012}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_C_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25062,7 +25099,7 @@ GameObject:
   - component: {fileID: 702929930}
   - component: {fileID: 702929929}
   - component: {fileID: 702929928}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25161,7 +25198,7 @@ GameObject:
   - component: {fileID: 703075498}
   - component: {fileID: 703075497}
   - component: {fileID: 703075496}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25271,7 +25308,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 706204835}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)19
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25371,7 +25408,7 @@ GameObject:
   - component: {fileID: 708389951}
   - component: {fileID: 708389950}
   - component: {fileID: 708389949}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25484,7 +25521,7 @@ GameObject:
   - component: {fileID: 716306952}
   - component: {fileID: 716306951}
   - component: {fileID: 716306950}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25583,7 +25620,7 @@ GameObject:
   - component: {fileID: 717086826}
   - component: {fileID: 717086825}
   - component: {fileID: 717086824}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25682,7 +25719,7 @@ GameObject:
   - component: {fileID: 718646297}
   - component: {fileID: 718646296}
   - component: {fileID: 718646295}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25834,7 +25871,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 725096800}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)48
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25865,7 +25902,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 726924708}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_03(Clone)22
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25961,7 +25998,7 @@ GameObject:
   - component: {fileID: 731146385}
   - component: {fileID: 731146384}
   - component: {fileID: 731146383}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26071,7 +26108,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 731306745}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_03(Clone)69
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26281,7 +26318,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 733472553}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)42
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26312,7 +26349,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 733646470}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)40
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26452,7 +26489,7 @@ GameObject:
   - component: {fileID: 741317724}
   - component: {fileID: 741317723}
   - component: {fileID: 741317722}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26551,7 +26588,7 @@ GameObject:
   - component: {fileID: 758754399}
   - component: {fileID: 758754398}
   - component: {fileID: 758754397}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_C_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26661,7 +26698,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 760097245}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)28
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26709,7 +26746,7 @@ GameObject:
   - component: {fileID: 766242656}
   - component: {fileID: 766242655}
   - component: {fileID: 766242654}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26808,7 +26845,7 @@ GameObject:
   - component: {fileID: 768912245}
   - component: {fileID: 768912244}
   - component: {fileID: 768912243}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26904,7 +26941,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 769050129}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26983,7 +27020,7 @@ GameObject:
   - component: {fileID: 774726924}
   - component: {fileID: 774726923}
   - component: {fileID: 774726922}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27081,7 +27118,7 @@ GameObject:
   - component: {fileID: 778620017}
   - component: {fileID: 778620018}
   - component: {fileID: 778620019}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Region
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27630,7 +27667,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 779152297}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_03(Clone)41
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27717,7 +27754,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 784796951}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)65
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27875,7 +27912,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 787573797}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)35
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27909,7 +27946,7 @@ GameObject:
   - component: {fileID: 787940184}
   - component: {fileID: 787940183}
   - component: {fileID: 787940182}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28005,7 +28042,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 788586298}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)47
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28053,7 +28090,7 @@ GameObject:
   - component: {fileID: 791368779}
   - component: {fileID: 791368778}
   - component: {fileID: 791368777}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28149,7 +28186,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 792491105}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)42
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28222,7 +28259,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 800617511}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_03(Clone)25
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28267,7 +28304,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 803096628}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28301,7 +28338,7 @@ GameObject:
   - component: {fileID: 803601761}
   - component: {fileID: 803601760}
   - component: {fileID: 803601759}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28414,7 +28451,7 @@ GameObject:
   - component: {fileID: 808407995}
   - component: {fileID: 808407994}
   - component: {fileID: 808407993}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28538,7 +28575,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 812602850}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_03(Clone)56
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28569,7 +28606,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 817460279}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)36
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28600,7 +28637,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 817773502}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_03(Clone)54
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28693,7 +28730,7 @@ GameObject:
   - component: {fileID: 823287647}
   - component: {fileID: 823287646}
   - component: {fileID: 823287645}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28903,7 +28940,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 828242272}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)28
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28951,7 +28988,7 @@ GameObject:
   - component: {fileID: 835845504}
   - component: {fileID: 835845503}
   - component: {fileID: 835845502}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_C_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29050,7 +29087,7 @@ GameObject:
   - component: {fileID: 836918565}
   - component: {fileID: 836918564}
   - component: {fileID: 836918563}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29149,7 +29186,7 @@ GameObject:
   - component: {fileID: 841309355}
   - component: {fileID: 841309354}
   - component: {fileID: 841309353}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29276,7 +29313,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 844297548}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_03(Clone)31
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29377,7 +29414,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 850872181}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29411,7 +29448,7 @@ GameObject:
   - component: {fileID: 851940140}
   - component: {fileID: 851940139}
   - component: {fileID: 851940138}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29510,7 +29547,7 @@ GameObject:
   - component: {fileID: 855497424}
   - component: {fileID: 855497423}
   - component: {fileID: 855497422}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29609,7 +29646,7 @@ GameObject:
   - component: {fileID: 858254107}
   - component: {fileID: 858254106}
   - component: {fileID: 858254105}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29736,7 +29773,7 @@ GameObject:
   - component: {fileID: 867181909}
   - component: {fileID: 867181908}
   - component: {fileID: 867181907}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29961,7 +29998,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 878667836}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)29
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29992,7 +30029,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 879053887}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_03(Clone)70
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30032,7 +30069,7 @@ GameObject:
   - component: {fileID: 888399110}
   - component: {fileID: 888399109}
   - component: {fileID: 888399108}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30128,7 +30165,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 889544773}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)29
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30338,7 +30375,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 904453399}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)46
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30414,7 +30451,7 @@ GameObject:
   - component: {fileID: 908954080}
   - component: {fileID: 908954079}
   - component: {fileID: 908954078}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40141,7 +40178,7 @@ GameObject:
   - component: {fileID: 920145852}
   - component: {fileID: 920145851}
   - component: {fileID: 920145850}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40240,7 +40277,7 @@ GameObject:
   - component: {fileID: 920641764}
   - component: {fileID: 920641763}
   - component: {fileID: 920641762}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40364,7 +40401,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 923038427}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)31
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40398,7 +40435,7 @@ GameObject:
   - component: {fileID: 926872860}
   - component: {fileID: 926872859}
   - component: {fileID: 926872858}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40494,7 +40531,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 927640013}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)51
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40627,7 +40664,7 @@ GameObject:
   - component: {fileID: 934782564}
   - component: {fileID: 934782563}
   - component: {fileID: 934782562}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_C_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40778,7 +40815,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 937653718}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)62
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40985,7 +41022,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 946103202}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41108,7 +41145,7 @@ GameObject:
   - component: {fileID: 958645899}
   - component: {fileID: 958645898}
   - component: {fileID: 958645897}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41221,7 +41258,7 @@ GameObject:
   - component: {fileID: 966140878}
   - component: {fileID: 966140877}
   - component: {fileID: 966140876}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41329,7 +41366,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 968652275}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42388,7 +42425,7 @@ GameObject:
   - component: {fileID: 970557662}
   - component: {fileID: 970557661}
   - component: {fileID: 970557660}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_C_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42487,7 +42524,7 @@ GameObject:
   - component: {fileID: 971473255}
   - component: {fileID: 971473254}
   - component: {fileID: 971473253}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42805,7 +42842,7 @@ GameObject:
   - component: {fileID: 989248183}
   - component: {fileID: 989248182}
   - component: {fileID: 989248181}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42904,7 +42941,7 @@ GameObject:
   - component: {fileID: 990924657}
   - component: {fileID: 990924656}
   - component: {fileID: 990924655}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43153,7 +43190,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 992930830}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)49
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43187,7 +43224,7 @@ GameObject:
   - component: {fileID: 994496586}
   - component: {fileID: 994496585}
   - component: {fileID: 994496584}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43459,7 +43496,7 @@ GameObject:
   - component: {fileID: 1011228134}
   - component: {fileID: 1011228133}
   - component: {fileID: 1011228132}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43801,7 +43838,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1015120195}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)32
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43835,7 +43872,7 @@ GameObject:
   - component: {fileID: 1015316125}
   - component: {fileID: 1015316124}
   - component: {fileID: 1015316123}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43934,7 +43971,7 @@ GameObject:
   - component: {fileID: 1017808347}
   - component: {fileID: 1017808346}
   - component: {fileID: 1017808345}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44030,7 +44067,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1017898895}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)51
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44061,7 +44098,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1018137344}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)32
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44106,7 +44143,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1020908174}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_03(Clone)26
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44140,7 +44177,7 @@ GameObject:
   - component: {fileID: 1023273973}
   - component: {fileID: 1023273972}
   - component: {fileID: 1023273971}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44329,7 +44366,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1030689658}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_03(Clone)35
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44443,7 +44480,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1032590248}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_03(Clone)1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44869,7 +44906,7 @@ GameObject:
   - component: {fileID: 1052145089}
   - component: {fileID: 1052145088}
   - component: {fileID: 1052145087}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44996,7 +45033,7 @@ GameObject:
   - component: {fileID: 1061620531}
   - component: {fileID: 1061620530}
   - component: {fileID: 1061620529}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45137,7 +45174,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1066647375}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)48
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45168,7 +45205,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1069930667}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)22
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45366,7 +45403,7 @@ GameObject:
   - component: {fileID: 1104356969}
   - component: {fileID: 1104356968}
   - component: {fileID: 1104356967}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45462,7 +45499,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1105497279}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)52
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45510,7 +45547,7 @@ GameObject:
   - component: {fileID: 1107407349}
   - component: {fileID: 1107407348}
   - component: {fileID: 1107407347}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_C_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45606,7 +45643,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1109693854}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_03(Clone)14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45651,7 +45688,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1116808807}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)44
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45795,7 +45832,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1125994688}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_03(Clone)6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45826,7 +45863,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1126170134}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)22
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45860,7 +45897,7 @@ GameObject:
   - component: {fileID: 1126738139}
   - component: {fileID: 1126738138}
   - component: {fileID: 1126738137}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46137,7 +46174,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1140201818}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)43
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46382,7 +46419,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1148757522}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)54
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46413,7 +46450,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1148788407}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)41
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46444,7 +46481,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1149961539}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)37
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46541,7 +46578,7 @@ GameObject:
   - component: {fileID: 1152028568}
   - component: {fileID: 1152028567}
   - component: {fileID: 1152028566}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46637,7 +46674,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1152410966}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_03(Clone)48
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46682,7 +46719,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1155721444}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46851,7 +46888,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1164173631}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)52
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47057,7 +47094,7 @@ GameObject:
   - component: {fileID: 1184978533}
   - component: {fileID: 1184978532}
   - component: {fileID: 1184978531}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_C_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47167,7 +47204,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1186845600}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_03(Clone)13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47707,7 +47744,7 @@ GameObject:
   - component: {fileID: 1225896279}
   - component: {fileID: 1225896278}
   - component: {fileID: 1225896277}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47803,7 +47840,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1226136109}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47895,7 +47932,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1231982105}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)38
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47929,7 +47966,7 @@ GameObject:
   - component: {fileID: 1240344770}
   - component: {fileID: 1240344769}
   - component: {fileID: 1240344768}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48039,7 +48076,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1243986250}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)60
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48073,7 +48110,7 @@ GameObject:
   - component: {fileID: 1245783775}
   - component: {fileID: 1245783774}
   - component: {fileID: 1245783773}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48172,7 +48209,7 @@ GameObject:
   - component: {fileID: 1248770396}
   - component: {fileID: 1248770395}
   - component: {fileID: 1248770394}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48377,7 +48414,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1253353039}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)55
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48425,7 +48462,7 @@ GameObject:
   - component: {fileID: 1254774338}
   - component: {fileID: 1254774337}
   - component: {fileID: 1254774336}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48580,7 +48617,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1259589322}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)20
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48614,7 +48651,7 @@ GameObject:
   - component: {fileID: 1260973083}
   - component: {fileID: 1260973082}
   - component: {fileID: 1260973081}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48769,7 +48806,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1262592393}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)56
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48866,7 +48903,7 @@ GameObject:
   - component: {fileID: 1268889130}
   - component: {fileID: 1268889129}
   - component: {fileID: 1268889128}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48962,7 +48999,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1269270374}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)58
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48996,7 +49033,7 @@ GameObject:
   - component: {fileID: 1272807495}
   - component: {fileID: 1272807494}
   - component: {fileID: 1272807493}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49123,7 +49160,7 @@ GameObject:
   - component: {fileID: 1277286072}
   - component: {fileID: 1277286071}
   - component: {fileID: 1277286070}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49558,7 +49595,7 @@ GameObject:
   - component: {fileID: 1309595600}
   - component: {fileID: 1309595599}
   - component: {fileID: 1309595598}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49654,7 +49691,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1309970071}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49792,7 +49829,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1313872545}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49949,7 +49986,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1329236352}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50014,7 +50051,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1337595355}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50062,7 +50099,7 @@ GameObject:
   - component: {fileID: 1339929817}
   - component: {fileID: 1339929816}
   - component: {fileID: 1339929815}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50158,7 +50195,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1340522202}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50351,7 +50388,7 @@ GameObject:
   - component: {fileID: 1358805014}
   - component: {fileID: 1358805013}
   - component: {fileID: 1358805012}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50450,7 +50487,7 @@ GameObject:
   - component: {fileID: 1362486010}
   - component: {fileID: 1362486009}
   - component: {fileID: 1362486008}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50546,7 +50583,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1362896602}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_03(Clone)66
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50577,7 +50614,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1364930679}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50641,7 +50678,7 @@ GameObject:
   - component: {fileID: 1370507782}
   - component: {fileID: 1370507781}
   - component: {fileID: 1370507780}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50740,7 +50777,7 @@ GameObject:
   - component: {fileID: 1380162590}
   - component: {fileID: 1380162589}
   - component: {fileID: 1380162588}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_C_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50839,7 +50876,7 @@ GameObject:
   - component: {fileID: 1383361049}
   - component: {fileID: 1383361048}
   - component: {fileID: 1383361047}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50938,7 +50975,7 @@ GameObject:
   - component: {fileID: 1385375060}
   - component: {fileID: 1385375059}
   - component: {fileID: 1385375058}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_C_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51065,7 +51102,7 @@ GameObject:
   - component: {fileID: 1401094775}
   - component: {fileID: 1401094774}
   - component: {fileID: 1401094773}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51512,7 +51549,7 @@ GameObject:
   - component: {fileID: 1406061991}
   - component: {fileID: 1406061990}
   - component: {fileID: 1406061989}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51639,7 +51676,7 @@ GameObject:
   - component: {fileID: 1411197938}
   - component: {fileID: 1411197937}
   - component: {fileID: 1411197936}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51752,7 +51789,7 @@ GameObject:
   - component: {fileID: 1425297756}
   - component: {fileID: 1425297755}
   - component: {fileID: 1425297754}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51921,7 +51958,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1430782593}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)43
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51997,7 +52034,7 @@ GameObject:
   - component: {fileID: 1436430491}
   - component: {fileID: 1436430490}
   - component: {fileID: 1436430489}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52138,7 +52175,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1445442206}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)24
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52172,7 +52209,7 @@ GameObject:
   - component: {fileID: 1447574458}
   - component: {fileID: 1447574457}
   - component: {fileID: 1447574456}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52420,7 +52457,7 @@ GameObject:
   - component: {fileID: 1454013187}
   - component: {fileID: 1454013186}
   - component: {fileID: 1454013185}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52544,7 +52581,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1465681326}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52727,7 +52764,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1476203525}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)72
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52758,7 +52795,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1477684058}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)45
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52820,7 +52857,7 @@ GameObject:
   - component: {fileID: 1482755452}
   - component: {fileID: 1482755451}
   - component: {fileID: 1482755450}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53072,7 +53109,7 @@ GameObject:
   - component: {fileID: 1490745107}
   - component: {fileID: 1490745106}
   - component: {fileID: 1490745105}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53168,7 +53205,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1495110337}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)33
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53202,7 +53239,7 @@ GameObject:
   - component: {fileID: 1498320574}
   - component: {fileID: 1498320573}
   - component: {fileID: 1498320572}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_C_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53522,7 +53559,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1521273282}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_03(Clone)20
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53556,7 +53593,7 @@ GameObject:
   - component: {fileID: 1521959269}
   - component: {fileID: 1521959268}
   - component: {fileID: 1521959267}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53652,7 +53689,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1523421422}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_03(Clone)57
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53725,7 +53762,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1531204675}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53759,7 +53796,7 @@ GameObject:
   - component: {fileID: 1531640381}
   - component: {fileID: 1531640380}
   - component: {fileID: 1531640379}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54341,7 +54378,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1542119557}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)71
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54375,7 +54412,7 @@ GameObject:
   - component: {fileID: 1547786809}
   - component: {fileID: 1547786808}
   - component: {fileID: 1547786807}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54471,7 +54508,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1551354890}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)38
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54561,7 +54598,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1556000209}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54685,7 +54722,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1560061336}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)28
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54772,7 +54809,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1563598667}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)36
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54806,7 +54843,7 @@ GameObject:
   - component: {fileID: 1565079300}
   - component: {fileID: 1565079299}
   - component: {fileID: 1565079298}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_C_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54949,7 +54986,7 @@ GameObject:
   - component: {fileID: 1572806043}
   - component: {fileID: 1572806042}
   - component: {fileID: 1572806041}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_C_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55045,7 +55082,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1573785963}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)43
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55137,7 +55174,7 @@ GameObject:
   - component: {fileID: 1583919983}
   - component: {fileID: 1583919982}
   - component: {fileID: 1583919981}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55233,7 +55270,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1586662475}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)53
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55281,7 +55318,7 @@ GameObject:
   - component: {fileID: 1595466621}
   - component: {fileID: 1595466620}
   - component: {fileID: 1595466619}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55796,7 +55833,7 @@ GameObject:
   - component: {fileID: 1608283395}
   - component: {fileID: 1608283394}
   - component: {fileID: 1608283393}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55892,7 +55929,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1611722137}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)42
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55926,7 +55963,7 @@ GameObject:
   - component: {fileID: 1612213076}
   - component: {fileID: 1612213075}
   - component: {fileID: 1612213074}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56022,7 +56059,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1613439388}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56056,7 +56093,7 @@ GameObject:
   - component: {fileID: 1616793431}
   - component: {fileID: 1616793430}
   - component: {fileID: 1616793429}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56169,7 +56206,7 @@ GameObject:
   - component: {fileID: 1619335052}
   - component: {fileID: 1619335051}
   - component: {fileID: 1619335050}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_C_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56268,7 +56305,7 @@ GameObject:
   - component: {fileID: 1623858336}
   - component: {fileID: 1623858335}
   - component: {fileID: 1623858334}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56367,7 +56404,7 @@ GameObject:
   - component: {fileID: 1624624923}
   - component: {fileID: 1624624922}
   - component: {fileID: 1624624921}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56463,7 +56500,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1625884191}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)34
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56494,7 +56531,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1627503360}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)38
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56528,7 +56565,7 @@ GameObject:
   - component: {fileID: 1627955097}
   - component: {fileID: 1627955096}
   - component: {fileID: 1627955095}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_C_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56652,7 +56689,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1639561756}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)24
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56711,7 +56748,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1656328833}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)27
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56770,7 +56807,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1660849114}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)40
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56846,7 +56883,7 @@ GameObject:
   - component: {fileID: 1663184566}
   - component: {fileID: 1663184565}
   - component: {fileID: 1663184564}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56956,7 +56993,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1666682328}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)53
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56987,7 +57024,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1667143614}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)26
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57189,7 +57226,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1671761340}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_03(Clone)53
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57237,7 +57274,7 @@ GameObject:
   - component: {fileID: 1677093397}
   - component: {fileID: 1677093396}
   - component: {fileID: 1677093395}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57440,7 +57477,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1688263629}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)51
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57536,7 +57573,7 @@ GameObject:
   - component: {fileID: 1705017098}
   - component: {fileID: 1705017097}
   - component: {fileID: 1705017096}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57693,7 +57730,7 @@ GameObject:
   - component: {fileID: 1710847388}
   - component: {fileID: 1710847390}
   - component: {fileID: 1710847389}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Region
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58114,7 +58151,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1711601313}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)49
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58336,7 +58373,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1720861801}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)45
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58384,7 +58421,7 @@ GameObject:
   - component: {fileID: 1724093929}
   - component: {fileID: 1724093928}
   - component: {fileID: 1724093927}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58483,7 +58520,7 @@ GameObject:
   - component: {fileID: 1724134813}
   - component: {fileID: 1724134812}
   - component: {fileID: 1724134811}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58827,7 +58864,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1735686029}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)58
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59038,7 +59075,7 @@ GameObject:
   - component: {fileID: 1737206238}
   - component: {fileID: 1737206237}
   - component: {fileID: 1737206236}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59157,7 +59194,7 @@ GameObject:
   - component: {fileID: 1741233938}
   - component: {fileID: 1741233937}
   - component: {fileID: 1741233936}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_C_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59256,7 +59293,7 @@ GameObject:
   - component: {fileID: 1745151340}
   - component: {fileID: 1745151339}
   - component: {fileID: 1745151338}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59417,7 +59454,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1751301851}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_03(Clone)50
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59462,7 +59499,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1755302418}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59507,7 +59544,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1762869117}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)49
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59586,7 +59623,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1775795767}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)46
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59766,7 +59803,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1787266295}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59797,7 +59834,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1788849824}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)55
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59828,7 +59865,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1789990839}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59887,7 +59924,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1797368327}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59921,7 +59958,7 @@ GameObject:
   - component: {fileID: 1798024880}
   - component: {fileID: 1798024879}
   - component: {fileID: 1798024878}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_C_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -60017,7 +60054,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1800254056}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)47
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -60048,7 +60085,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1803555917}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)59
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -60641,7 +60678,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1810956164}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -60672,7 +60709,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1815428865}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)37
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -60703,7 +60740,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1815546198}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)57
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -60810,7 +60847,7 @@ GameObject:
   - component: {fileID: 1825887650}
   - component: {fileID: 1825887649}
   - component: {fileID: 1825887648}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -60923,7 +60960,7 @@ GameObject:
   - component: {fileID: 1826312555}
   - component: {fileID: 1826312554}
   - component: {fileID: 1826312553}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61033,7 +61070,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1831275681}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)74
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61109,7 +61146,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1838614210}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61168,7 +61205,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1841407513}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61655,7 +61692,7 @@ GameObject:
   - component: {fileID: 1856413527}
   - component: {fileID: 1856413526}
   - component: {fileID: 1856413525}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_C_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61841,7 +61878,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1858597551}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61872,7 +61909,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1858935811}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_03(Clone)18
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61906,7 +61943,7 @@ GameObject:
   - component: {fileID: 1860775569}
   - component: {fileID: 1860775568}
   - component: {fileID: 1860775567}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -62058,7 +62095,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1865541152}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)57
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -62089,7 +62126,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1865672180}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)29
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -62120,7 +62157,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1866702145}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)59
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -62154,7 +62191,7 @@ GameObject:
   - component: {fileID: 1868228747}
   - component: {fileID: 1868228746}
   - component: {fileID: 1868228745}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -62250,7 +62287,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1869747640}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)27
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -62281,7 +62318,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1871740579}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_03(Clone)4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -62340,7 +62377,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1873741657}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_03(Clone)45
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -62399,7 +62436,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1880612672}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)30
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -62585,7 +62622,7 @@ GameObject:
   - component: {fileID: 1892435181}
   - component: {fileID: 1892435180}
   - component: {fileID: 1892435179}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_C_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -62681,7 +62718,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1893244931}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -62788,7 +62825,7 @@ GameObject:
   - component: {fileID: 1900239715}
   - component: {fileID: 1900239714}
   - component: {fileID: 1900239713}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -62901,7 +62938,7 @@ GameObject:
   - component: {fileID: 1902857378}
   - component: {fileID: 1902857377}
   - component: {fileID: 1902857376}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -63026,7 +63063,7 @@ GameObject:
   - component: {fileID: 1909842765}
   - component: {fileID: 1909842764}
   - component: {fileID: 1909842763}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_C_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -63266,7 +63303,7 @@ GameObject:
   - component: {fileID: 1924502748}
   - component: {fileID: 1924502747}
   - component: {fileID: 1924502746}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -63368,7 +63405,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1934435118}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_03(Clone)60
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -63684,7 +63721,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1940503089}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)25
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -63718,7 +63755,7 @@ GameObject:
   - component: {fileID: 1945631819}
   - component: {fileID: 1945631818}
   - component: {fileID: 1945631817}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -63828,7 +63865,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1946750116}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)39
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -63859,7 +63896,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1949963719}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)63
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -63907,7 +63944,7 @@ GameObject:
   - component: {fileID: 1952679162}
   - component: {fileID: 1952679161}
   - component: {fileID: 1952679160}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_C_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64003,7 +64040,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1953140917}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_03(Clone)30
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64333,7 +64370,7 @@ GameObject:
   - component: {fileID: 1974524826}
   - component: {fileID: 1974524825}
   - component: {fileID: 1974524824}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64429,7 +64466,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1975819733}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64488,7 +64525,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1981952936}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)56
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64519,7 +64556,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1981998460}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)41
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64632,7 +64669,7 @@ GameObject:
   - component: {fileID: 1999172617}
   - component: {fileID: 1999172616}
   - component: {fileID: 1999172615}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64728,7 +64765,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2001465635}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_03(Clone)36
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64804,7 +64841,7 @@ GameObject:
   - component: {fileID: 2009098614}
   - component: {fileID: 2009098613}
   - component: {fileID: 2009098612}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64931,7 +64968,7 @@ GameObject:
   - component: {fileID: 2014427880}
   - component: {fileID: 2014427879}
   - component: {fileID: 2014427878}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -65041,7 +65078,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2015281072}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -65183,7 +65220,7 @@ GameObject:
   - component: {fileID: 2022252974}
   - component: {fileID: 2022252973}
   - component: {fileID: 2022252972}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -65296,7 +65333,7 @@ GameObject:
   - component: {fileID: 2027647730}
   - component: {fileID: 2027647729}
   - component: {fileID: 2027647728}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -65395,7 +65432,7 @@ GameObject:
   - component: {fileID: 2028469854}
   - component: {fileID: 2028469853}
   - component: {fileID: 2028469852}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_C_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -65539,7 +65576,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2036288423}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_03(Clone)62
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -65635,7 +65672,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2038182291}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)27
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -65669,7 +65706,7 @@ GameObject:
   - component: {fileID: 2039655807}
   - component: {fileID: 2039655806}
   - component: {fileID: 2039655805}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -65796,7 +65833,7 @@ GameObject:
   - component: {fileID: 2045048610}
   - component: {fileID: 2045048609}
   - component: {fileID: 2045048608}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -65892,7 +65929,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2048579231}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_03(Clone)10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -66107,7 +66144,7 @@ GameObject:
   - component: {fileID: 2058664283}
   - component: {fileID: 2058664282}
   - component: {fileID: 2058664281}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_C_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -66251,7 +66288,7 @@ GameObject:
   - component: {fileID: 2068646992}
   - component: {fileID: 2068646991}
   - component: {fileID: 2068646990}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -66361,7 +66398,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2070729050}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -66412,7 +66449,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2075529001}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)44
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -66471,7 +66508,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2085055377}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -66519,7 +66556,7 @@ GameObject:
   - component: {fileID: 2087892766}
   - component: {fileID: 2087892765}
   - component: {fileID: 2087892764}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_C_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -66615,7 +66652,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2087947653}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)37
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -66835,7 +66872,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2099693928}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)52
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -66883,7 +66920,7 @@ GameObject:
   - component: {fileID: 2100979537}
   - component: {fileID: 2100979536}
   - component: {fileID: 2100979535}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -66979,7 +67016,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2101094721}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)50
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -67027,7 +67064,7 @@ GameObject:
   - component: {fileID: 2104527608}
   - component: {fileID: 2104527607}
   - component: {fileID: 2104527606}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -67178,7 +67215,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2111101469}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)33
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -77018,7 +77055,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2123384167}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)32
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -77077,7 +77114,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2131998285}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_04(Clone)10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -77265,7 +77302,7 @@ GameObject:
   - component: {fileID: 2146765186}
   - component: {fileID: 2146765185}
   - component: {fileID: 2146765184}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_C_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -77364,7 +77401,7 @@ GameObject:
   - component: {fileID: 2147303356}
   - component: {fileID: 2147303355}
   - component: {fileID: 2147303354}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crystal_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
