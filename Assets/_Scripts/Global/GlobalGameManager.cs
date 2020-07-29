@@ -31,6 +31,10 @@ public class GlobalGameManager : MonoBehaviourSingletonPersistent<GlobalGameMana
     public List<int> currentGameplayLevelSet = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
     private int nextLevelIndex = 0;
     public bool isInDebugMode = false;
+	public bool isDemo {  get { return true;  } }
+	public bool isSteamworksBuild { get { return true; } }
+
+	public bool isSteamworksInitialized = false;
 
     private GlobalDataManager gameDataManager;
 
@@ -42,9 +46,51 @@ public class GlobalGameManager : MonoBehaviourSingletonPersistent<GlobalGameMana
         {
             gameDataManager.SetSelectedLander(GGConst.DATA_PK_DEFAULT_LANDER_NAME);
         }
+		if (isSteamworksBuild)
+		{
+			try
+			{
+				if (isDemo)
+				{
+					Steamworks.SteamClient.Init(485412);
+				}
+				else
+				{
+					Steamworks.SteamClient.Init(485329);
+				}
+				isSteamworksInitialized = true;
+			}
+			catch (System.Exception e)
+			{
+				// Something went wrong - it's one of these:
+				//
+				//     Steam is closed?
+				//     Can't find steam_api dll?
+				//     Don't have permission to play app?
+				//
+				Debug.LogError("Steamworks Init Failed");
+			}
+		}
     }
 
-    public int GetCurrentLevelNum()
+	public void QuitGame()
+	{
+		if (isSteamworksBuild && isSteamworksInitialized)
+		{
+			Steamworks.SteamClient.Shutdown();
+		}
+		Application.Quit();
+	}
+
+	private void Update()
+	{
+		if (isSteamworksBuild && isSteamworksInitialized)
+		{
+			Steamworks.SteamClient.RunCallbacks();
+		}
+	}
+
+	public int GetCurrentLevelNum()
     {
         return nextLevelIndex;
     }

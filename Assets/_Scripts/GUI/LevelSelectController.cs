@@ -50,7 +50,14 @@ public class LevelSelectController : MonoBehaviour {
 
 	public void ExitGame()
     {
-        Application.Quit();
+		if (GlobalGameManager.Instance != null)
+		{
+			GlobalGameManager.Instance.QuitGame();
+		}
+		else
+		{
+			Application.Quit();
+		}
     }
 
 }
